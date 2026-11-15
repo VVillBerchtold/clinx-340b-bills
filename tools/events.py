@@ -1,0 +1,242 @@
+"""Build the calendar: the dated steps of every listed bill, hearings, and the days sessions start and end.
+
+    python3 -I tools/events.py raw/openstates raw/events raw/govinfo data
+
+Three things go into one table (`data/events.csv`, and the same rows in `data/340b-events.json`),
+one row per event:
+
+1. Steps. Every dated step the official record holds for a listed bill that is one of: introduced,
+   sent to a committee, reported by a committee, a vote on passage, sent for signature, signed,
+   vetoed, became law. The wording is the legislature's own. For Congress the steps are the ones the
+   Library of Congress marks with a code in each bill's status file.
+2. Hearings. What `fetch_events.py` saved from Open States' list of legislative events, kept only
+   where the agenda names a bill that is in the table.
+3. Sessions. The day each legislature's session starts and ends, from Open States' list of
+   sessions, for sessions that start or end on or after 1 January 2025.
+
+Nothing is guessed: a step with no date, or a hearing with no bill of ours on its agenda, is left out.
+"""
+
+from __future__ import annotations
+
+import csv
+import json
+import sys
+from datetime import date
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent))
+from federal import CONGRESS, CONGRESS_ENDS, STEPS as CONGRESS_CODES, plain, read_statuses  # noqa: E402
+from fetch_state_texts import bill_id, web_address  # noqa: E402
+
+COLUMNS = ["event_id", "day", "time", "jurisdiction", "kind", "bill_id", "bill", "what", "body", "where", "link", "source", "retrieved"]
+
+# Open States' label for a step -> the calendar's kind. A step with none of these labels is left out.
+STEP_KINDS = {
+    "introduction": "introduced",
+    "filing": "introduced",
+    "referral-committee": "sent to committee",
+    "committee-passage": "reported by committee",
+    "committee-passage-favorable": "reported by committee",
+    "committee-passage-unfavorable": "reported by committee",
+    "committee-failure": "failed in committee",
+    "passage": "vote on passage",
+    "failure": "vote on passage",
+    "veto-override-passage": "vote on passage",
+    "executive-receipt": "sent for signature",
+    "executive-signature": "signed",
+    "executive-veto": "vetoed",
+    "executive-veto-line-item": "vetoed",
+    "became-law": "became law",
+}
+# Where a step carries several labels, the one furthest along names it.
+ORDER = ["introduced", "sent to committee", "failed in committee", "reported by committee", "vote on passage", "sent for signature", "vetoed", "signed", "became law"]
+FIRST_DAY = "2025-01-01"
+# The same for Congress, from the Library of Congress codes federal.py reads, plus the President's signature.
+CONGRESS_KINDS = {
+    "introduced": "introduced",
+    "reported": "reported by committee",
+    "passed-house": "vote on passage",
+    "passed-senate": "vote on passage",
+    "failed-house": "vote on passage",
+    "failed-senate": "vote on passage",
+    "to-president": "sent for signature",
+    "vetoed": "vetoed",
+    "law": "became law",
+}
+SIGNED_CODE = "E30000"
+# What each kind of event means, in plain words; published with the table.
+KINDS = {
+    "introduced": "The bill was filed or introduced in a chamber. A bill that passes one chamber is introduced again in the other.",
+    "sent to committee": "The bill was sent to a committee.",
+    "reported by committee": "A committee acted on the bill and sent it on.",
+    "failed in committee": "A committee voted the bill down.",
+    "vote on passage": "A chamber voted on passing the bill; the official words say how the vote went.",
+    "sent for signature": "The bill was sent to the governor, or to the President.",
+    "signed": "The governor, or the President, signed the bill.",
+    "vetoed": "The governor, or the President, vetoed the bill or part of it.",
+    "became law": "The bill became law.",
+    "hearing": "A committee meeting or hearing with the bill on its agenda.",
+    "session starts": "The first day of a legislature's session.",
+    "session ends": "The last day of a legislature's session.",
+}
+
+
+def state_of(jurisdiction_id: str) -> str:
+    """ocd-jurisdiction/country:us/state:ri/government -> RI."""
+    return jurisdiction_id.split("/state:")[1].split("/")[0].upper() if "/state:" in jurisdiction_id else ""
+
+
+def main() -> None:
+    found_dir, events_dir, congress_dir, out_dir = Path(sys.argv[1]), Path(sys.argv[2]), Path(sys.argv[3]), Path(sys.argv[4])
+    out = out_dir / "events.csv"
+    today = date.today().isoformat()
+    table = json.loads((Path(__file__).parent.parent / "data" / "340b-bills.json").read_text(encoding="utf-8"))
+    listed = {bill["bill_id"]: bill for bill in table["bills"]}
+    rows: list[dict[str, str]] = []
+
+    # 1. Steps of listed state bills.
+    seen: set[str] = set()
+    for page in sorted(found_dir.glob("phrase*-page*.json")):
+        for bill in json.loads(page.read_text(encoding="utf-8"))["results"]:
+            if bill["jurisdiction"]["classification"] != "state":
+                continue
+            name = bill_id(bill)
+            if name not in listed or name in seen:
+                continue
+            seen.add(name)
+            for action in bill.get("actions", []):
+                kinds = sorted({STEP_KINDS[c] for c in action.get("classification") or [] if c in STEP_KINDS}, key=ORDER.index)
+                day = (action.get("date") or "")[:10]
+                if not kinds or len(day) != 10:
+                    continue
+                rows.append({
+                    "event_id": f"{name}-step-{action['order']}",
+                    "day": day,
+                    "jurisdiction": listed[name]["jurisdiction"],
+                    "kind": kinds[-1],
+                    "bill_id": name,
+                    "bill": listed[name]["bill"],
+                    "what": " ".join((action.get("description") or "").split()),
+                    "body": (action.get("organization") or {}).get("name", ""),
+                    "link": listed[name]["bill_url"],
+                    "source": "the bill's record of steps",
+                })
+
+    # 1b. Steps of listed bills in Congress.
+    for (kind, number), bill in sorted(read_statuses(congress_dir).items()):
+        name = f"us-{bill.findtext('congress')}-{kind.lower()}{number}"
+        if name not in listed:
+            continue
+        taken: set[tuple[str, str]] = set()
+        for action in bill.iterfind("actions/item"):
+            if action.findtext("sourceSystem/name") != "Library of Congress":
+                continue
+            code = action.findtext("actionCode") or ""
+            step = "signed" if code == SIGNED_CODE else CONGRESS_KINDS.get(CONGRESS_CODES.get(code, ""))
+            day = action.findtext("actionDate") or ""
+            if not step or len(day) != 10 or (day, step) in taken:
+                continue
+            taken.add((day, step))
+            words = plain(action.findtext("text") or "")
+            rows.append({
+                "event_id": f"{name}-{day}-{step.replace(' ', '-')}",
+                "day": day,
+                "jurisdiction": "US",
+                "kind": step,
+                "bill_id": name,
+                "bill": listed[name]["bill"],
+                "what": words,
+                "body": "Senate" if "Senate" in words and "House" not in words else "House" if "House" in words and "Senate" not in words else "",
+                "link": listed[name]["bill_url"],
+                "source": "the bill's record of steps",
+            })
+
+    # 2. Hearings whose agenda names a listed bill.
+    by_number: dict[tuple[str, str], list[str]] = {}
+    for name, bill in listed.items():
+        by_number.setdefault((bill["jurisdiction"], "".join(bill["bill"].split()).upper()), []).append(name)
+    for page in sorted(events_dir.glob("*-page*.json")) if events_dir.exists() else []:
+        for event in json.loads(page.read_text(encoding="utf-8")).get("results", []):
+            if event.get("deleted") or event.get("status") == "cancelled":
+                continue
+            place = state_of(event["jurisdiction"]["id"])
+            start = event.get("start_date") or ""
+            numbers = {"".join(entity["name"].split()).upper() for item in event.get("agenda") or [] for entity in item.get("related_entities") or [] if entity.get("entity_type") == "bill" and entity.get("name")}
+            for number in sorted(numbers):
+                # A number is matched within the session the hearing falls in: the bill whose session has not ended before it.
+                for name in by_number.get((place, number), []):
+                    if listed[name]["session_end"] < start[:10] or (listed[name]["introduced_date"] or FIRST_DAY) > start[:10]:
+                        continue
+                    sources = event.get("sources") or []
+                    rows.append({
+                        "event_id": f"{name}-hearing-{event['id'].split('/')[-1][:8]}",
+                        "day": start[:10],
+                        "time": start[11:16] + " UTC" if len(start) > 10 and not event.get("all_day") else "",
+                        "jurisdiction": place,
+                        "kind": "hearing",
+                        "bill_id": name,
+                        "bill": listed[name]["bill"],
+                        "what": " ".join((event.get("name") or "").split()),
+                        "where": " ".join(((event.get("location") or {}).get("name") or "").split()),
+                        "link": web_address(sources[0]["url"]) if sources else listed[name]["bill_url"],
+                        "source": "the legislature's list of hearings",
+                    })
+
+    # 3. The days sessions start and end.
+    sessions_seen: set[str] = set()
+    for page in sorted(found_dir.glob("jurisdictions*.json")):
+        for place in json.loads(page.read_text(encoding="utf-8"))["results"]:
+            code = state_of(place["id"])
+            if not code:
+                continue
+            for session in place.get("legislative_sessions", []):
+                for kind, day in (("session starts", session.get("start_date") or ""), ("session ends", session.get("end_date") or "")):
+                    name = f"{code.lower()}-{kind.split()[1]}-{''.join(c for c in session['identifier'].lower() if c.isalnum())}"
+                    if len(day) == 10 and day >= FIRST_DAY and name not in sessions_seen:
+                        sessions_seen.add(name)
+                        rows.append({
+                            "event_id": name,
+                            "day": day,
+                            "jurisdiction": code,
+                            "kind": kind,
+                            "what": session["name"],
+                            "link": place.get("url") or "",
+                            "source": "Open States' list of sessions",
+                        })
+
+    # Congress: the day this Congress ends. Its start day is set by law each time, so it is not guessed here.
+    rows.append({
+        "event_id": f"us-ends-{CONGRESS}",
+        "day": CONGRESS_ENDS,
+        "jurisdiction": "US",
+        "kind": "session ends",
+        "what": f"{CONGRESS}th Congress",
+        "link": "https://www.congress.gov/",
+        "source": "the Constitution's Twentieth Amendment",
+    })
+
+    ids = [row["event_id"] for row in rows]
+    doubled = sorted({i for i in ids if ids.count(i) > 1})
+    if doubled:
+        raise SystemExit(f"two events share a name: {doubled[:5]}")
+    rows.sort(key=lambda row: (row["day"], row["jurisdiction"], row.get("bill_id", ""), row["event_id"]))
+    out_dir.mkdir(parents=True, exist_ok=True)
+    unknown = sorted({row["kind"] for row in rows} - set(KINDS))
+    if unknown:
+        raise SystemExit(f"an event kind with no plain meaning: {unknown}")
+    with out.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=COLUMNS, lineterminator="\n")
+        writer.writeheader()
+        for row in rows:
+            writer.writerow({column: row.get(column, "") for column in COLUMNS} | {"retrieved": today})
+    events = [{column: row.get(column, "") for column in COLUMNS} | {"retrieved": today} for row in rows]
+    (out_dir / "340b-events.json").write_text(json.dumps({"retrieved": today, "kinds": KINDS, "events": events}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    kinds: dict[str, int] = {}
+    for row in rows:
+        kinds[row["kind"]] = kinds.get(row["kind"], 0) + 1
+    print(f"{len(rows)} events; " + ", ".join(f"{count} {kind}" for kind, count in sorted(kinds.items(), key=lambda kv: -kv[1])))
+
+
+if __name__ == "__main__":
+    main()
