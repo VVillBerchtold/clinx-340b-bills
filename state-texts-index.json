@@ -1,0 +1,4282 @@
+{
+ "ar-2025-hb1882": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 Care Act, is amended to add an additional subsection to read as follows: (c) The Medicaid provider-led organized care system shall exempt services provided under the 340B Drug Pricing Program if populations enrolled in qualified health insurance plans under the Arkansas Health and Opportunity for Me Program are designated by the Governor \u2026",
+  "result": "named",
+  "sha256": "8d6a7eb80de5850a3f8238085e7943558a227c8bcf1b07db15b3e02bca3930e5",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.arkleg.state.ar.us/assembly/2025/2025R/Bills/HB1882.pdf",
+    "words": 297
+   }
+  ],
+  "url": "https://www.arkleg.state.ar.us/assembly/2025/2025R/Bills/HB1882.pdf",
+  "version": "HB 1882"
+ },
+ "ar-2025-sb58": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 as follows: 17-92-414. Patient freedom of choice. A nonprofit, tax exempt, or governmentally funded hospital that holds a retail pharmacy permit and participates in the 340B Drug Pricing Program shall ensure that a patient who is eligible under the 340B Drug Pricing Program who is seeking to obtain pharmaceutical supplies and services upon \u2026",
+  "result": "named",
+  "sha256": "dd8720ace68b5e1f69349ada3cb3bb94b0630ca7be2894436effc3bf0ea5796a",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=52.pdf&ddBienniumSession=2025%2F2025R",
+    "words": 845
+   }
+  ],
+  "url": "https://www.arkleg.state.ar.us/Acts/FTPDocument?path=%2FACTS%2F2025R%2FPublic%2F&file=52.pdf&ddBienniumSession=2025%2F2025R",
+  "version": "Act 52"
+ },
+ "ar-2025-sb589": {
+  "date": "",
+  "mentions": 37,
+  "newest": true,
+  "quote": "\u2026 to present law. State of Arkansas 95th General Assembly A Bill Regular Session, 2025 SENATE BILL 589 By: Senator C. Penzo For An Act To Be Entitled AN ACT TO CREATE THE 340B PROGRAM TRANSPARENCY ACT; TO REQUIRE TRANSPARENCY FROM CERTAIN 340B-COVERED ENTITIES CONCERNING THE USE OF 340B PROGRAM SAVINGS; TO REQUIRE CERTAIN 340B-COVERED \u2026",
+  "result": "named",
+  "sha256": "eb0d17c9bef59ea202742300302718b266be1afdf095737efb4398caa7fb695d",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 37,
+    "url": "https://www.arkleg.state.ar.us/assembly/2025/2025R/Bills/SB589.pdf",
+    "words": 1911
+   }
+  ],
+  "url": "https://www.arkleg.state.ar.us/assembly/2025/2025R/Bills/SB589.pdf",
+  "version": "SB 589"
+ },
+ "ar-2025-sb86": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 of a drug or medication is not a financial incentive under this section. (f) An entity that owns pharmacies and offers prospective cash savings plans through the 340B Drug Pricing Program shall allow other network 3 01/16/2025 4:11:30 PM JMB206 SB86 pharmacies to participate in the prospective cash savings plan. (g) The board shall \u2026",
+  "result": "named",
+  "sha256": "66d95e5093b7d6782aa3d4bca8c47b27f362336e96f637001635d94f1ee0c9bc",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.arkleg.state.ar.us/assembly/2025/2025R/Bills/SB86.pdf",
+    "words": 956
+   }
+  ],
+  "url": "https://www.arkleg.state.ar.us/assembly/2025/2025R/Bills/SB86.pdf",
+  "version": "SB 86"
+ },
+ "az-57th2ndregular-hb2965": {
+  "date": "",
+  "mentions": 19,
+  "newest": true,
+  "quote": "HB2965 - 572R - I Ver REFERENCE TITLE: covered entities; 340B drugs; distribution State of Arizona House of Representatives Fifty-seventh Legislature Second Regular Session 2026 HB 2965 Introduced by Representative Lopez AN ACT \u2026",
+  "result": "named",
+  "sha256": "70403baf408adcb5aa329e5bb3527b7c2fc702ba5b86c940b803b2dd7d1e3b3a",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 19,
+    "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2965P.htm",
+    "words": 701
+   }
+  ],
+  "url": "https://www.azleg.gov/legtext/57leg/2R/bills/HB2965P.htm",
+  "version": "Introduced Version"
+ },
+ "ca-20252026-ab1460": {
+  "result": "site refused",
+  "tried": [
+   {
+    "answer": 403,
+    "url": "https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1460&version=20250AB146097AMD"
+   }
+  ],
+  "why": "answered 403"
+ },
+ "co-2025a-sb25071": {
+  "date": "",
+  "mentions": 37,
+  "newest": true,
+  "quote": "\u2026 Mauro, McCormick, Ricks, Soper, Stewart K., McCluskie. CONCERNING CERTAIN PRACTICES BY PERSONS PARTICIPATING IN THE SUPPLY CHAIN OF DRUGS PURCHASED UNDER THE FEDERAL 340B DRUG PRICING PROGRAM. Be it enacted by the General Assembly of the State of Colorado: SECTION 1. In Colorado Revised Statutes, 6-1-105, add (1)(0000) as follows: \u2026",
+  "result": "named",
+  "sha256": "9c6690884a622bc5a7380f7c5f457e602c5b865a5cfe49f4d7cd830a9cccf501",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 37,
+    "url": "https://leg.colorado.gov/sites/default/files/2025a_071_signed.pdf",
+    "words": 2298
+   }
+  ],
+  "url": "https://leg.colorado.gov/sites/default/files/2025a_071_signed.pdf",
+  "version": "Signed Act (05/30/2025)"
+ },
+ "co-2025a-sb25124": {
+  "date": "",
+  "mentions": 38,
+  "newest": true,
+  "quote": "\u2026 Services Health & Human Services A BILL FOR AN ACT HOUSE 101 CONCERNING OUTPATIENT DRUGS THAT ARE SOLD AT A DISCOUNT TO 102 NONPROFIT HOSPITALS THROUGH THE FEDERAL 340B DRUG Amended 2nd Reading 103 PRICING PROGRAM. May 5, 2025 Bill Summary 3rd Reading Unamended (Note: This summary applies to this bill as introduced and does March 26, \u2026",
+  "result": "named",
+  "sha256": "9322e4d7cd2697542eacd8567e3bfc96fb1cd68e44fad085f5b00489ace68a4c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 38,
+    "url": "https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_124_rer.pdf",
+    "words": 1391
+   }
+  ],
+  "url": "https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_124_rer.pdf",
+  "version": "Rerevised (05/06/2025)"
+ },
+ "co-2025a-sb25289": {
+  "date": "",
+  "mentions": 0,
+  "newest": false,
+  "quote": "",
+  "result": "not named",
+  "sha256": "0faa575d525ebe334f5c945a2ab0aa9f898b65793d788d702a90f973b75d51d1",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://leg.colorado.gov/sites/default/files/2025a_289_signed.pdf",
+    "words": 3674
+   },
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_289_enr.pdf",
+    "words": 3713
+   },
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_289_rer.pdf",
+    "words": 4026
+   },
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_289_rev.pdf",
+    "words": 4001
+   },
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_289_ren.pdf",
+    "words": 4588
+   }
+  ],
+  "url": "https://leg.colorado.gov/sites/default/files/documents/2025A/bills/2025a_289_ren.pdf",
+  "version": "Reengrossed (04/29/2025)"
+ },
+ "fl-2025-hb1527": {
+  "date": "",
+  "mentions": 164,
+  "newest": true,
+  "quote": "F L O R I D A H O U S E O F R E P R E S E N T A T I V E S HB 1527 2025 A bill to be entitled An act relating to prohibitions against discriminatory practices relating to 340B entities and 340B drugs; creating s. 499.0263, F.S.; providing definitions; prohibiting drug manufacturers from engaging in certain acts against the acquisitions of \u2026",
+  "result": "named",
+  "sha256": "a4871097abc77c44e1eae1dc0050d5bb9e997c98e8653a9649f3ef5eeb1e3b0f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 164,
+    "url": "https://flsenate.gov/Session/Bill/2025/1527/BillText/Filed/PDF",
+    "words": 5239
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2025/1527/BillText/Filed/PDF",
+  "version": "H 1527 Filed"
+ },
+ "fl-2025-hb657": {
+  "date": "",
+  "mentions": 12,
+  "newest": true,
+  "quote": "\u2026 An act relating to Medicaid pharmacy discounted drug prices; creating s. 409.9067, F.S.; requiring drug manufacturers to sell specified drugs to Medicaid pharmacies at 340B Drug Pricing Program discounted prices; providing delivery methods for such drugs; requiring drug manufacturers to pay rebates to the state under certain circumstances; \u2026",
+  "result": "named",
+  "sha256": "be68ee9157d269dd06887db66a6d3ad48e88c0b6e997a90419248ef9bd6bcbc0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 12,
+    "url": "https://flsenate.gov/Session/Bill/2025/657/BillText/Filed/PDF",
+    "words": 623
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2025/657/BillText/Filed/PDF",
+  "version": "H 657 Filed"
+ },
+ "fl-2025-sb1064": {
+  "date": "",
+  "mentions": 11,
+  "newest": true,
+  "quote": "\u2026 Health Care Administration to conduct or contract for a detailed fiscal impact study on implementing specified provisions relating to discounted drug prices under the 340B Drug Pricing Program; requiring that the study be completed and its results submitted to the Governor and the Legislature by a specified date, etc. Original Filed \u2026",
+  "result": "named",
+  "sha256": "39d531f1660fa23f921a03a8a01eb2c6d0eeba3f949b7b25918188d164848ba9",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 11,
+    "url": "https://flsenate.gov/Session/Bill/2025/1064/BillText/Filed/HTML",
+    "words": 578
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2025/1064/BillText/Filed/HTML",
+  "version": "S 1064 Filed"
+ },
+ "fl-2026-hb1281": {
+  "date": "",
+  "mentions": 158,
+  "newest": true,
+  "quote": "F L O R I D A H O U S E O F R E P R E S E N T A T I V E S HB 1281 2026 A bill to be entitled An act relating to prohibitions against discriminatory practices relating to 340B entities and 340B drugs; providing a short title; creating s. 499.061, F.S.; providing definitions; prohibiting drug manufacturers from engaging in certain acts against \u2026",
+  "result": "named",
+  "sha256": "b041839f008dd0eba641f06413521f8e9b52d055225a6b414f55e4af37802821",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 158,
+    "url": "https://flsenate.gov/Session/Bill/2026/1281/BillText/Filed/PDF",
+    "words": 5713
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2026/1281/BillText/Filed/PDF",
+  "version": "H 1281 Filed"
+ },
+ "fl-2026-hb1453": {
+  "date": "",
+  "mentions": 5,
+  "newest": true,
+  "quote": "\u2026 administered in a hospital facility setting for severe mental illness; requiring the agency to contract with a vendor to perform a fiscal impact study of the federal 340B Drug Pricing Program; providing requirements for the study; requiring specified entities to submit certain data to the agency for purposes of the study; providing that \u2026",
+  "result": "named",
+  "sha256": "3ca10d600eceaf7d9f9c2b976b5eebbddc6d0fcc6a78da62aee82cbaf2d18a96",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 5,
+    "url": "https://flsenate.gov/Session/Bill/2026/1453/BillText/Filed/PDF",
+    "words": 15495
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2026/1453/BillText/Filed/PDF",
+  "version": "H 1453 Filed"
+ },
+ "fl-2026-hb573": {
+  "date": "",
+  "mentions": 9,
+  "newest": true,
+  "quote": "\u2026 or contract for a detailed fiscal impact study to determine the feasibility of implementing the following provisions relating to discounted drug prices under the 340B Drug Pricing Program: (a)1. Requiring drug manufacturers to sell a drug to Medicaid pharmacies at not more than the 340B Drug Pricing Program discounted price if the \u2026",
+  "result": "named",
+  "sha256": "d9c446af2fe42e8699ad6132f1647563dc355b57ba404ddab73c186cf4f1c0d4",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 9,
+    "url": "https://flsenate.gov/Session/Bill/2026/573/BillText/Filed/PDF",
+    "words": 610
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2026/573/BillText/Filed/PDF",
+  "version": "H 573 Filed"
+ },
+ "fl-2026-sb1638": {
+  "date": "",
+  "mentions": 166,
+  "newest": true,
+  "quote": "1638 Prohibitions Against Discriminatory Practices Relating to 340B Entities and 340B Drugs 2026-01-09T08:41:31Z Prohibiting drug manufacturers from engaging in certain acts relating to the acquisition of 340B drugs by and the delivery \u2026",
+  "result": "named",
+  "sha256": "4cdad0eb482f1b484091b8bdb0487f728387f15d7bc886bdc73cb5fa3595a0ab",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 166,
+    "url": "https://flsenate.gov/Session/Bill/2026/1638/BillText/Filed/HTML",
+    "words": 4796
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2026/1638/BillText/Filed/HTML",
+  "version": "S 1638 Filed"
+ },
+ "fl-2026-sb1758": {
+  "date": "",
+  "mentions": 5,
+  "newest": true,
+  "quote": "\u2026 administered for severe mental illness in a hospital facility setting; requiring the agency to contract with a vendor to perform a fiscal impact study of the federal 340B Drug Pricing Program; providing requirements for the study; requiring specified entities to submit certain data to the agency for purposes of the study; providing that \u2026",
+  "result": "named",
+  "sha256": "585970f8351c200fa76b2867ea4df3ad8578c26305833ac842e3d4d83aab1eca",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 5,
+    "url": "https://flsenate.gov/Session/Bill/2026/1758/BillText/c2/HTML",
+    "words": 9615
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2026/1758/BillText/c2/HTML",
+  "version": "S 1758 c2"
+ },
+ "fl-2026-sb886": {
+  "date": "",
+  "mentions": 9,
+  "newest": true,
+  "quote": "\u2026 or contract for a detailed fiscal impact study to determine the feasibility of implementing the following provisions relating to discounted drug prices under the 340B Drug Pricing Program: (a)1. Requiring drug manufacturers to sell a drug to Medicaid pharmacies at no more than the 340B Drug Pricing Program discounted price if the \u2026",
+  "result": "named",
+  "sha256": "4d3465add1127409fe53a68efe6d01b91b8a33d19d3292946a71c45d42ffa9af",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 9,
+    "url": "https://flsenate.gov/Session/Bill/2026/886/BillText/Filed/HTML",
+    "words": 533
+   }
+  ],
+  "url": "https://flsenate.gov/Session/Bill/2026/886/BillText/Filed/HTML",
+  "version": "S 886 Filed"
+ },
+ "ga-202526-hb139": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 or other healthcare provider's patients at a discounted price. (2) 'Covered entity' means an entity participating in or authorized to participate in the federal 340B drug discount program, as described in 42 U.S.C. Section 256b, including H. B. 139 -1- 25 LC 46 1023 its pharmacy, or any pharmacy contracted with the participating \u2026",
+  "result": "named",
+  "sha256": "dc2b4efdd9e4c4c547e372da487ec895f189b6e1a86f3bb05f3acc4e6cd249da",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "http://www.legis.ga.gov/Legislation/20252026/230367.pdf",
+    "words": 509
+   }
+  ],
+  "url": "http://www.legis.ga.gov/Legislation/20252026/230367.pdf",
+  "version": "LC 46 1023/a"
+ },
+ "ga-202526-hb897": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 (4) Information on accessing healthcare providers who participate in prescription drug discount programs, including providers who are authorized to participate in the 340B program under section 340B of the federal Public Health Service Act, 42 U.S.C. Section 256b, as amended. (b) The department shall post the information sheet provided \u2026",
+  "result": "named",
+  "sha256": "43e8ff23d042d8a79bc155a14221b5b51807196618c5881779c1ccccc29150ed",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://www.legis.ga.gov/Legislation/20252026/238733.pdf",
+    "words": 1971
+   }
+  ],
+  "url": "http://www.legis.ga.gov/Legislation/20252026/238733.pdf",
+  "version": "LC 57 9000/a"
+ },
+ "ga-202526-hb898": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 (4) Information on accessing healthcare providers who participate in prescription drug discount programs, including providers who are authorized to participate in the 340B program under section 340B of the federal Public Health Service Act, 42 U.S.C. Section 256b, as amended. (b) The department shall post the information sheet provided \u2026",
+  "result": "named",
+  "sha256": "201e711bd2b712e77aa98ffcae49c654afb75b7f77bcbeed37a8e6b8ea66480b",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://www.legis.ga.gov/Legislation/20252026/238735.pdf",
+    "words": 2591
+   }
+  ],
+  "url": "http://www.legis.ga.gov/Legislation/20252026/238735.pdf",
+  "version": "LC 57 9001/a"
+ },
+ "hi-2025-hb561": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 and (3) The contracted pharmacist is not located at that facility. (b) For purposes of this section: \"Covered entity\" has the same meaning as defined in section 340B(a)(4) of the Public Health Service Act (42 United States Code section 256b, et seq.). \"Interactive telecommunications system\" has the same meaning as defined in title \u2026",
+  "result": "named",
+  "sha256": "7fe8fc467396ec4a2b0b3ff89c0a0856b5095ba32d5c2f0e9a0d8ac60619c4e2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB561_.HTM",
+    "words": 571
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB561_.HTM",
+  "version": "HB561"
+ },
+ "hi-2025-hb562": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "\u2026 OF HAWAII A BILL FOR AN ACT relating to consumer protection . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that the federal 340B drug pricing program is essential for providing Hawaii's low\u2011income and uninsured populations with access to healthcare and medications. The federal program requires \u2026",
+  "result": "named",
+  "sha256": "14497842cbb14128038dff1666a1a4b38a7957f52362d3f20d4acf12ad90a54c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB562_.HTM",
+    "words": 993
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB562_.HTM",
+  "version": "HB562"
+ },
+ "hi-2025-hb712": {
+  "date": "",
+  "mentions": 55,
+  "newest": true,
+  "quote": "\u2026 HAWAII S.D. 2 C.D. 1 A BILL FOR AN ACT RELATING TO HEALTH . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that the federal 340B drug pricing program (340B program) is essential for providing health care access to low-income and uninsured populations. The 340B program requires drug manufacturers \u2026",
+  "result": "named",
+  "sha256": "6acca7c457a2a4de356b6dd86117c9b82eea6636d42faebdc74dc972111c63cc",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 55,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB712_CD1_.HTM",
+    "words": 1663
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/HB712_CD1_.HTM",
+  "version": "HB712_CD1"
+ },
+ "hi-2025-sb1279": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 and (3) The contracted pharmacist is not located at that facility. (b) For the purposes of this section: \"Covered entity\" has the same meaning as defined in section 340B(a)(4) of the Public Health Service Act (42 U.S.C. 256b). \"Interactive telecommunications system\" has the same meaning as defined in title 42 Code of Federal Regulations \u2026",
+  "result": "named",
+  "sha256": "952a4d2c4f5d7826bb15cdf3eecf98796f02cdae36e9b23371bf0639276b5a52",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB1279_HD1_.HTM",
+    "words": 569
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB1279_HD1_.HTM",
+  "version": "SB1279_HD1"
+ },
+ "hi-2025-sb1280": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "\u2026 OF HAWAII A BILL FOR AN ACT relating to consumer protection . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that the federal 340B drug pricing program is essential for providing Hawaii's low\u2011income and uninsured populations with access to healthcare and medications. The federal program requires \u2026",
+  "result": "named",
+  "sha256": "c18e5fb01265ab90effed241fe38db02020445a28a06c7072227085521d4daf0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB1280_.HTM",
+    "words": 994
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB1280_.HTM",
+  "version": "SB1280"
+ },
+ "hi-2025-sb1292": {
+  "date": "",
+  "mentions": 0,
+  "newest": true,
+  "quote": "",
+  "result": "not named",
+  "sha256": "bea82aa73c30dd25121ab314e36efc5f6a876159e663a7ff56598e7ea3a18d8c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB1292_.HTM",
+    "words": 14530
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB1292_.HTM",
+  "version": "SB1292"
+ },
+ "hi-2025-sb480": {
+  "date": "",
+  "mentions": 19,
+  "newest": true,
+  "quote": "\u2026 2025 STATE OF HAWAII A BILL FOR AN ACT relating to HEALTH . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that the federal 340B drug pricing program is essential for providing health care access to low-income and uninsured populations. The federal 340B program requires drug manufacturers to \u2026",
+  "result": "named",
+  "sha256": "1041f83020c5994c433626ff6c136afbc210c39523b3085e43ed431f4215f6e7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 19,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB480_.HTM",
+    "words": 783
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2025/bills/SB480_.HTM",
+  "version": "SB480"
+ },
+ "hi-2026-hb561": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 and (3) The contracted pharmacist is not located at that facility. (b) For purposes of this section: \"Covered entity\" has the same meaning as defined in section 340B(a)(4) of the Public Health Service Act (42 United States Code section 256b, et seq.). \"Interactive telecommunications system\" has the same meaning as defined in title \u2026",
+  "result": "named",
+  "sha256": "7fe8fc467396ec4a2b0b3ff89c0a0856b5095ba32d5c2f0e9a0d8ac60619c4e2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB561_.HTM",
+    "words": 571
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB561_.HTM",
+  "version": "HB561"
+ },
+ "hi-2026-hb562": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "\u2026 OF HAWAII A BILL FOR AN ACT relating to consumer protection . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that the federal 340B drug pricing program is essential for providing Hawaii's low\u2011income and uninsured populations with access to healthcare and medications. The federal program requires \u2026",
+  "result": "named",
+  "sha256": "14497842cbb14128038dff1666a1a4b38a7957f52362d3f20d4acf12ad90a54c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB562_.HTM",
+    "words": 993
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/HB562_.HTM",
+  "version": "HB562"
+ },
+ "hi-2026-sb1279": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 and (3) The contracted pharmacist is not located at that facility. (b) For the purposes of this section: \"Covered entity\" has the same meaning as defined in section 340B(a)(4) of the Public Health Service Act (42 U.S.C. 256b). \"Interactive telecommunications system\" has the same meaning as defined in title 42 Code of Federal Regulations \u2026",
+  "result": "named",
+  "sha256": "952a4d2c4f5d7826bb15cdf3eecf98796f02cdae36e9b23371bf0639276b5a52",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1279_HD1_.HTM",
+    "words": 569
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1279_HD1_.HTM",
+  "version": "SB1279_HD1"
+ },
+ "hi-2026-sb1280": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "\u2026 OF HAWAII A BILL FOR AN ACT relating to consumer protection . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that the federal 340B drug pricing program is essential for providing Hawaii's low\u2011income and uninsured populations with access to healthcare and medications. The federal program requires \u2026",
+  "result": "named",
+  "sha256": "c18e5fb01265ab90effed241fe38db02020445a28a06c7072227085521d4daf0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1280_.HTM",
+    "words": 994
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1280_.HTM",
+  "version": "SB1280"
+ },
+ "hi-2026-sb1292": {
+  "date": "",
+  "mentions": 0,
+  "newest": true,
+  "quote": "",
+  "result": "not named",
+  "sha256": "bea82aa73c30dd25121ab314e36efc5f6a876159e663a7ff56598e7ea3a18d8c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1292_.HTM",
+    "words": 14530
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB1292_.HTM",
+  "version": "SB1292"
+ },
+ "hi-2026-sb480": {
+  "date": "",
+  "mentions": 19,
+  "newest": true,
+  "quote": "\u2026 2025 STATE OF HAWAII A BILL FOR AN ACT relating to HEALTH . BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF HAWAII: SECTION 1. The legislature finds that the federal 340B drug pricing program is essential for providing health care access to low-income and uninsured populations. The federal 340B program requires drug manufacturers to \u2026",
+  "result": "named",
+  "sha256": "1041f83020c5994c433626ff6c136afbc210c39523b3085e43ed431f4215f6e7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 19,
+    "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB480_.HTM",
+    "words": 783
+   }
+  ],
+  "url": "https://data.capitol.hawaii.gov/sessions/session2026/bills/SB480_.HTM",
+  "version": "SB480"
+ },
+ "ia-20252026-hf2009": {
+  "date": "",
+  "mentions": 9,
+  "newest": true,
+  "quote": "House File 2009 - Introduced HOUSE FILE 2009 BY BARKER A BILL FOR An Act relating to manufacturers and distributors of 340B drugs. BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF IOWA: TLSB 5704YH (1) 91 nls/ko H.F. 2009 Section 1. Section 510D.1, Code 2026, is amended by adding the \u2026",
+  "result": "named",
+  "sha256": "79c16d04c4b091a275ac8d0358c38d0da51cba46220771970c16d174f2285f7b",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 9,
+    "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF2009.html",
+    "words": 321
+   }
+  ],
+  "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF2009.html",
+  "version": "Introduced"
+ },
+ "ia-20252026-hf590": {
+  "date": "",
+  "mentions": 9,
+  "newest": true,
+  "quote": "House File 590 - Introduced HOUSE FILE 590 BY BARKER A BILL FOR An Act relating to manufacturers and distributors of 340B drugs. BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF IOWA: TLSB 2744YH (2) 91 nls/ko H.F. 590 Section 1. Section 510D.1, Code 2025, is amended by adding the \u2026",
+  "result": "named",
+  "sha256": "239b0b33b50b258e6e40e1e2ccd618bdb3a1d1e90ce12f7193ed5d440d09bd25",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 9,
+    "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF590.html",
+    "words": 318
+   }
+  ],
+  "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/HF590.html",
+  "version": "Introduced"
+ },
+ "ia-20252026-sf2312": {
+  "date": "",
+  "mentions": 9,
+  "newest": true,
+  "quote": "Senate File 2312 - Introduced SENATE FILE 2312 BY SWEENEY A BILL FOR An Act relating to manufacturers and distributors of 340B drugs. BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF IOWA: TLSB 5704XS (1) 91 nls/ko S.F. 2312 Section 1. Section 510D.1, Code 2026, is amended by adding the \u2026",
+  "result": "named",
+  "sha256": "0e8c93673dd6165a8e37af8ee7d6f8b5008c59094251f785e5e57993e14474b7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 9,
+    "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2312.html",
+    "words": 321
+   }
+  ],
+  "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/attachments/SF2312.html",
+  "version": "Introduced"
+ },
+ "id-2025-h136": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "\u2026 Legislature First Regular Session - 2025 IN THE HOUSE OF REPRESENTATIVES HOUSE BILL NO. 136, As Amended in the Senate BY HEALTH AND WELFARE COMMITTEE AN ACT RELATING TO 340B DRUG PRICING PROGRAM REPORTING; AMENDING CHAPTER 3, TITLE 41, IDAHO CODE, BY THE ADDITION OF A NEW SECTION 41-351, IDAHO CODE, TO ESTABLISH PROVISIONS REGARDING 340B \u2026",
+  "result": "named",
+  "sha256": "f18ee6e460f3720fed7d36c409e4f884a22dbe141b78d29478d29659e3493c75",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2025/legislation/H0136E1.pdf",
+    "words": 506
+   }
+  ],
+  "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2025/legislation/H0136E1.pdf",
+  "version": "Engrossment 1"
+ },
+ "id-2025-h385": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "\u2026 to be known and des- ignated as Section 54-1740, Idaho Code, and to read as follows: 54-1740. AFFORDABLE ACCESS TO PRESCRIPTION DRUGS. (1) As used in this section: (a) \"340B drug\" means a covered outpatient drug under 42 U.S.C. 256b(b) that has been subject to an offer for reduced prices by a pharmaceutical manufacturer under 42 U.S.C. \u2026",
+  "result": "named",
+  "sha256": "0b078d9ecd94d56d87ac3f46183f07b59a1f63edde845907d16428ee188d21be",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2025/legislation/H0385.pdf",
+    "words": 665
+   }
+  ],
+  "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2025/legislation/H0385.pdf",
+  "version": "Bill Text"
+ },
+ "id-2026-s1390": {
+  "date": "",
+  "mentions": 18,
+  "newest": true,
+  "quote": "LEGISLATURE OF THE STATE OF IDAHO Sixty-eighth Legislature Second Regular Session - 2026 IN THE SENATE SENATE BILL NO. 1390 BY STATE AFFAIRS COMMITTEE AN ACT RELATING TO 340B DRUG PRICING PROGRAM REPORTING; AMENDING SECTION 41-351, IDAHO CODE, TO REVISE PROVISIONS REGARDING 340B DRUG PRICING PROGRAM REPORTING; AND DECLARING AN EMERGENCY AND \u2026",
+  "result": "named",
+  "sha256": "ebc8c3d63d56b59e263fbb539ae147706db2e594b92af9b626905ca0aa337149",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 18,
+    "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1390.pdf",
+    "words": 534
+   }
+  ],
+  "url": "https://legislature.idaho.gov/wp-content/uploads/sessioninfo/2026/legislation/S1390.pdf",
+  "version": "Bill Text"
+ },
+ "il-104th-hb1443": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 30. Protections and other Board considerations. (a) The Board shall examine how an upper payment limit would affect a covered entity, as that term is defined in Section 340B of the federal Public Health Service Act. (b) In determining whether a drug creates an affordability challenge or determining an upper payment limit amount, the Board \u2026",
+  "result": "named",
+  "sha256": "1701c6e8fb6bf392b6d81fbaa73f00ac2a9b90fd29dd480f3baf7ca123ca9cdc",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=197280&DocName=10400HB1443eng&DocNum=1443&DocTypeID=HB&LegID=157490&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 4730
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=197280&DocName=10400HB1443eng&DocNum=1443&DocTypeID=HB&LegID=157490&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Engrossed"
+ },
+ "il-104th-hb2371": {
+  "asked_newest": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=199872&DocName=10400HB2371enr&DocNum=2371&DocTypeID=HB&LegID=160084&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "date": "",
+  "mentions": 75,
+  "newest": true,
+  "quote": "\u2026 finds that: (1) It is within the traditional authority of the State to regulate the acquisition and delivery of drugs to pharmacies and providers. (2) The federal 340B statute is silent on distribution of 340B-acquired drugs to 340B covered entities and their contract pharmacy partners. (3) The State's compelling interest in \u2026",
+  "result": "named",
+  "sha256": "0e3978c6003fe345c3970dda8c07df384eb0f226a0b9cceda4ac154741da23c2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 75,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=199872&DocName=10400HB2371enr&DocNum=2371&DocTypeID=HB&LegID=160084&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1645
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=199872&DocName=10400HB2371enr&DocNum=2371&DocTypeID=HB&LegID=160084&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Enrolled"
+ },
+ "il-104th-hb3350": {
+  "date": "",
+  "mentions": 74,
+  "newest": true,
+  "quote": "\u2026 including a pharmaceutical manufacturer, may deny, restrict, prohibit, condition, or otherwise interfere with, either directly or indirectly, the acquisition of a 340B drug by, or delivery of a 340B drug to, a 340B covered entity or a 340B contract pharmacy authorized to receive 340B drugs on behalf of the 340B covered entity unless \u2026",
+  "result": "named",
+  "sha256": "26960ed51e14de916e6f833fe50b46c94f1a1b3432c6b8e6c860b8c70fd303e4",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 73,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201643&DocName=10400HB3350&DocNum=3350&DocTypeID=HB&LegID=161855&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1843
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=201643&DocName=10400HB3350&DocNum=3350&DocTypeID=HB&LegID=161855&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-hb3794": {
+  "date": "",
+  "mentions": 36,
+  "newest": true,
+  "quote": "\u2026 Insurance Code is amended by changing Section 513b1 as follows: (215 ILCS 5/513b1) Sec. 513b1. Pharmacy benefit manager contracts. (a) As used in this Section: \"340B drug discount program\" means the program established under Section 340B of the federal Public Health Service Act, 42 U.S.C. 256b. \"340B entity\" means a covered entity \u2026",
+  "result": "named",
+  "sha256": "bf9794234ecf3dafe00218ca70d3a5bda093b8ab295ba489f7bdec611476b297",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 36,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=202447&DocName=10400HB3794&DocNum=3794&DocTypeID=HB&LegID=162663&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 5424
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=202447&DocName=10400HB3794&DocNum=3794&DocTypeID=HB&LegID=162663&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-hb4065": {
+  "date": "",
+  "mentions": 22,
+  "newest": true,
+  "quote": "\u2026 (2025-2026) 104TH GENERAL ASSEMBLY State of Illinois 2025 and 2026 HB4065 Introduced 5/22/2025, by Rep. Rita Mayfield SYNOPSIS AS INTRODUCED: New Act Creates the 340B Grantee Contract Pharmacy Access Act. Provides that no person, including a pharmaceutical manufacturer, may deny, restrict, or otherwise limit the acquisition of a 340B \u2026",
+  "result": "named",
+  "sha256": "0b3f5341ddb3373d6b18e1751b96f58a13c76856df4868199985d5c37348c841",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 22,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=205013&DocName=10400HB4065&DocNum=4065&DocTypeID=HB&LegID=163864&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 579
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=205013&DocName=10400HB4065&DocNum=4065&DocTypeID=HB&LegID=163864&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-hb4327": {
+  "date": "",
+  "mentions": 82,
+  "newest": true,
+  "quote": "\u2026 ACT concerning auditing. Be it enacted by the People of the State of Illinois, represented in the General Assembly: Section 1. Short title. This Act may be cited as the 340B Transparency, Reporting, and Accountability Act. Section 5. Findings. The General Assembly finds that: (1) The intent of the 340B Drug Discount Program is to provide \u2026",
+  "result": "named",
+  "sha256": "e3d68ed9ce5140864b9af0dbf3ebf23b2a23ad69a9184effe710083c803d7167",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 82,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206189&DocName=10400HB4327enr&DocNum=4327&DocTypeID=HB&LegID=164841&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 2835
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=206189&DocName=10400HB4327enr&DocNum=4327&DocTypeID=HB&LegID=164841&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Enrolled"
+ },
+ "il-104th-hb4761": {
+  "date": "",
+  "mentions": 37,
+  "newest": true,
+  "quote": "\u2026 Insurance Code is amended by changing Section 513b1 as follows: (215 ILCS 5/513b1) Sec. 513b1. Pharmacy benefit manager contracts. (a) As used in this Article: \"340B drug discount program\" means the program established under Section 340B of the federal Public Health Service Act, 42 U.S.C. 256b. \"340B entity\" means a covered entity \u2026",
+  "result": "named",
+  "sha256": "f2e21b3b73d7fc8778e6c22dcb6f7d2666ed5d0b1aa0f2877b659728b952e476",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 37,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207240&DocName=10400HB4761&DocNum=4761&DocTypeID=HB&LegID=165894&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 4847
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207240&DocName=10400HB4761&DocNum=4761&DocTypeID=HB&LegID=165894&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-hb4954": {
+  "date": "",
+  "mentions": 64,
+  "newest": true,
+  "quote": "\u2026 Assembly (2025-2026) 104TH GENERAL ASSEMBLY State of Illinois 2025 and 2026 HB4954 Introduced , by Rep. Martha Deuter SYNOPSIS AS INTRODUCED: New Act Creates the 340B Drug Pricing Program Reporting Act. On or before April 1, 2027 and each April 1 thereafter, requires a 340B covered entity to report the specified information and \u2026",
+  "result": "named",
+  "sha256": "83b5faecbb4abd8b5e97140b000e1bba3b694bad32932ae47035e5f9558eaf07",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 64,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207652&DocName=10400HB4954&DocNum=4954&DocTypeID=HB&LegID=166306&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1569
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207652&DocName=10400HB4954&DocNum=4954&DocTypeID=HB&LegID=166306&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-hb5421": {
+  "date": "",
+  "mentions": 86,
+  "newest": true,
+  "quote": "\u2026 Assembly (2025-2026) 104TH GENERAL ASSEMBLY State of Illinois 2025 and 2026 HB5421 Introduced 2/13/2026, by Rep. Bob Morgan SYNOPSIS AS INTRODUCED: New Act Creates the 340B Integrity Act. Defines terms. Provides that, beginning January 1, 2027, 340B covered entities shall not bill any medical assistance fee-for-service or medical \u2026",
+  "result": "named",
+  "sha256": "c40c7711c6dfe92fde812da8cfbd8cea3381477ba91c4a33b6d39b82721243e4",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 85,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208591&DocName=10400HB5421&DocNum=5421&DocTypeID=HB&LegID=167245&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1769
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208591&DocName=10400HB5421&DocNum=5421&DocTypeID=HB&LegID=167245&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-hb5804": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 (l) Any provider enrolled with the Department that bills the Department for outpatient drugs and is eligible to enroll in the federal Drug Pricing Program under Section 340B of the federal Public Health Service Act shall enroll in that program. No entity participating in the federal Drug Pricing Program under Section 340B of the federal \u2026",
+  "result": "named",
+  "sha256": "e05a5433ae8855a1c934c65ff13af99e6e1bd42e0018589ee8eacdd8b2cab1ba",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=211533&DocName=10400HB5804&DocNum=5804&DocTypeID=HB&LegID=168815&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1502
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=211533&DocName=10400HB5804&DocNum=5804&DocTypeID=HB&LegID=168815&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-hr158": {
+  "date": "",
+  "mentions": 34,
+  "newest": true,
+  "quote": "\u2026 Illinois General Assembly ILGA.GOV HR0158 - 104th General Assembly (2025-2026) HR0158 LRB104 12436 ECR 22753 r HOUSE RESOLUTION WHEREAS, The original intent of the 340B Drug Pricing Program was to provide discounted medicines to eligible healthcare organizations for the purpose of improving access to affordable medications for \u2026",
+  "result": "named",
+  "sha256": "fd247a39eeeed96c6c61fb6ba94019b24e82452c182a4124be371b94ec0632a0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 34,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=202960&DocName=10400HR0158&DocNum=158&DocTypeID=HR&LegID=163093&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1104
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=202960&DocName=10400HR0158&DocNum=158&DocTypeID=HR&LegID=163093&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-sb1390": {
+  "date": "",
+  "mentions": 73,
+  "newest": false,
+  "quote": "\u2026 10400SB1390sam001 - 5 - LRB104 08735 BAB 23976 a 513b1.1 as follows: (215 ILCS 5/513b1) Sec. 513b1. Pharmacy benefit manager contracts. (a) As used in this Section: \"340B drug discount program\" means the program established under Section 340B of the federal Public Health Service Act, 42 U.S.C. 256b. \"340B entity\" means a covered entity \u2026",
+  "result": "named",
+  "sha256": "18fd47f8f5163abb2cf9286f37ce3018d0c19958292a0be0a287bcb24cae2281",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=199282&DocName=10400SB1390&DocNum=1390&DocTypeID=SB&LegID=159493&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1075
+   },
+   {
+    "answer": 200,
+    "mentions": 73,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=203516&DocName=10400SB1390sam001&DocNum=1390&DocTypeID=SB&LegID=159493&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 11839
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=203516&DocName=10400SB1390sam001&DocNum=1390&DocTypeID=SB&LegID=159493&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Senate Amendment 001"
+ },
+ "il-104th-sb2385": {
+  "date": "",
+  "mentions": 74,
+  "newest": true,
+  "quote": "\u2026 including a pharmaceutical manufacturer, may deny, restrict, prohibit, condition, or otherwise interfere with, either directly or indirectly, the acquisition of a 340B drug by, or delivery of a 340B drug to, a 340B covered entity or a 340B contract pharmacy authorized to receive 340B drugs on behalf of the 340B covered entity unless \u2026",
+  "result": "named",
+  "sha256": "e86631941d8f3675122f9d0fa7b8dbbb53dcc804d445c256612eae58387a8987",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 73,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=202174&DocName=10400SB2385&DocNum=2385&DocTypeID=SB&LegID=162386&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1843
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=202174&DocName=10400SB2385&DocNum=2385&DocTypeID=SB&LegID=162386&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-sb3146": {
+  "date": "",
+  "mentions": 64,
+  "newest": true,
+  "quote": "\u2026 (2025-2026) 104TH GENERAL ASSEMBLY State of Illinois 2025 and 2026 SB3146 Introduced 2/2/2026, by Sen. Christopher Belt SYNOPSIS AS INTRODUCED: New Act Creates the 340B Drug Pricing Program Reporting Act. On or before April 1, 2027 and each April 1 thereafter, requires a 340B covered entity to report the specified information and \u2026",
+  "result": "named",
+  "sha256": "93f9bbedca6068a09b23ea403af3b3447a8b19006704fb87849270c908db1c05",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 64,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207133&DocName=10400SB3146&DocNum=3146&DocTypeID=SB&LegID=165785&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1569
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=207133&DocName=10400SB3146&DocNum=3146&DocTypeID=SB&LegID=165785&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-sb3878": {
+  "date": "",
+  "mentions": 86,
+  "newest": true,
+  "quote": "\u2026 (2025-2026) 104TH GENERAL ASSEMBLY State of Illinois 2025 and 2026 SB3878 Introduced 2/6/2026, by Sen. Julie A. Morrison SYNOPSIS AS INTRODUCED: New Act Creates the 340B Integrity Act. Defines terms. Provides that, beginning January 1, 2027, 340B covered entities shall not bill any medical assistance fee-for-service or medical \u2026",
+  "result": "named",
+  "sha256": "186722049a778283402ff728ac60657c48cec2ef7318bd88a6a6bdad876d84be",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 85,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208654&DocName=10400SB3878&DocNum=3878&DocTypeID=SB&LegID=167308&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 1770
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=208654&DocName=10400SB3878&DocNum=3878&DocTypeID=SB&LegID=167308&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-sb66": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 30. Protections and other Board considerations. (a) The Board shall examine how an upper payment limit would affect a covered entity, as that term is defined in Section 340B of the federal Public Health Service Act. (b) In determining whether a drug creates an affordability challenge or determining an upper payment limit amount, the Board \u2026",
+  "result": "named",
+  "sha256": "13d73fab96007bf8867e9ef38ffda6c525d25346117f6d47115303015fdef77f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=196962&DocName=10400SB0066&DocNum=66&DocTypeID=SB&LegID=157171&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 4077
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=196962&DocName=10400SB0066&DocNum=66&DocTypeID=SB&LegID=157171&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Introduced"
+ },
+ "il-104th-sb709": {
+  "date": "",
+  "mentions": 73,
+  "newest": false,
+  "quote": "\u2026 10400SB0709sam001 - 5 - LRB104 07007 BAB 24876 a 513b1.1 as follows: (215 ILCS 5/513b1) Sec. 513b1. Pharmacy benefit manager contracts. (a) As used in this Section: \"340B drug discount program\" means the program established under Section 340B of the federal Public Health Service Act, 42 U.S.C. 256b. \"340B entity\" means a covered entity \u2026",
+  "result": "named",
+  "sha256": "ffff3270c023d40bf4fb3eb21cea2fa23c35cd6ead6e460cee69e093d5e8f992",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=198210&DocName=10400SB0709&DocNum=709&DocTypeID=SB&LegID=158420&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 145
+   },
+   {
+    "answer": 200,
+    "mentions": 73,
+    "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=204025&DocName=10400SB0709sam001&DocNum=709&DocTypeID=SB&LegID=158420&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+    "words": 11839
+   }
+  ],
+  "url": "https://ilga.gov/Legislation/BillStatus/FullText?LegDocId=204025&DocName=10400SB0709sam001&DocNum=709&DocTypeID=SB&LegID=158420&GAID=18&SessionID=114&SpecSess=&Session=&Print=1",
+  "version": "Senate Amendment 001"
+ },
+ "ks-20252026-hb2434": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 That prescription support expenditures shall be made from the aid to local units \u2013 primary health projects account for: (1) Purchasing drug inventory under section 340B of the federal public health service act for community health center grantees and federally qualified health center look-alikes who qualify; (2) increasing access to \u2026",
+  "result": "named",
+  "sha256": "6d76371d3820237c730f6102e99cd4802305ce0359c476222b5ca73994a24cbc",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2434/hb2434_01_0000.pdf",
+    "words": 165007
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2434/hb2434_01_0000.pdf",
+  "version": "Sub"
+ },
+ "ks-20252026-hb2455": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 That prescription support expenditures shall be made from the aid to local units \u2013 primary health projects account for: (1) Purchasing drug inventory under section 340B of the federal public health service act for community health center grantees and federally qualified health center look-alikes who qualify; (2) increasing access to \u2026",
+  "result": "named",
+  "sha256": "404a3f5386587e69353b2817e50485ada9c45cb2022068898459ef73f64d630c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2455/hb2455_00_0000.pdf",
+    "words": 132967
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2455/hb2455_00_0000.pdf",
+  "version": "As Introduced"
+ },
+ "ks-20252026-hb2513": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 That prescription support expenditures shall be made from the aid to local units \u2013 primary health projects account for: (1) Purchasing drug inventory under section 340B of the federal public health service act for community health center grantees and federally qualified health center look-alikes who qualify; (2) increasing access to \u2026",
+  "result": "named",
+  "sha256": "4f4ae6c0af7b7a7d22dd3c6c45f3977d2ccfe035d9920175fc25ec946aecf269",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2513/hb2513_enrolled.pdf",
+    "words": 159528
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2513/hb2513_enrolled.pdf",
+  "version": "Enrolled"
+ },
+ "ks-20252026-hb2550": {
+  "date": "",
+  "mentions": 38,
+  "newest": true,
+  "quote": "\u2026 PDF Session of 2026 HOUSE BILL No. 2550 By Committee on Insurance Requested by Representative Sutton 1-27 AN ACT concerning health and healthcare; relating to certain 340B entities under the federal 340B drug pricing program; requiring such entities to annually report to the Kansas department of insurance on certain costs, savings and \u2026",
+  "result": "named",
+  "sha256": "fd84a0acaa9e6a72fb8b178d130435c3b5462c37960b4f7272ad3c8f63b0a122",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 38,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2550/hb2550_00_0000.pdf",
+    "words": 1359
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2550/hb2550_00_0000.pdf",
+  "version": "As Introduced"
+ },
+ "ks-20252026-sb212": {
+  "date": "",
+  "mentions": 5,
+  "newest": true,
+  "quote": "\u2026 act shall be known and may be cited as the prescription drug cost and affordability review act. Sec. 2. As used in sections 1 through 8, and amendments thereto: (a) \"340B-covered entity\" means an entity that is participating in the federal 340B drug pricing program authorized by 42 U.S.C. \u00a7 256b, including such entity's pharmacy or \u2026",
+  "result": "named",
+  "sha256": "fa77c96224ee58e8bb14c6aa00d26e108e387a5cbed409480f106ff345824114",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 5,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_212/sb212_00_0000.pdf",
+    "words": 4267
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_212/sb212_00_0000.pdf",
+  "version": "As Introduced"
+ },
+ "ks-20252026-sb284": {
+  "date": "",
+  "mentions": 12,
+  "newest": true,
+  "quote": "\u2026 by Senate Committee Session of 2025 SENATE BILL No. 284 By Committee on Federal and State Affairs 3-3 AN ACT concerning prescription drugs; relating to the federal 340B drug pricing program; enacting the defense of drug delivery act to prohibit manufacturer interference relating to 340B drug distribution. Be it enacted by the \u2026",
+  "result": "named",
+  "sha256": "41ba0e3946d60735bd0c7b8b2ac645beed939c58f580352d9c00b5b09d7a64c8",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 11,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_284/sb284_01_0000.pdf",
+    "words": 1914
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_284/sb284_01_0000.pdf",
+  "version": "As Amended by Senate Committee"
+ },
+ "ks-20252026-sb315": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 That prescription support expenditures shall be made from the aid to local units \u2013 primary health projects account for: (1) Purchasing drug inventory under section 340B of the federal public health service act for community health center grantees and federally qualified health center look-alikes who qualify; (2) increasing access to \u2026",
+  "result": "named",
+  "sha256": "95ae93e7bfa769311e9d96acb52beb6e45e314371aa869fef917da79d5f08bff",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_315/sb315_02_0000.pdf",
+    "words": 155838
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_315/sb315_02_0000.pdf",
+  "version": "{As Amended by Senate Committee of the Whole}"
+ },
+ "ks-20252026-sb337": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 That prescription support expenditures shall be made from the aid to local units \u2013 primary health projects account for: (1) Purchasing drug inventory under section 340B of the federal public health service act for community health center grantees and federally qualified health center look-alikes who qualify; (2) increasing access to \u2026",
+  "result": "named",
+  "sha256": "36a84b6362bf29150d880c0941320d931fcd5790f67087fff527ceb2933cee68",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_337/sb337_00_0000.pdf",
+    "words": 132957
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_337/sb337_00_0000.pdf",
+  "version": "As Introduced"
+ },
+ "ks-20252026-sb360": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 in any way with claims administered on behalf of a health plan client. \"Rebate\" does not include any discount or payment that may be provided to or made to any 340B entity through such program. Sec. 11. K.S.A. 2025 Supp. 40-3823 is hereby amended to read as follows: 40-3823. (a) No person shall act or operate as a pharmacy benefits \u2026",
+  "result": "named",
+  "sha256": "0fa411d8e78ffeaf327d14c45bd979f41e548df3e4124c53d84e75c2ddc6c4c7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_360/sb360_02_0000.pdf",
+    "words": 10532
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_360/sb360_02_0000.pdf",
+  "version": "{As Amended by Senate Committee of the Whole}"
+ },
+ "ks-20252026-sb68": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 That prescription support expenditures shall be made from the aid to local units \u2013 primary health projects account for: (1) Purchasing drug inventory under section 340B of the federal public health service act for community health center grantees and federally qualified health center look-alikes who qualify; (2) increasing access to \u2026",
+  "result": "named",
+  "sha256": "4ca1dc06b255e4839ee02d71830ae6c577be32d43e1c0a3a16dc52bdd63b8758",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_68/sb68_00_0000.pdf",
+    "words": 133867
+   }
+  ],
+  "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_68/sb68_00_0000.pdf",
+  "version": "As Introduced"
+ },
+ "ky-2025rs-hb685": {
+  "date": "",
+  "mentions": 31,
+  "newest": true,
+  "quote": "UNOFFICIAL COPY 25 RS BR 1525 AN ACT relating to the 340B Drug Pricing Program. Be it enacted by the General Assembly of the Commonwealth of Kentucky: \uf0e2SECTION 1. A NEW SECTION OF KRS CHAPTER 216 IS CREATED TO READ AS FOLLOWS: \u2026",
+  "result": "named",
+  "sha256": "9fad9704b84825fb4a07b92c0c2157f45b1eac1a8f7bce114dac8a1492abd5f9",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 31,
+    "url": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb685/orig_bill.pdf",
+    "words": 1366
+   }
+  ],
+  "url": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb685/orig_bill.pdf",
+  "version": "Introduced"
+ },
+ "ky-2025rs-sb14": {
+  "date": "",
+  "mentions": 10,
+  "newest": true,
+  "quote": "\u2026 by the General Assembly of the Commonwealth of Kentucky: \uf0e2SECTION 1. A NEW SECTION OF KRS CHAPTER 315 IS CREATED TO READ AS FOLLOWS: (1) As used in this section: (a) \"340B covered entity\": 1. Means a health care facility that is registered as a covered entity under 42 U.S.C. sec. 256b, as amended; and 2. Includes any pharmacy owned or \u2026",
+  "result": "named",
+  "sha256": "f8b24d2a783d2898208f6e916c6c4d442d1e1283154dbead23b35a9f1ddbd646",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 10,
+    "url": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/sb14/bill.pdf",
+    "words": 326
+   }
+  ],
+  "url": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/sb14/bill.pdf",
+  "version": "Current/Final"
+ },
+ "la-2026-hr368": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 basis with separate disclosure of federal rebates pursuant to the Centers for Medicare and Medicaid Services Outpatient Drug Rebate program, state supplemental rebates, 340B program adjustments, and net pharmacy expenditures, together with rebate yield percentages. (6) A provider-type total payment data crosswalk that, for each major \u2026",
+  "result": "named",
+  "sha256": "28cb3c12dc3fc5d2ce6bc0d5f53cd75e92ac735e85f5e65666150950b88e8312",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1478211",
+    "words": 1019
+   }
+  ],
+  "url": "https://www.legis.la.gov/Legis/ViewDocument.aspx?d=1478211",
+  "version": "HR368 Original"
+ },
+ "ma-194th-h1107": {
+  "date": "",
+  "mentions": 129,
+  "newest": true,
+  "quote": "\u2026 Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act prohibiting discrimination against 340b drug discount program participants. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Daniel Cahill 10th Essex 1/16/2025 Russell E. Holmes 6th Suffolk \u2026",
+  "result": "named",
+  "sha256": "52192b2a428b8ed48bae4900e05dd3f257d5e07ed43fdb49b1466fb23a87f672",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 129,
+    "url": "https://malegislature.gov/Bills/194/H1107.pdf",
+    "words": 4729
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H1107.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h1274": {
+  "date": "",
+  "mentions": 17,
+  "newest": true,
+  "quote": "\u2026 respectfully petition for the adoption of the accompanying bill: An Act prohibiting PBMs from discriminating against hospitals and patients participating in the 340B drug discount program. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Brian W. Murray 10th Worcester 1/14/2025 James B. Eldridge Middlesex and \u2026",
+  "result": "named",
+  "sha256": "60303f3c263ac5f6b9faba9ca465bb7d073df3ee3dd2169fcc2b0f012e47bae3",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 17,
+    "url": "https://malegislature.gov/Bills/194/H1274.pdf",
+    "words": 529
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H1274.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h1296": {
+  "date": "",
+  "mentions": 345,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act to protect 340B providers. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Sean Reid 11th Essex 1/17/2025 Adam J. Scanlon 14th Bristol 7/29/2025 of 1 HOUSE DOCKET, NO. \u2026",
+  "result": "named",
+  "sha256": "a06ba0cb4b9b64337672dc529941bb340d867f169142437642ace3303138c501",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 345,
+    "url": "https://malegislature.gov/Bills/194/H1296.pdf",
+    "words": 7634
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H1296.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h1374": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 9 of this act; and (3) replenish medicine of the same drug name and strength previously dispensed or administered to eligible patients in accordance with federal 340b statute. (d) A drug manufacturer, repackager, dispenser, or wholesaler other than a returns processor participating in this program shall comply with the requirements \u2026",
+  "result": "named",
+  "sha256": "a81246d544e6cfa103471ebf3d0415965030142626e99d9f5b182ea364306c28",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://malegislature.gov/Bills/194/H1374.pdf",
+    "words": 2152
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H1374.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h4490": {
+  "date": "",
+  "mentions": 128,
+  "newest": true,
+  "quote": "\u2026 Commonwealth of Massachusetts _______________ In the One Hundred and Ninety-Fourth General Court (2025-2026) _______________ An Act prohibiting discrimination against 340b drug discount program participants. Be it enacted by the Senate and House of Representatives in General Court assembled, and by the authority of the same, as follows: \u2026",
+  "result": "named",
+  "sha256": "37227a9b2e0423103373d3385208a14db2f64e2471bb12a8771b31dce95f4b7c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 128,
+    "url": "https://malegislature.gov/Bills/194/H4490.pdf",
+    "words": 4513
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H4490.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h4494": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "\u2026 the petition (accompanied by bill, House, No. 1274) of Brian W. Murray, James B. Eldridge and Michael O. Moore for legislation to prohibit discrimination against 340B drug discount program participants, reports recommending that the accompanying bill (House, No. 4494) ought to pass. For the committee, JAMES M. MURPHY. FILED ON: \u2026",
+  "result": "named",
+  "sha256": "10ca78cc5f0171ce530f950eb3db51753c425dcdf75f96cafafa123dbc85aca6",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://malegislature.gov/Bills/194/H4494.pdf",
+    "words": 451
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H4494.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h4495": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "\u2026 September 18, 2025. The committee on Financial Services, to whom was referred the petition (accompanied by bill, House, No. 1296) of Sean Reid relative to 340B pharmacies, reports recommending that the accompanying bill (House, No. 4495) ought to pass. For the committee, JAMES M. MURPHY. FILED ON: 9/8/2025 HOUSE . . . . . . . \u2026",
+  "result": "named",
+  "sha256": "fb688e509e34d1b578dfb19ae3eeeb58809af929d29ef113c9ae76363aab46de",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://malegislature.gov/Bills/194/H4495.pdf",
+    "words": 425
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H4495.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h5700": {
+  "date": "",
+  "mentions": 5,
+  "newest": true,
+  "quote": "\u2026 care entity, implement or enforce, a general 1481 exclusion from coverage of, or a general limitation on reimbursement for, drugs acquired 1482 through the federal 340B Drug Pricing Program under 42 U.S.C. \u00a7256b and dispensed through a 1483 pharmacy to MassHealth members enrolled in a managed care entity, including any exclusion or \u2026",
+  "result": "named",
+  "sha256": "99281c2c3e140e20ea3bf94efd931c208d189ec38eb49208fcc211e859a58d07",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 5,
+    "url": "https://malegislature.gov/Bills/194/H5700.pdf",
+    "words": 22029
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H5700.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h779": {
+  "date": "",
+  "mentions": 7,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act to protect 340B providers in the MassHealth program. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Kate Lipper-Garabedian 32nd Middlesex 1/16/2025 Vanna Howard 17th \u2026",
+  "result": "named",
+  "sha256": "47201bbdbb948ef23b658297e50344c661b48401390fc4fc9b2221de37e92aff",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 7,
+    "url": "https://malegislature.gov/Bills/194/H779.pdf",
+    "words": 506
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H779.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-h785": {
+  "date": "",
+  "mentions": 20,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act protecting 340B contract pharmacies. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Brian W. Murray 10th Worcester 1/16/2025 Bud L. Williams 11th Hampden 4/18/2025 of \u2026",
+  "result": "named",
+  "sha256": "40bb64c778c94445646bedc716b37ce62c4b67774ef23ca7476bcb452de58d5b",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 20,
+    "url": "https://malegislature.gov/Bills/194/H785.pdf",
+    "words": 597
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H785.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-hd1119": {
+  "date": "",
+  "mentions": 17,
+  "newest": true,
+  "quote": "\u2026 respectfully petition for the adoption of the accompanying bill: An Act prohibiting PBMs from discriminating against hospitals and patients participating in the 340B drug discount program. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Brian W. Murray 10th Worcester 1/14/2025 James B. Eldridge Middlesex and \u2026",
+  "result": "named",
+  "sha256": "321372c1ad57e29b8b2d53fc239d84dfeebc0490974751b5a82462e36574f52a",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 17,
+    "url": "https://malegislature.gov/Bills/194/HD1119.pdf",
+    "words": 529
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/HD1119.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-hd1139": {
+  "asked_newest": "https://malegislature.gov/Bills/194/HD1139.pdf",
+  "result": "could not fetch",
+  "tried": [
+   {
+    "answer": 404,
+    "url": "https://malegislature.gov/Bills/194/HD1139.pdf"
+   }
+  ]
+ },
+ "ma-194th-hd2236": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 9 of this act; and (3) replenish medicine of the same drug name and strength previously dispensed or administered to eligible patients in accordance with federal 340b statute. (d) A drug manufacturer, repackager, dispenser, or wholesaler other than a returns processor participating in this program shall comply with the requirements \u2026",
+  "result": "named",
+  "sha256": "53cfb75c49f455a64a0464f3f059612ce4e2f730b4511d1abf8748eb24b002c2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://malegislature.gov/Bills/194/HD2236.pdf",
+    "words": 2152
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/HD2236.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-hd2840": {
+  "date": "",
+  "mentions": 20,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act protecting 340B contract pharmacies. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Brian W. Murray 10th Worcester 1/16/2025 Bud L. Williams 11th Hampden 4/18/2025 of \u2026",
+  "result": "named",
+  "sha256": "a712e18810205f6795c9fe055e04da4bc190b20296e5dd7f256bb6b4302ff5f5",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 20,
+    "url": "https://malegislature.gov/Bills/194/H785.pdf",
+    "words": 597
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H785.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-hd2870": {
+  "date": "",
+  "mentions": 7,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act to protect 340B providers in the MassHealth program. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Kate Lipper-Garabedian 32nd Middlesex 1/16/2025 Vanna Howard 17th \u2026",
+  "result": "named",
+  "sha256": "5791ffdf7e512df2f7a8759aa995efd06aea20ddffc6212043adaea3d9ed23e1",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 7,
+    "url": "https://malegislature.gov/Bills/194/H779.pdf",
+    "words": 506
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/H779.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-hd2930": {
+  "date": "",
+  "mentions": 129,
+  "newest": true,
+  "quote": "\u2026 Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act prohibiting discrimination against 340b drug discount program participants. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Daniel Cahill 10th Essex 1/16/2025 Russell E. Holmes 6th Suffolk \u2026",
+  "result": "named",
+  "sha256": "afbb7648598de8acb64264dcb512f7a95ebc468dcb1b5b44e0d0662f4592f854",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 129,
+    "url": "https://malegislature.gov/Bills/194/HD2930.pdf",
+    "words": 4729
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/HD2930.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-hd3592": {
+  "date": "",
+  "mentions": 345,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act to protect 340B providers. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: DATE ADDED: Sean Reid 11th Essex 1/17/2025 Adam J. Scanlon 14th Bristol 7/29/2025 of 1 HOUSE DOCKET, NO. \u2026",
+  "result": "named",
+  "sha256": "097ea78d518cf7d72498cccdcf71324a27d3ba67b103f3da46a6fdc5321f98cb",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 345,
+    "url": "https://malegislature.gov/Bills/194/HD3592.pdf",
+    "words": 7634
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/HD3592.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-s3103": {
+  "date": "",
+  "mentions": 26,
+  "newest": true,
+  "quote": "\u2026 and any internal target margin or pricing rationale used in connection with the drug; (iv) whether the drug was acquired, dispensed, replenished or accounted for as a 340B- acquired drug; (v) whether the hospital used a different chargemaster price, markup formula, markup multiple, markup range or other pricing methodology for a \u2026",
+  "result": "named",
+  "sha256": "a7b8800fa72515cce7c729936c2684e9a4cf2a1e800325c886a299cfa4642caf",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 26,
+    "url": "https://malegislature.gov/Bills/194/S3103.pdf",
+    "words": 3504
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S3103.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-s3140": {
+  "date": "",
+  "mentions": 26,
+  "newest": true,
+  "quote": "\u2026 and any internal target margin or pricing rationale used in connection with the drug; (iv) whether the drug was acquired, dispensed, replenished or accounted for as a 340B- acquired drug; (v) whether the hospital used a different chargemaster price, markup formula, markup multiple, markup range or other pricing methodology for a \u2026",
+  "result": "named",
+  "sha256": "af37b6edffa85e993312d63b1ea3797311d4cca12687fac9f6ce59caddbb4b0e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 26,
+    "url": "https://malegislature.gov/Bills/194/S3140.pdf",
+    "words": 3442
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S3140.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-s779": {
+  "date": "",
+  "mentions": 345,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act to protect 340B providers. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: Jason M. Lewis Fifth Middlesex of 1 SENATE DOCKET, NO. 1970 FILED ON: 1/17/2025 SENATE . . . . . . . . . \u2026",
+  "result": "named",
+  "sha256": "65892ec4365d744ae7230332e6cbb3ea01bf000af7a63906ff76d4474c2850d0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 345,
+    "url": "https://malegislature.gov/Bills/194/S779.pdf",
+    "words": 7611
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S779.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-s819": {
+  "date": "",
+  "mentions": 130,
+  "newest": true,
+  "quote": "\u2026 Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act prohibiting discrimination against 340b drug discount program participants. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: Pavel M. Payano First Essex Joanne M. Comerford Hampshire, Franklin and \u2026",
+  "result": "named",
+  "sha256": "6be738e1b31f6f9e22d9e699fd2b11846dd518656930c2f6a0f8700f1f6f40f7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 130,
+    "url": "https://malegislature.gov/Bills/194/S819.pdf",
+    "words": 4685
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S819.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-s845": {
+  "date": "",
+  "mentions": 7,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act to protect 340B providers in the Medicaid program. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: Brendan P. Crighton Third Essex of 1 SENATE DOCKET, NO. 1715 FILED ON: 1/16/2025 \u2026",
+  "result": "named",
+  "sha256": "42e9bca4da0174e1ca9f6fb649bca9c1687f76fa1d8e42c0fe51e22abbe8118c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 7,
+    "url": "https://malegislature.gov/Bills/194/S845.pdf",
+    "words": 499
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S845.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-s848": {
+  "date": "",
+  "mentions": 8,
+  "newest": true,
+  "quote": "\u2026 12C of the General laws is hereby amended by inserting after section 9, the following new section:- Section 9A. (a) DEFINITIONS. For the purposes of this section: (1) \u201c340B program,\u201d means the federal drug pricing program described in 42 U.S.C. 256b. (2) \u201cCenter for Health Information and Analysis,\u201d the center established by the provisions \u2026",
+  "result": "named",
+  "sha256": "b4fa70dd8d0304bc737d3b9f4508ce1a0676a5395b2ac61a9f0c3983ce7a9a8e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 8,
+    "url": "https://malegislature.gov/Bills/194/S848.pdf",
+    "words": 833
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S848.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-s868": {
+  "date": "",
+  "mentions": 24,
+  "newest": true,
+  "quote": "\u2026 1686 Section 47DDD. (a) As used in this section, the following words shall have the following 1687 meanings unless the context clearly requires otherwise: 1688 \u201c340B drug\u201d, a drug that has been subject to any offer for reduced prices by a 1689 manufacturer pursuant to 42 U.S.C. 256b and is purchased by a 340B grantee as defined in \u2026",
+  "result": "named",
+  "sha256": "4526a9f79a7754dcf0251831e79bc5fa550693d5f62b723186d530f6aca90623",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 24,
+    "url": "https://malegislature.gov/Bills/194/S868.pdf",
+    "words": 34981
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S868.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-sd1198": {
+  "date": "",
+  "mentions": 130,
+  "newest": true,
+  "quote": "\u2026 Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act prohibiting discrimination against 340b drug discount program participants. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: Pavel M. Payano First Essex Joanne M. Comerford Hampshire, Franklin and \u2026",
+  "result": "named",
+  "sha256": "e91f323858375732404f80d9ecb98fea1a36d354204d454478164a4a590040aa",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 130,
+    "url": "https://malegislature.gov/Bills/194/S819.pdf",
+    "words": 4685
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S819.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-sd1715": {
+  "date": "",
+  "mentions": 7,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act to protect 340B providers in the Medicaid program. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: Brendan P. Crighton Third Essex of 1 SENATE DOCKET, NO. 1715 FILED ON: 1/16/2025 \u2026",
+  "result": "named",
+  "sha256": "ffdfd841aba708a697ef97dcbdf7516d470322bf7b5c747fd2b5b574f68c5f4d",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 7,
+    "url": "https://malegislature.gov/Bills/194/S845.pdf",
+    "words": 499
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S845.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-sd1910": {
+  "date": "",
+  "mentions": 24,
+  "newest": true,
+  "quote": "\u2026 1686 Section 47DDD. (a) As used in this section, the following words shall have the following 1687 meanings unless the context clearly requires otherwise: 1688 \u201c340B drug\u201d, a drug that has been subject to any offer for reduced prices by a 1689 manufacturer pursuant to 42 U.S.C. 256b and is purchased by a 340B grantee as defined in \u2026",
+  "result": "named",
+  "sha256": "ad0ac9aabf87384bda5a4cec8dbaed1971d28d7e797bd8d36e8087b574e301ea",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 24,
+    "url": "https://malegislature.gov/Bills/194/S868.pdf",
+    "words": 34981
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S868.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-sd1970": {
+  "date": "",
+  "mentions": 345,
+  "newest": true,
+  "quote": "\u2026 Massachusetts in General Court assembled: The undersigned legislators and/or citizens respectfully petition for the adoption of the accompanying bill: An Act to protect 340B providers. _______________ PETITION OF: NAME: DISTRICT/ADDRESS: Jason M. Lewis Fifth Middlesex of 1 SENATE DOCKET, NO. 1970 FILED ON: 1/17/2025 SENATE . . . . . . . . . \u2026",
+  "result": "named",
+  "sha256": "71b3367508caba6bb478c0a0191b49a5951d8a8f66fe14c114cc4cad11ff45f5",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 345,
+    "url": "https://malegislature.gov/Bills/194/S779.pdf",
+    "words": 7611
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S779.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-sd2318": {
+  "date": "",
+  "mentions": 8,
+  "newest": true,
+  "quote": "\u2026 12C of the General laws is hereby amended by inserting after section 9, the following new section:- Section 9A. (a) DEFINITIONS. For the purposes of this section: (1) \u201c340B program,\u201d means the federal drug pricing program described in 42 U.S.C. 256b. (2) \u201cCenter for Health Information and Analysis,\u201d the center established by the provisions \u2026",
+  "result": "named",
+  "sha256": "dadf3072084c887cc5533fa73ebd1a06ed24573efc35a382eab48efb7d436c51",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 8,
+    "url": "https://malegislature.gov/Bills/194/S848.pdf",
+    "words": 833
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/S848.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-sd3349": {
+  "date": "",
+  "mentions": 15,
+  "newest": true,
+  "quote": "340B/High-Cost Drugs Impact Report Summary At least 180 days before any restriction or limitation is implemented on an eligible hospital's access to the discounted purchase \u2026",
+  "result": "named",
+  "sha256": "6d69a7da344db1a04c49c0d0584a194943be1c0480f02b06755695fbd9280172",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 15,
+    "url": "https://malegislature.gov/Bills/194/SD3349.pdf",
+    "words": 768
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/SD3349.pdf",
+  "version": "Bill Text"
+ },
+ "ma-194th-sd3691": {
+  "date": "",
+  "mentions": 20,
+  "newest": true,
+  "quote": "\u2026 Executive Office of Health and Human Seeking records records 01/30/2025 02/13/2025 1 Hour 0 $0.00 No No Seeking records records related to Services related to the 340B Drug Minutes the 340B Drug Pricing Program Pricing Program for for Brigham and Women\u2019s Brigham and Women\u2019s Hospital in Boston, MA - All Hospital in Boston, MA - \u2026",
+  "result": "named",
+  "sha256": "d32f07703452b71cae543152e8496af617d8e0b35407de1d6290cc4fedfdea8d",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 20,
+    "url": "https://malegislature.gov/Bills/194/SD3691.pdf",
+    "words": 1701888
+   }
+  ],
+  "url": "https://malegislature.gov/Bills/194/SD3691.pdf",
+  "version": "Bill Text"
+ },
+ "me-132-ld180": {
+  "date": "",
+  "mentions": 14,
+  "newest": false,
+  "quote": "\u2026 Legislative Document No. 180 H.P. 113 House of Representatives, January 14, 2025 An Act Regarding the Interactions of Pharmacy Benefits Managers and So-called 340B Entities and Reimbursements by Pharmacy Benefits Managers to Pharmacies Reference to the Committee on Health Coverage, Insurance and Financial Services suggested and \u2026",
+  "result": "named",
+  "sha256": "603415c46adb86063a0f848460c4a7d9186ec65d37bedbf45afe478e060ea225",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0113&item=3&snum=132",
+    "words": 132
+   },
+   {
+    "answer": 200,
+    "mentions": 14,
+    "url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0113&item=1&snum=132",
+    "words": 800
+   }
+  ],
+  "url": "http://www.mainelegislature.org/legis/bills/getPDF.asp?paper=HP0113&item=1&snum=132",
+  "version": "LD 180 HP 113"
+ },
+ "mi-20252026-hb4544": {
+  "date": "",
+  "mentions": 6,
+  "newest": true,
+  "quote": "\u2026 a person administering a self-funded plan, or a pharmacy benefit manager. (r) \"Wholesale acquisition cost\" means that term as defined in 42 USC 1395w-3a(c)(6)(B). (s) \"340B Program entity\" means an entity authorized to participate in the federal 340B Program under section 340B of the public health service act, 42 USC 256b. Sec. 5. (1) The \u2026",
+  "result": "named",
+  "sha256": "ddae7bc84a2cd3f815137881ee792f1cc61b3ccdef52f368cdfdea06f27fee28",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 6,
+    "url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2025-HIB-4544.htm",
+    "words": 3684
+   }
+  ],
+  "url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2025-HIB-4544.htm",
+  "version": "House Introduced Bill"
+ },
+ "mi-20252026-hb4878": {
+  "date": "",
+  "mentions": 33,
+  "newest": true,
+  "quote": "HOUSE BILL NO. 4878 A bill to require the reporting of certain information and to prescribe conduct related to drugs and the federal 340B program; to prescribe civil sanctions; to allow for the promulgation of rules; and to provide for the powers and duties of certain state officers and entities. the \u2026",
+  "result": "named",
+  "sha256": "1102260a8e833fd0a7c0df7f73d13748cb294332988e64fa9e50647dc671c490",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 33,
+    "url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2025-HIB-4878.htm",
+    "words": 1649
+   }
+  ],
+  "url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/House/htm/2025-HIB-4878.htm",
+  "version": "House Introduced Bill"
+ },
+ "mi-20252026-sb317": {
+  "date": "",
+  "mentions": 4,
+  "newest": true,
+  "quote": "\u2026 department shall also seek the appropriate federal approval, waiver, exemption, or agreement necessary to allow a covered entity enrolled in or eligible for the federal 340B program to participate in this state's program to the fullest extent possible without jeopardizing eligibility for the federal 340B program. As used in this subsection, \u2026",
+  "result": "named",
+  "sha256": "1fd28499c85db6da64880c50498d6713df9ff911109baf3578eadb5055d3ff54",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 4,
+    "url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0317.htm",
+    "words": 970
+   }
+  ],
+  "url": "https://legislature.mi.gov/documents/2025-2026/billintroduced/Senate/htm/2025-SIB-0317.htm",
+  "version": "Senate Introduced Bill"
+ },
+ "mi-20252026-sb94": {
+  "date": "",
+  "mentions": 29,
+  "newest": true,
+  "quote": "\u2026 wholesale distributor-broker shall not do any of the following: (a) Deny, restrict, prohibit, condition, discriminate against, or otherwise limit the acquisition of a 340B drug by a 340B entity. (b) Deny, restrict, prohibit, condition, discriminate against, or otherwise limit the acquisition of a 340B drug by, or the delivery of a 340B \u2026",
+  "result": "named",
+  "sha256": "82d7ee873d7fa1736de248c5f4754db0eecd3c5684b79aacc29372b28f7127b8",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 29,
+    "url": "https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2025-SEBS-0094.htm",
+    "words": 742
+   }
+  ],
+  "url": "https://legislature.mi.gov/documents/2025-2026/billengrossed/Senate/htm/2025-SEBS-0094.htm",
+  "version": "As Passed by the Senate"
+ },
+ "mn-20252026-hf2703": {
+  "date": "2025-03-24",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 # Line numbers 1.1 1.2 1.3 1.4 1.5 1.6 1.7 A bill for an act relating to drug manufacturers; extending a prohibition on manufacturers interfering with access to 340B drugs; repealing Minnesota Statutes 2024, section 62J.96, subdivision 3. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA: Section 1. new text begin REPEALER. \u2026",
+  "result": "named",
+  "sha256": "c8b9ab45b70b20ce9cdb9918826798d0560bdc4d57fdd198d8d025da87a084ce",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2025/0/HF/2703/versions/0/",
+    "words": 783
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2025/0/HF/2703/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-hf3609": {
+  "date": "2026-02-20",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 1.10 1.11 1.12 1.13 A bill for an act relating to health care; continuing to disallow drug manufacturers from restricting delivery of 340B prescription drugs; providing for enforcement; removing an expiration date; amending Minnesota Statutes 2024, section 62J.96, by adding a subdivision; repealing \u2026",
+  "result": "named",
+  "sha256": "d3369e846fb099a4645ae90832cc7cb7cfaa637093b91c548230800da1275b6a",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3609/versions/0/",
+    "words": 876
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3609/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-hf3756": {
+  "date": "2026-02-25",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 periods; (3) accessing information on providers who participate in prescription drug discount programs, including providers who are authorized to participate in the 340B program under section 340b of the federal Public Health Services Act, United States Code, title 42, section 256b; and (4) accessing new text begin covered new text end \u2026",
+  "result": "named",
+  "sha256": "3e211288bb8af859678a90238fb0349f4d17292f6e034a5ac21431172898de7f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3756/versions/0/",
+    "words": 6065
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3756/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-hf3922": {
+  "date": "2026-03-02",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 expenses. new text end new text begin Nothing in this section shall require reimbursement at or above NADAC or WAC for covered entities participating in the federal 340B program, as defined in United States Code, title 42, section 256b. Reimbursement for 340B-purchased drugs shall be determined in accordance with federal and state law. \u2026",
+  "result": "named",
+  "sha256": "0e5c9fa97785a64b0af741cf01617180ee27a69617ddc764e2d2940a9be9d4aa",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3922/versions/0/",
+    "words": 1127
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3922/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-hf3931": {
+  "date": "2026-03-03",
+  "mentions": 6,
+  "newest": true,
+  "quote": "\u2026 the same limits imposed in which the pharmacy benefit manager or health carrier does not have an ownership interest. new text begin Subd. 4. new text end new text begin 340B entity limits on provider network participation prohibited. new text end deleted text begin (f) deleted text end A pharmacy benefit manager or health carrier must not \u2026",
+  "result": "named",
+  "sha256": "e4f9cda5a51faa42069764eb001cc68140e65104fbb7f8fefa7e2c5c8db09926",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 6,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3931/versions/0/",
+    "words": 6348
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/3931/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-hf4140": {
+  "date": "2026-03-09",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 entities; exclusions. new text end new text begin (a) Nothing in this section requires reimbursement at or above NADAC or WAC for drugs purchased under the federal 340B Drug Pricing Program. Reimbursement for drugs purchased under the 340B program must comply with applicable state and federal law. new text end new text begin (b) This \u2026",
+  "result": "named",
+  "sha256": "52e1cc1b1c8ac74a2b2a2c5d5ada8683dfda19bee413a7f3bf18791430a958b6",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4140/versions/0/",
+    "words": 2622
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4140/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-hf4442": {
+  "date": "2026-03-17",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 Health Service Act for sexually transmitted infection and sexually transmitted disease prevention programs. A 318 grantee may also be a covered entity under the federal 340B Drug Pricing Program and may purchase prescription drugs at reduced prices. new text end new text begin (d) \"AIDS Drug Assistance Program\" or \"ADAP\" means the state \u2026",
+  "result": "named",
+  "sha256": "75e6962e764e72272d5dfbf42c7374e11fceabda14ddf3afc8982225dfe9fd3e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4442/versions/0/",
+    "words": 3005
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4442/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-hf4466": {
+  "date": "2026-05-04",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 periods; (3) accessing information on providers who participate in prescription drug discount programs, including providers who are authorized to participate in the 340B program under section 340b of the federal Public Health Services Act, United States Code, title 42, section 256b; and (4) accessing new text begin covered new text end \u2026",
+  "result": "named",
+  "sha256": "a77db20ffd397b2a6bde3810cd4cb509fefbc692b542234accfe3620f58d7923",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4466/versions/2/",
+    "words": 31741
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4466/versions/2/",
+  "version": "2nd Engrossment"
+ },
+ "mn-20252026-hf4609": {
+  "date": "2026-03-23",
+  "mentions": 5,
+  "newest": true,
+  "quote": "\u2026 that drugs listed in United States Code, title 42, section 1396r-8(d)(2)(E), shall not be covered. (f) Medical assistance covers drugs acquired through the federal 340B Drug Pricing Program and dispensed by 340B covered entities and ambulatory pharmacies under common ownership of the 340B covered entity. Medical assistance does not \u2026",
+  "result": "named",
+  "sha256": "749d7a5979ed1452a372283f9954b1d075b379b53f2dc073b77678b9812fca52",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 5,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4609/versions/0/",
+    "words": 4613
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/HF/4609/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-sf2959": {
+  "date": "2025-03-21",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 # Line numbers 1.1 1.2 1.3 1.4 1.5 1.6 1.7 A bill for an act relating to drug manufacturers; extending a prohibition on manufacturers interfering with access to 340B drugs; repealing Minnesota Statutes 2024, section 62J.96, subdivision 3. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MINNESOTA: Section 1. new text begin REPEALER. \u2026",
+  "result": "named",
+  "sha256": "11ef0e8e2078fcbe950e41035e7000d014e066ea80880000fd839154362e64f9",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2025/0/SF/2959/versions/0/",
+    "words": 783
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2025/0/SF/2959/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-sf3271": {
+  "date": "2025-04-02",
+  "mentions": 25,
+  "newest": true,
+  "quote": "\u2026 2.14 2.15 2.16 2.17 2.18 2.19 2.20 2.21 2.22 2.23 2.24 2.25 2.26 2.27 2.28 2.29 2.30 2.31 2.32 A bill for an act relating to health; authorizing independent audits of 340B entity reporting by nonprofit public interest organizations; requiring revenue from prescription drugs obtained under the 340B program to be used for charity care; \u2026",
+  "result": "named",
+  "sha256": "983bb5d2188e1fbdb5bf9c38cee619bd95ded86724d70909df65e58c5946072e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 25,
+    "url": "https://www.revisor.mn.gov/bills/94/2025/0/SF/3271/versions/0/",
+    "words": 1448
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2025/0/SF/3271/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-sf3615": {
+  "date": "2026-02-16",
+  "mentions": 5,
+  "newest": true,
+  "quote": "\u2026 that drugs listed in United States Code, title 42, section 1396r-8(d)(2)(E), shall not be covered. (f) Medical assistance covers drugs acquired through the federal 340B Drug Pricing Program and dispensed by 340B covered entities and ambulatory pharmacies under common ownership of the 340B covered entity. Medical assistance does not \u2026",
+  "result": "named",
+  "sha256": "f9f486063b42c38d0b8094b635ab101dc43f3f3435ab39f55851b29678fc2475",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 5,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/3615/versions/0/",
+    "words": 4613
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/3615/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-sf3769": {
+  "date": "2026-02-19",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 1.2 1.3 1.4 1.5 1.6 1.7 1.8 1.9 1.10 1.11 1.12 1.13 A bill for an act relating to health care; continuing to disallow drug manufacturers from restricting delivery of 340B prescription drugs; providing for enforcement; removing an expiration date; amending Minnesota Statutes 2024, section 62J.96, by adding a subdivision; repealing \u2026",
+  "result": "named",
+  "sha256": "61ba54fd5a1ecdb983c16c77a8ac3f382a6fd22308e887d5c3ff51759e2690e4",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/3769/versions/0/",
+    "words": 876
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/3769/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-sf4062": {
+  "date": "2026-02-27",
+  "mentions": 6,
+  "newest": true,
+  "quote": "\u2026 the same limits imposed in which the pharmacy benefit manager or health carrier does not have an ownership interest. new text begin Subd. 4. new text end new text begin 340B entity limits on provider network participation prohibited. new text end deleted text begin (f) deleted text end A pharmacy benefit manager or health carrier must not \u2026",
+  "result": "named",
+  "sha256": "542c3663b3346f4cc93bcd242523a286edcbd1a46c249da0ef1ada0a310f3b44",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 6,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4062/versions/0/",
+    "words": 6348
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4062/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-sf4138": {
+  "date": "2026-03-03",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 periods; (3) accessing information on providers who participate in prescription drug discount programs, including providers who are authorized to participate in the 340B program under section 340b of the federal Public Health Services Act, United States Code, title 42, section 256b; and (4) accessing new text begin covered new text end \u2026",
+  "result": "named",
+  "sha256": "7493d27f81aa3200824c8a060141924c9cb8b859adf8a44e7034d6f976a8c44e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4138/versions/0/",
+    "words": 6065
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4138/versions/0/",
+  "version": "Introduction"
+ },
+ "mn-20252026-sf4365": {
+  "date": "2026-04-27",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 information submitted to the board under section 62J.90 . Subd. 6. Exemption. Notwithstanding section 15.059 , the advisory council shall not expire. 62J.96 ACCESS TO 340B DRUGS. Subd. 3. Expiration. This section expires July 1, 2027. 237.065 RATE FOR SCHOOL OR PURCHASING COOPERATIVE. Subdivision 1. Basic service; flat rate. Each \u2026",
+  "result": "named",
+  "sha256": "9911bfd8b3cc71bdb18b20486559bdde8ef1daa66d92b10bcb8cfcb6de1420c7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4365/versions/2/",
+    "words": 66334
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4365/versions/2/",
+  "version": "2nd Engrossment"
+ },
+ "mn-20252026-sf4659": {
+  "date": "2026-03-18",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 Health Service Act for sexually transmitted infection and sexually transmitted disease prevention programs. A 318 grantee may also be a covered entity under the federal 340B Drug Pricing Program and may purchase prescription drugs at reduced prices. new text end new text begin (d) \"AIDS Drug Assistance Program\" or \"ADAP\" means the state \u2026",
+  "result": "named",
+  "sha256": "c82cb6241b8d6054047751142f54d390f2b52c7d5b66b6c2e682c3b8b6eecc00",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4659/versions/0/",
+    "words": 3005
+   }
+  ],
+  "url": "https://www.revisor.mn.gov/bills/94/2026/0/SF/4659/versions/0/",
+  "version": "Introduction"
+ },
+ "mo-2025-hb781": {
+  "date": "",
+  "mentions": 17,
+  "newest": true,
+  "quote": "\u2026 INTRODUCED BY REPRESENTATIVE KEATHLEY. 0839H.01I JOSEPH ENGLER, Chief Clerk AN ACT To amend chapter 191, RSMo, by adding thereto one new section relating to the 340B drug program. Be it enacted by the General Assembly of the state of Missouri, as follows: Section A. Chapter 191, RSMo, is amended by adding thereto one new section, to \u2026",
+  "result": "named",
+  "sha256": "fec9db9cf8fd2da539774fd57712362a459d9a5b35b564ad8cbe8a96b1d11307",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 17,
+    "url": "https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0839H.01I.pdf",
+    "words": 830
+   }
+  ],
+  "url": "https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/0839H.01I.pdf",
+  "version": "Introduced"
+ },
+ "mo-2025-hb784": {
+  "date": "",
+  "mentions": 13,
+  "newest": true,
+  "quote": "\u2026 is amended by adding thereto one new section, to be known as section 376.417, to read as follows: 376.417. 1. As used in this section, the following terms mean: (1) \"340B drug\", the same meaning given to the term in section 376.414; (2) \"Covered entity\", any entity described in subparagraphs (A) to (K) of subsection (a)(4) of Section \u2026",
+  "result": "named",
+  "sha256": "8ed50f7f94227b94a0d684809dd39cd4434b513aaeeed58423fbf17085920bb3",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 13,
+    "url": "https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/1554H.01I.pdf",
+    "words": 781
+   }
+  ],
+  "url": "https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/1554H.01I.pdf",
+  "version": "Introduced"
+ },
+ "mo-2025-hb785": {
+  "date": "",
+  "mentions": 21,
+  "newest": true,
+  "quote": "\u2026 is amended by adding thereto one new section, to be known as section 376.417, to read as follows: 376.417. 1. As used in this section, the following terms mean: (1) \"340B drug\", the same meaning given to the term in section 376.414; (2) \"340B drug-pricing program\", the drug discount program established under Section 340B of the Public \u2026",
+  "result": "named",
+  "sha256": "e5977af9cdb882b79f4abd467c0895c594309e664bc346196b45567087080f01",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 21,
+    "url": "https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/1568H.01I.pdf",
+    "words": 1209
+   }
+  ],
+  "url": "https://documents.house.mo.gov/billtracking/bills251/hlrbillspdf/1568H.01I.pdf",
+  "version": "Introduced"
+ },
+ "mo-2026-hb2081": {
+  "date": "",
+  "mentions": 38,
+  "newest": true,
+  "quote": "\u2026 INTRODUCED BY REPRESENTATIVE KEATHLEY. 4030H.01I JOSEPH ENGLER, Chief Clerk AN ACT To amend chapter 191, RSMo, by adding thereto one new section relating to the 340B drug pricing program, with penalty provisions. Be it enacted by the General Assembly of the state of Missouri, as follows: Section A. Chapter 191, RSMo, is amended by \u2026",
+  "result": "named",
+  "sha256": "d8f716f59050f5e61f33bc60b98dab6fbf812b43fef439e89ff88a632708b0d7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 38,
+    "url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4030H.01I.pdf",
+    "words": 965
+   }
+  ],
+  "url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/4030H.01I.pdf",
+  "version": "Introduced"
+ },
+ "mo-2026-hb2146": {
+  "asked_newest": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5669S.03C.pdf",
+  "date": "",
+  "mentions": 13,
+  "newest": true,
+  "quote": "\u2026 receives less than three percent of its annual revenues from hospital district or state taxes. 376.417. 1. As used in this section, the following terms mean: (1) \"340B drug\", the same meaning given to the term in section 376.414; (2) \"Covered entity\", any entity described in subparagraphs (A) to (K) of subsection (a)(4) of Section \u2026",
+  "result": "named",
+  "sha256": "efb3f5eb42f0dec13460df6fedd535d7c1ecdce8d8a18fab24e21dc6e8225e0c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 13,
+    "url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5669S.03C.pdf",
+    "words": 4166
+   }
+  ],
+  "url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5669S.03C.pdf",
+  "version": "Senate Committee Substitute"
+ },
+ "mo-2026-hb2372": {
+  "date": "",
+  "mentions": 13,
+  "newest": true,
+  "quote": "\u2026 or approved by the board. The board shall determine the subject and scope of the examinations. 376.417. 1. As used in this section, the following terms mean: (1) \"340B drug\", the same meaning given to the term in section 376.414; (2) \"Covered entity\", any entity described in subparagraphs (A) to (K) of subsection (a)(4) of Section \u2026",
+  "result": "named",
+  "sha256": "213387bc41a2998a8449faf63b588896bce5900385e339be86abbb2ef1feaea2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 13,
+    "url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5868S.08T.pdf",
+    "words": 47976
+   }
+  ],
+  "url": "https://documents.house.mo.gov/billtracking/bills261/hlrbillspdf/5868S.08T.pdf",
+  "version": "Truly Agreed and Finally Passed"
+ },
+ "mo-2026-sb1178": {
+  "date": "",
+  "mentions": 36,
+  "newest": true,
+  "quote": "\u2026 ASSEMBLY INTRODUCED BY SENATOR FITZWATER. 3818S.01I KRISTINA MARTIN, Secretary AN ACT To amend chapter 191, RSMo, by adding thereto one new section relating to the 340B drug program. Be it enacted by the General Assembly of the State of Missouri, as follows: Section A. Chapter 191, RSMo, is amended by adding thereto one new section, to \u2026",
+  "result": "named",
+  "sha256": "0521690659da15f56ad3740b4e3de2290ed6fe6bb2a724a4d5efe528f9232f6c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 36,
+    "url": "https://www.senate.mo.gov/26info/pdf-bill/intro/SB1178.pdf",
+    "words": 905
+   }
+  ],
+  "url": "https://www.senate.mo.gov/26info/pdf-bill/intro/SB1178.pdf",
+  "version": "3818S.01I - Introduced"
+ },
+ "mo-2026-sb1213": {
+  "date": "",
+  "mentions": 35,
+  "newest": true,
+  "quote": "\u2026 GENERAL ASSEMBLY INTRODUCED BY SENATOR NICOLA. 3819S.02I KRISTINA MARTIN, Secretary AN ACT To amend chapter 191, RSMo, by adding thereto one new section relating to the 340B drug program. Be it enacted by the General Assembly of the State of Missouri, as follows: Section A. Chapter 191, RSMo, is amended by adding thereto one new section, to \u2026",
+  "result": "named",
+  "sha256": "9783915a66d4d2f36aa865e6eb53fb262a86108763f3ad939d37b8f2627b17b0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 35,
+    "url": "https://www.senate.mo.gov/26info/pdf-bill/intro/SB1213.pdf",
+    "words": 907
+   }
+  ],
+  "url": "https://www.senate.mo.gov/26info/pdf-bill/intro/SB1213.pdf",
+  "version": "3819S.02I - Introduced"
+ },
+ "mo-2026-sb1340": {
+  "date": "",
+  "mentions": 13,
+  "newest": true,
+  "quote": "\u2026 is amended by adding thereto one new section, to be known as section 376.417, to read as follows: 376.417. 1. As used in this section, the following terms mean: (1) \"340B drug\", the same meaning given to the term in section 376.414; (2) \"Covered entity\", any entity described in subparagraphs (A) to (K) of subsection (a)(4) of Section \u2026",
+  "result": "named",
+  "sha256": "0ffe50707d77b88495a0487ae98219ecf75fb66c29f13f0d36263a20c022da39",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 13,
+    "url": "https://www.senate.mo.gov/26info/pdf-bill/intro/SB1340.pdf",
+    "words": 744
+   }
+  ],
+  "url": "https://www.senate.mo.gov/26info/pdf-bill/intro/SB1340.pdf",
+  "version": "5573S.01I - Introduced"
+ },
+ "ms-2025-hb1455": {
+  "date": "",
+  "mentions": 5,
+  "newest": true,
+  "quote": "\u2026 41-149-7. (1) A manufacturer * * * or distributor shall not deny, restrict, prohibit, or otherwise interfere with, either directly or indirectly, the acquisition of a 340B drug by, or delivery of a 340B drug to, a pharmacy that is under contract with a 340B entity and is authorized under such contract to receive and dispense 340B drugs on \u2026",
+  "result": "named",
+  "sha256": "623902312ba8d7bddedda0d03a156d1261b7deeb2ffa3b5f0105cc640bb3e37d",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 5,
+    "url": "http://billstatus.ls.state.ms.us/documents/2025/html/HB/1400-1499/HB1455PS.htm",
+    "words": 203
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2025/html/HB/1400-1499/HB1455PS.htm",
+  "version": "Current version"
+ },
+ "ms-2025-hb1474": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 a Hepatitis C Program for state inmates. The Department of Health shall assist the Department of Corrections in obtaining Hepatitis C medications for inmates at 340B drug pricing. (16) The Department of Health and the Department of Corrections shall develop a plan for improving the health of female inmates. SECTION 2. (1) No inmate \u2026",
+  "result": "named",
+  "sha256": "5f89a06fbd66e0bfa449183c3862d72c4921766424bb2ac29f2c0e853feb48c3",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "http://billstatus.ls.state.ms.us/documents/2025/html/HB/1400-1499/HB1474PS.htm",
+    "words": 3673
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2025/html/HB/1400-1499/HB1474PS.htm",
+  "version": "Current version"
+ },
+ "ms-2025-hb856": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 managers on behalf of pharmacies and providing pharmacies with credentialing, billing, audit, general business and analytic support. A covered entity as defined in 42 USC Section 256b, including its pharmacy or the transactions related to the 340B drug discount program of any pharmacy contracted with the participating covered entity to dispense drugs \u2026",
+  "result": "named",
+  "sha256": "ef968ccc9a62c4ad5716aaba05c5f14aa182619a155efffb7a7b6ce505f1e94f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://billstatus.ls.state.ms.us/documents/2025/html/HB/0800-0899/HB0856SG.htm",
+    "words": 18573
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2025/html/HB/0800-0899/HB0856SG.htm",
+  "version": "Current version"
+ },
+ "ms-2025-sb2751": {
+  "date": "",
+  "mentions": 6,
+  "newest": true,
+  "quote": "\u2026 OF 1972, TO REMOVE DISTRIBUTOR FROM PROHIBITION OF CERTAIN DISCRIMINATORY ACTIONS RELATED TO ENTITIES THAT ARE PARTICIPATING OR AUTHORIZED TO PARTICIPATE IN THE FEDERAL 340B DRUG DISCOUNT PROGRAM; AND FOR RELATED PURPOSES. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF MISSISSIPPI: SECTION 1. Section 41-149-7, Mississippi Code of 1972, is \u2026",
+  "result": "named",
+  "sha256": "c0b3d379cf2c55a6e553403ac78e8d8cc136b5e869362c01965fe95ec9d8a095",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 6,
+    "url": "http://billstatus.ls.state.ms.us/documents/2025/html/SB/2700-2799/SB2751IN.htm",
+    "words": 201
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2025/html/SB/2700-2799/SB2751IN.htm",
+  "version": "Current version"
+ },
+ "ms-2026-hb1434": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 managers on behalf of pharmacies and providing pharmacies with credentialing, billing, audit, general business and analytic support. A covered entity as defined in 42 USC Section 256b, including its pharmacy or the transactions related to the 340B drug discount program of any pharmacy contracted with the participating covered entity to dispense drugs \u2026",
+  "result": "named",
+  "sha256": "08882c0ccc28c5608ffcee19c5f5dec3f30cd7f33ed6a5e00825e46f2ff590c8",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/1400-1499/HB1434IN.htm",
+    "words": 2843
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/1400-1499/HB1434IN.htm",
+  "version": "Current version"
+ },
+ "ms-2026-hb1666": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 managers on behalf of pharmacies and providing pharmacies with credentialing, billing, audit, general business and analytic support. A covered entity as defined in 42 USC Section 256b, including its pharmacy or the transactions related to the 340B drug discount program of any pharmacy contracted with the participating covered entity to dispense drugs \u2026",
+  "result": "named",
+  "sha256": "a0533591543084eccece1f7baef0255d81861d7a20fe52b09c59f5719f5314ed",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1666IN.htm",
+    "words": 8920
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1666IN.htm",
+  "version": "Current version"
+ },
+ "ms-2026-hb1672": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 of pharmacies and providing pharmacies or pharmacists with credentialing, billing, audit, general business and analytic support. A covered entity, as defined in 42 USC Section 256b, including its pharmacy or the transactions related to the 340B drug discount program of a pharmacy contracted with the participating covered entity to dispense drugs \u2026",
+  "result": "named",
+  "sha256": "fddd740276b079ea7f614ee4e54f2bf7c4ea4523f8ea03f7c25db5b455ecebf1",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1672IN.htm",
+    "words": 12924
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1672IN.htm",
+  "version": "Current version"
+ },
+ "ms-2026-hb533": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 managers on behalf of pharmacies and providing pharmacies with credentialing, billing, audit, general business and analytic support. A covered entity as defined in 42 USC Section 256b, including its pharmacy or the transactions related to the 340B drug discount program of any pharmacy contracted with the participating covered entity to dispense drugs \u2026",
+  "result": "named",
+  "sha256": "d7a71fa607557ac4934271d9dc2ca1b88e88c673a7278c6745763493bba8041e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/0500-0599/HB0533IN.htm",
+    "words": 2827
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2026/html/HB/0500-0599/HB0533IN.htm",
+  "version": "Current version"
+ },
+ "ms-2026-sb2555": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 managers on behalf of pharmacies and providing pharmacies with credentialing, billing, audit, general business and analytic support. A covered entity as defined in 42 USC Section 256b, including its pharmacy or the transactions related to the 340B drug discount program of any pharmacy contracted with the participating covered entity to dispense drugs \u2026",
+  "result": "named",
+  "sha256": "c31980a371cd17ab029e0bf2ce9b8a5f3087c8b92f6edadec97c7fbdc13c2f07",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://billstatus.ls.state.ms.us/documents/2026/html/SB/2500-2599/SB2555IN.htm",
+    "words": 2824
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2026/html/SB/2500-2599/SB2555IN.htm",
+  "version": "Current version"
+ },
+ "ms-2026-sb2575": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 of pharmacies and providing pharmacies or pharmacists with credentialing, billing, audit, general business and analytic support. A covered entity as defined in 42 USC \u00a7 256b, including its pharmacy or the transactions related to the 340B drug discount program of any pharmacy contracted with the participating covered entity to dispense drugs \u2026",
+  "result": "named",
+  "sha256": "953d3a7ed79c26a57928a3f1d862b89af89af3330804a71fe7b17a3fd9acaf55",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://billstatus.ls.state.ms.us/documents/2026/html/SB/2500-2599/SB2575IN.htm",
+    "words": 12785
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2026/html/SB/2500-2599/SB2575IN.htm",
+  "version": "Current version"
+ },
+ "ms-2026-sb2576": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 on behalf of pharmacies and providing pharmacies with credentialing, billing, auditing, general business and analytic support. A covered entity as defined in 42 USC Section 256b, including its pharmacy or the transactions related to the 340B drug discount program of any pharmacy contracted with the participating covered entity to dispense drugs \u2026",
+  "result": "named",
+  "sha256": "fb0932f20b274af6150c27088051d552fc43670c0cac34976e2447dc3573d2bc",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://billstatus.ls.state.ms.us/documents/2026/html/SB/2500-2599/SB2576IN.htm",
+    "words": 8860
+   }
+  ],
+  "url": "http://billstatus.ls.state.ms.us/documents/2026/html/SB/2500-2599/SB2576IN.htm",
+  "version": "Current version"
+ },
+ "mt-2025-hb740": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 which pharmacy reimbursement is based on an aggregation of more than one claim, rather than on a per- claim basis. (2)(3) \"Federally certified health entity\" means a 340B covered entity as described in 42 U.S.C. 256b(a)(4). (4) \"Independent pharmacy\" means a pharmacy as defined in 37-7-101 that: (a) is licensed with the board of pharmacy \u2026",
+  "result": "named",
+  "sha256": "97ec9cf7c5debfcaf1ad020f045eb019411441c3c40680e6379dbf243e9a9139",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://api.legmt.gov/docs/v1/documents/getContent?documentId=313861",
+    "words": 3355
+   }
+  ],
+  "url": "https://api.legmt.gov/docs/v1/documents/getContent?documentId=313861",
+  "version": "HB0740_X.pdf"
+ },
+ "mt-2027-lc472": {
+  "asked_newest": "",
+  "result": "no text to read",
+  "tried": []
+ },
+ "nc-2025-hb163": {
+  "date": "",
+  "mentions": 4,
+  "newest": true,
+  "quote": "\u2026 organizations that provide or administer coverages and benefits for prescription drugs. This section shall apply to pharmacy benefits managers with respect to 340B covered entities and 340B contract pharmacies, as defined in G.S. 58-56A-1. This section shall not apply to any entity that has its own facility, employs or contracts \u2026",
+  "result": "named",
+  "sha256": "67cb103948686575ab96d9c9dc504cc6ec5b8d5cb407086da492cdcd2b4e4fa2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 4,
+    "url": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H163v3.pdf",
+    "words": 4968
+   }
+  ],
+  "url": "https://www.ncleg.gov/Sessions/2025/Bills/House/PDF/H163v3.pdf",
+  "version": "Edition 3"
+ },
+ "nc-2025-sb479": {
+  "date": "",
+  "mentions": 8,
+  "newest": true,
+  "quote": "\u2026 organizations that provide or administer coverages and benefits for prescription drugs. This section shall apply to pharmacy benefits managers with respect to 340B covered entities and 340B contract pharmacies, as defined in G.S. 58-56A-1. This section shall not apply to any entity that has its own facility, employs or contracts \u2026",
+  "result": "named",
+  "sha256": "b2db8db510ec5b21b0d6c25ed5709e3926a7795dd10fc202e17b913a086f0950",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 8,
+    "url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S479v8.pdf",
+    "words": 10689
+   }
+  ],
+  "url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S479v8.pdf",
+  "version": "SL 2025-69"
+ },
+ "nc-2025-sb517": {
+  "date": "",
+  "mentions": 40,
+  "newest": true,
+  "quote": "GENERAL ASSEMBLY OF NORTH CAROLINA SESSION 2025 S 1 SENATE BILL 517 Short Title: Fair Pricing & Trnspncy/340B Covered Entities. (Public) Sponsors: Senators Galey, Burgin, and Sawrey (Primary Sponsors). Referred to: Rules and Operations of the Senate March 26, 2025 A BILL TO BE \u2026",
+  "result": "named",
+  "sha256": "ada31ff585b10d983b7a49ecfd5432c4232b9aee157f6b30cac5aa5324aa0468",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 40,
+    "url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S517v1.pdf",
+    "words": 1098
+   }
+  ],
+  "url": "https://www.ncleg.gov/Sessions/2025/Bills/Senate/PDF/S517v1.pdf",
+  "version": "Edition 1"
+ },
+ "nd-69-hb1473": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 the covered entity's patients on its behalf. (2) \"Covered entity\" means an entity participating or authorized to participate in a federal drug discount program under 42 U.S.C. 256b. (3) \"Drug\" means a drug purchased under reduced pricing under section 340B of the federal Public Health Service Act [42 U.S.C. 201 et seq.] by a covered entity. b. \u2026",
+  "result": "named",
+  "sha256": "4730b7c7d9ea3a2ed7a953b578f5e5c07ecfadbebb1dc59d242d7d4e51c0fcf2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://ndlegis.gov/assembly/69-2025/regular/documents/25-1047-02000.pdf",
+    "words": 487
+   }
+  ],
+  "url": "https://ndlegis.gov/assembly/69-2025/regular/documents/25-1047-02000.pdf",
+  "version": "Enrollment"
+ },
+ "ne-109-lb168": {
+  "date": "",
+  "mentions": 21,
+  "newest": true,
+  "quote": "\u2026 31; Lippincott, 34; McKeon, 41; Murman, 38; Raybould, 28; Spivey, 13; Conrad, 46; Fredrickson, 20; Brandt, 32. A BILL FOR AN ACT relating to health care; to adopt the 340B Contract Pharmacy Protection Act; to provide severability; and to declare an emergency. Be it enacted by the people of the State of Nebraska, Section 1. Sections 1 to 5 \u2026",
+  "result": "named",
+  "sha256": "a696e63380e998c9f64a3d61500600d8564238f39f1de6ff36041541bcd5f024",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 21,
+    "url": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB168.pdf",
+    "words": 452
+   }
+  ],
+  "url": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB168.pdf",
+  "version": "Slip Law"
+ },
+ "nh-2025-sb253": {
+  "asked_newest": "",
+  "result": "no text to read",
+  "tried": []
+ },
+ "nh-2026-hb1755": {
+  "date": "",
+  "mentions": 45,
+  "newest": true,
+  "quote": "HB 1755-FN - AS INTRODUCED 2026 SESSION 26-3133 05/06 HOUSE BILL 1755-FN AN ACT relative to the 340B discounted drug purchasing program. SPONSORS: Rep. Polozov, Merr. 10; Rep. Litchfield, Rock. 32; Rep. Ulery, Hills. 13 COMMITTEE: Health, Human Services and Elderly \u2026",
+  "result": "named",
+  "sha256": "710c59e51da5cc8f914427c4a5ef066e9c8efa1a815ed6faaa31e83950a9c711",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 45,
+    "url": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24515&q=billVersion",
+    "words": 1614
+   }
+  ],
+  "url": "https://gc.nh.gov/bill_Status/pdf.aspx?id=24515&q=billVersion",
+  "version": "Introduced"
+ },
+ "nh-2026-sb477": {
+  "date": "",
+  "mentions": 16,
+  "newest": true,
+  "quote": "SB 477-FN - AS INTRODUCED 2026 SESSION 26-2036 05/06 SENATE BILL 477-FN AN ACT relative to increasing transparency in the 340B Drug Pricing Program. SPONSORS: Sen. McGough, Dist 11; Sen. Gannon, Dist 23; Sen. Pearl, Dist 17; Sen. Birdsell, Dist 19; Sen. Innis, Dist 7; Rep. Miles, Hills. 12; \u2026",
+  "result": "named",
+  "sha256": "d71fc8fdf254c19df24f075e6d788bbd51b16bd03f7fc57839e6480bc2ab9dc0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 16,
+    "url": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22038&q=billVersion",
+    "words": 1371
+   }
+  ],
+  "url": "https://gc.nh.gov/bill_Status/pdf.aspx?id=22038&q=billVersion",
+  "version": "Introduced"
+ },
+ "nj-222-a3872": {
+  "date": "",
+  "mentions": 4,
+  "newest": true,
+  "quote": "\u2026 effect on the date the drug is dispensed to the Medicaid beneficiary. c. Reimbursement for covered outpatient drugs dispensed by a covered entity as defined in section 340B(a)(4) of the federal Public Health Service Act shall be calculated based on the lower of: (1) the Actual Acquisition Cost, which shall not exceed the federal 340B \u2026",
+  "result": "named",
+  "sha256": "7f9a0894b93941f1ada55706a042bca7fc31d3f5a2d3e9a274fb7d8ef00ab168",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 4,
+    "url": "https://pub.njleg.state.nj.us/Bills/2026/A4000/3872_I1.HTM",
+    "words": 1246
+   }
+  ],
+  "url": "https://pub.njleg.state.nj.us/Bills/2026/A4000/3872_I1.HTM",
+  "version": "Introduced"
+ },
+ "nm-2025-hb78": {
+  "date": "",
+  "mentions": 13,
+  "newest": true,
+  "quote": "AN ACT RELATING TO PRESCRIPTION DRUGS; PROHIBITING DISCRIMINATION AGAINST ENTITIES PARTICIPATING IN THE FEDERAL 340B DRUG PRICING PROGRAM. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF NEW MEXICO: SECTION 1. PROHIBITION OF DISCRIMINATION AGAINST 340B ENTITIES.-- A. As used in this \u2026",
+  "result": "named",
+  "sha256": "68280d2994418cf0b226e801731dfda278a1f3579d448292169ad5dff290516f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 13,
+    "url": "http://www.nmlegis.gov/Sessions/25%20Regular/final/HB0078.PDF",
+    "words": 327
+   }
+  ],
+  "url": "http://www.nmlegis.gov/Sessions/25%20Regular/final/HB0078.PDF",
+  "version": "Final Version"
+ },
+ "nv-83-sb149": {
+  "date": "",
+  "mentions": 21,
+  "newest": true,
+  "quote": "\u2026 for reimbursement must not discriminate against pharmacies owned or contracted by a health care facility that is registered as a covered entity pursuant to 42 U.S.C. \u00a7 256b, except where required by the Centers for Medicare and Medicaid Services of the United States Department of Health and Human Services. (c) Dispensing fees paid to \u2026",
+  "result": "named",
+  "sha256": "ecf62aa27cdd9285cd100a338ceb0417b2abea64bb702d449462ae872e2bcad9",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 21,
+    "url": "https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB149.pdf",
+    "words": 6581
+   }
+  ],
+  "url": "https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB149.pdf",
+  "version": "As Introduced"
+ },
+ "nv-83-sb389": {
+  "date": "",
+  "mentions": 22,
+  "newest": true,
+  "quote": "\u2026 subsection 2 of NRS 422.4053. (c) The methodology for reimbursement to pharmacies owned by a health care facility that is registered as a covered entity pursuant to 42 U.S.C. \u00a7 256b under a contract entered into pursuant to subsection 1 of NRS 422.4053 or paragraph (a) of subsection 2 of NRS 422.4053. (d) Dispensing fees paid to pharmacies and \u2026",
+  "result": "named",
+  "sha256": "6c4f33d18975f16de8d5db761baab665f206ab9f8d5149ea34119eee8c559e83",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 22,
+    "url": "https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB389_EN.pdf",
+    "words": 7102
+   }
+  ],
+  "url": "https://www.leg.state.nv.us/Session/83rd2025/Bills/SB/SB389_EN.pdf",
+  "version": "As Enrolled"
+ },
+ "ny-20252026-a10842": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 between (a) the aggregate amount the federally qualified health center paid to acquire eligible injectable fertility drugs for Medicaid patients under section 340B of the federal public health services act between January 1, 2024 and December 31, 2024 and (b) the aggregate amount the federally qualified health center would have \u2026",
+  "result": "named",
+  "sha256": "be2a1f91e426fd926f50318c10e32364fc66056405bc2a7d6e10c430265fe5af",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "http://legislation.nysenate.gov/pdf/bills/2025/A10842A",
+    "words": 342
+   }
+  ],
+  "url": "http://legislation.nysenate.gov/pdf/bills/2025/A10842A",
+  "version": "A10842A"
+ },
+ "ny-20252026-a1466": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 A. 1466 14 (ii) Where prescription drugs are not dispensed through a pharmacy, payment shall be made as otherwise provided in this article, including use of the 340B program as appropriate. (d) Payment for health care services established under this article shall be considered payment in full. A participating provider shall not \u2026",
+  "result": "named",
+  "sha256": "11eb58da790235fe083aed578b638414873ea8961df29dbd0b52cc49460d956e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1466&term=2025&Text=Y",
+    "words": 15042
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A1466&term=2025&Text=Y",
+  "version": "A1466"
+ },
+ "ny-20252026-a2397": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 two thousand twenty, as amended by section one of part C of chapter fifty-seven of the laws of two thousand twenty-one, for such covered entities as defined in section 340B of the federal public health service act, 42 USC \u00a7 256b, for drugs that would otherwise be eligible for pricing under section 340B of the federal public health service \u2026",
+  "result": "named",
+  "sha256": "5091688582f579301e273f55dab8fac9868239e8802d538a1bb838aa69bcc018",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2397&term=2025&Text=Y",
+    "words": 247
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A2397&term=2025&Text=Y",
+  "version": "A2397"
+ },
+ "ny-20252026-a4100": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 or more locations in the state, and any facility established pursuant to article twenty-eight of this chapter which has a drug discount program authorized by section 340B of the Federal Public Health Service act 42 U.S.C \u00a7 256b shall pursue or main- tain a non-patient-specific prescription with an authorized health care professional to \u2026",
+  "result": "named",
+  "sha256": "77e02772312dbade3fae932bd1761a4ba22a8ddad4f200d23b033afabe9f1709",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4100&term=2025&Text=Y",
+    "words": 1056
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4100&term=2025&Text=Y",
+  "version": "A4100"
+ },
+ "ny-20252026-a4604": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 or agreements, or a combination thereof, as needed to enable all covered entities enrolled in or eligible for the drug discount program authorized by section 340B of the federal public health service act (42 U.S.C. \u00a7 256b) to participate in the wholesale prescription drug importation program to the fullest extent possible without \u2026",
+  "result": "named",
+  "sha256": "8ca335a8b3533077514e1476059492d142724fa1c7b732ebbcb165a1800dc539",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4604&term=2025&Text=Y",
+    "words": 1340
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A4604&term=2025&Text=Y",
+  "version": "A4604"
+ },
+ "ny-20252026-a6222": {
+  "date": "",
+  "mentions": 13,
+  "newest": true,
+  "quote": "\u2026 SANTABARBARA, LUNSFORD, LEMONDES, ZACCARO -- read once and referred to the Committee on Health AN ACT to amend the public health law, in relation to establishing the 340B prescription drug anti-discrimination act The People of the State of New York, represented in Senate and Assem- bly, do enact as follows: Section 1. Short title. This \u2026",
+  "result": "named",
+  "sha256": "9c752e600d490d907112780222821e722d75a7fae1256e24b2df6c852b6dea60",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 13,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6222&term=2025&Text=Y",
+    "words": 641
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=A6222&term=2025&Text=Y",
+  "version": "A6222"
+ },
+ "ny-20252026-a6987": {
+  "date": "",
+  "mentions": 21,
+  "newest": true,
+  "quote": "\u2026 ordered reprinted as amended and recommitted to said committee AN ACT to amend the public health law, in relation to requiring trans- parency requirements for certain 340B drugs The People of the State of New York, represented in Senate and Assem- bly, do enact as follows: Section 1. The public health law is amended by adding a new \u2026",
+  "result": "named",
+  "sha256": "00ce6863a3dac8cbe72831a208668abffd3b55709bec6fbe7fdc4bae80b93923",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 21,
+    "url": "http://legislation.nysenate.gov/pdf/bills/2025/A6987A",
+    "words": 794
+   }
+  ],
+  "url": "http://legislation.nysenate.gov/pdf/bills/2025/A6987A",
+  "version": "A6987A"
+ },
+ "ny-20252026-a7817": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 the fee for service program; provided that, subject to the availability of federal financial participation, when reimbursing covered entities, as defined under section 340B of the public health service act (42 U.S.C. \u00a7256b), for drugs that would other- wise be eligible for pricing under section 340B of the public health service act, the \u2026",
+  "result": "named",
+  "sha256": "11814ba2ba171d64d66b81fd711bbcd9917d77668c3d3303d21bb2975a7794d5",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://legislation.nysenate.gov/pdf/bills/2025/A7817A",
+    "words": 723
+   }
+  ],
+  "url": "http://legislation.nysenate.gov/pdf/bills/2025/A7817A",
+  "version": "A7817A"
+ },
+ "ny-20252026-a8747": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 between (a) the aggregate amount the federally qualified health center paid to acquire eligible injectable fertility drugs for Medicaid patients under section 340B of the federal public health services act between January 1, 2024 and December 31, 2024 and (b) the aggregate amount the federally qualified health center would have \u2026",
+  "result": "named",
+  "sha256": "62e86203a2885fb18554b4bb01f67aec4ef7ef000c5c526b22293a75044082a1",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "http://legislation.nysenate.gov/pdf/bills/2025/A8747A",
+    "words": 325
+   }
+  ],
+  "url": "http://legislation.nysenate.gov/pdf/bills/2025/A8747A",
+  "version": "A8747A"
+ },
+ "ny-20252026-k718": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 role in expanding access to care and ensuring medication affordability for the most vulnerable populations; and WHEREAS, Mark Malahosky became a renowned expert on the 340B Drug Pricing Program, which enables safety net providers to purchase medications at a reduced cost and reinvest the savings into comprehensive care for underserved \u2026",
+  "result": "named",
+  "sha256": "4784b79b60298b50f1c0f3c82406b32e626a4dc3284a425c9e1299612305c5a2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K718&term=2025&Text=Y",
+    "words": 754
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=K718&term=2025&Text=Y",
+  "version": "K718"
+ },
+ "ny-20252026-r1722": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 Center. -The Senate directs the Department of Health to make additional investments to providers who have demonstrated financial hardship resulting from reforms in the 340B programs. Capital Projects (S.9004-B) * The Senate modifies the Executive All Funds recommendation of $1.4 billion and increases by $306 million for a total of $1.7 \u2026",
+  "result": "named",
+  "sha256": "61f267da3ebc113c9c6b40865c89a72ab6d9ffbcf22bad0f64d06447d0915a49",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=R1722&term=2025&Text=Y",
+    "words": 23560
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=R1722&term=2025&Text=Y",
+  "version": "R1722"
+ },
+ "ny-20252026-s1794": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 two thousand twenty, as amended by section one of part C of chapter fifty-seven of the laws of two thousand twenty-one, for such covered entities as defined in section 340B of the federal public health service act, 42 USC \u00a7 256b, for drugs that would otherwise be eligible for pricing under section 340B of the federal public health service \u2026",
+  "result": "named",
+  "sha256": "dfc389eaf6ec500a750d72abdf9ea9007b613dbf3aed45430f61008ec0857ba7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1794&term=2025&Text=Y",
+    "words": 253
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1794&term=2025&Text=Y",
+  "version": "S1794"
+ },
+ "ny-20252026-s1913": {
+  "date": "",
+  "mentions": 13,
+  "newest": true,
+  "quote": "\u2026 -- read twice and ordered printed, and when printed to be committed to the Committee on Health AN ACT to amend the public health law, in relation to establishing the 340B prescription drug anti-discrimination act The People of the State of New York, represented in Senate and Assem- bly, do enact as follows: Section 1. Short title. This \u2026",
+  "result": "named",
+  "sha256": "c14e80db252fb66436b099f8c59a2410f48e0130103a90934826e502d0cbef4e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 13,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1913&term=2025&Text=Y",
+    "words": 640
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S1913&term=2025&Text=Y",
+  "version": "S1913"
+ },
+ "ny-20252026-s1917": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 or more locations in the state, and any facility established pursuant to article twenty-eight of this chapter which has a drug discount program authorized by section 340B of the Federal Public Health Service act 42 U.S.C \u00a7 256b shall pursue or main- tain a non-patient-specific prescription with an authorized health care professional to \u2026",
+  "result": "named",
+  "sha256": "c96a4e71af50cfe99462d4776116134b2629b06d55d072da848658ae9f46dca2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "http://legislation.nysenate.gov/pdf/bills/2025/S1917A",
+    "words": 1086
+   }
+  ],
+  "url": "http://legislation.nysenate.gov/pdf/bills/2025/S1917A",
+  "version": "S1917A"
+ },
+ "ny-20252026-s3425": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 in this paragraph. (ii) Where prescription drugs are not dispensed through a pharmacy, payment shall be made as otherwise provided in this article, including use of the 340B program as appropriate. S. 3425 14 (d) Payment for health care services established under this article shall be considered payment in full. A participating provider \u2026",
+  "result": "named",
+  "sha256": "8637ea940b221cbfacde60c9a58d6a994e878c4012bec1547fc737129c756e5c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3425&term=2025&Text=Y",
+    "words": 15006
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S3425&term=2025&Text=Y",
+  "version": "S3425"
+ },
+ "ny-20252026-s371": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 or agreements, or a combination thereof, as needed to enable all covered entities enrolled in or eligible for the drug discount program authorized by section 340B of the federal public health service act (42 U.S.C. \u00a7 256b) to participate in the wholesale S. 371 3 prescription drug importation program to the fullest extent \u2026",
+  "result": "named",
+  "sha256": "b0d1fbcba9ef8caca6f8113b27a13d259403b4e02c6b9ff11f44e0f9fb8534a2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S371&term=2025&Text=Y",
+    "words": 1297
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S371&term=2025&Text=Y",
+  "version": "S371"
+ },
+ "ny-20252026-s6000": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 determined by the department and shall equal the difference between what the eligible provider would have been paid for certain classes of fertility drugs under section 340B of the federal public health services act between January 1, 2024 and December 31, 2024 and the amount that the eligible provider would have been reimbursed for such \u2026",
+  "result": "named",
+  "sha256": "b8bb15fab702f79d484021c79046fd3ef687174f85308e3004102b4e07bc3be7",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6000&term=2025&Text=Y",
+    "words": 275
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S6000&term=2025&Text=Y",
+  "version": "S6000"
+ },
+ "ny-20252026-s8257": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 between (a) the aggregate amount the federally qualified health center paid to acquire eligible injectable fertility drugs for Medicaid patients under section 340B of the federal public health services act between January 1, 2024 and December 31, 2024 and (b) the aggregate amount the federally qualified health center would have \u2026",
+  "result": "named",
+  "sha256": "1e934ee417692e41cd52f561211df5dc8f56f6dea40b08bc98e02eea894d15de",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "http://legislation.nysenate.gov/pdf/bills/2025/S8257A",
+    "words": 329
+   }
+  ],
+  "url": "http://legislation.nysenate.gov/pdf/bills/2025/S8257A",
+  "version": "S8257A"
+ },
+ "ny-20252026-s8380": {
+  "date": "",
+  "mentions": 21,
+  "newest": true,
+  "quote": "\u2026 ordered reprinted as amended and recommitted to said committee AN ACT to amend the public health law, in relation to requiring trans- parency requirements for certain 340B drugs The People of the State of New York, represented in Senate and Assem- bly, do enact as follows: Section 1. The public health law is amended by adding a new \u2026",
+  "result": "named",
+  "sha256": "074d550abed92f285916e980b48cb655509a414ded259253d09123aa2fb8b1f4",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 21,
+    "url": "http://legislation.nysenate.gov/pdf/bills/2025/S8380A",
+    "words": 793
+   }
+  ],
+  "url": "http://legislation.nysenate.gov/pdf/bills/2025/S8380A",
+  "version": "S8380A"
+ },
+ "ny-20252026-s9434": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 the fee for service program; provided that, subject to the availability of federal financial participation, when reimbursing covered entities, as defined under section 340B of the public health service act (42 U.S.C. \u00a7256b), for drugs that would other- wise be eligible for pricing under section 340B of the public health service act, the \u2026",
+  "result": "named",
+  "sha256": "6c5d753a8c48493f30c0d788d9c394ccb0f8ba961540cf2d10a1fd9cb75c9923",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S9434&term=2025&Text=Y",
+    "words": 706
+   }
+  ],
+  "url": "http://assembly.state.ny.us/leg/?sh=printbill&bn=S9434&term=2025&Text=Y",
+  "version": "S9434"
+ },
+ "oh-136-hb276": {
+  "date": "",
+  "mentions": 21,
+  "newest": true,
+  "quote": "\u2026 3902.72 (3902.75); and to enact new section 3902.72 of the Revised Code to prohibit drug manufacturers from taking certain actions regarding reimbursements made to 340B covered entities. BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF OHIO: Section 1. That sections 3902.50 and 3902.70 be amended; section 3902.72 (3902.75) be \u2026",
+  "result": "named",
+  "sha256": "852d5cafb465e6601f1a30abb28ba9f45c97a5caab6d665c12792aa74529f64c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 21,
+    "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb276/00_IN/html/",
+    "words": 1822
+   }
+  ],
+  "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb276/00_IN/html/",
+  "version": "As Introduced"
+ },
+ "oh-136-hb780": {
+  "date": "",
+  "mentions": 8,
+  "newest": true,
+  "quote": "\u2026 any other component of pharmacist care that is included in the practice of pharmacy. Sec. 3902.70. As used in this section and section 3902.71 of the Revised Code: (A) \"340B covered entity\" means an entity described in section 340B(a)(4) of the \"Public Health Service Act,\" 42 U.S.C. 256b(a)(4) and includes any pharmacy under contract with \u2026",
+  "result": "named",
+  "sha256": "39f616588b8bd313ba7fc8967f2bb19ac8b437b181d9dadd6a5fd2fd9f7a9fa5",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 8,
+    "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb780/00_IN/html/",
+    "words": 35728
+   }
+  ],
+  "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb780/00_IN/html/",
+  "version": "As Introduced"
+ },
+ "oh-136-hb890": {
+  "date": "",
+  "mentions": 4,
+  "newest": true,
+  "quote": "\u2026 , 3901.856 , 3901.857 , and 3901.858 of the Revised Code be enacted to read as follows: Sec. 3901.85. As used in sections 3901.85 to 3901.858 of the Revised Code: (A) \"340B covered entity\" has the same meaning as in section 5167.01 of the Revised Code. (B) \"Biological product\" and \"biosimilar\" have the same meanings as in 42 U.S.C. 262. \u2026",
+  "result": "named",
+  "sha256": "386b7a4ffc93eca72503c6f15a926070bad47f274c5f874a97bd888d23d676bc",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 4,
+    "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb890/00_IN/html/",
+    "words": 3658
+   }
+  ],
+  "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb890/00_IN/html/",
+  "version": "As Introduced"
+ },
+ "oh-136-hb96": {
+  "date": "",
+  "mentions": 47,
+  "newest": true,
+  "quote": "\u2026 to Sub. H.B. 544 of the 127th general assembly and shall be used in accordance with section 3701.84 of the Revised Code. Sec. 3701.88. (A) As used in this section: \"340B covered entity\" means an entity described in section 340B(a)(4) of the \"Public Health Service Act,\" 42 U.S.C. 256b(a)(4). \"340B drug\" means a covered outpatient drug \u2026",
+  "result": "named",
+  "sha256": "5f6f71fef5e4389a0c010bd4015453f25e65512677a8a4c6cb616717e249bdbe",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 47,
+    "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb96/07_EN/html/",
+    "words": 1507990
+   }
+  ],
+  "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/hb96/07_EN/html/",
+  "version": "As Enrolled"
+ },
+ "oh-136-sb198": {
+  "date": "",
+  "mentions": 21,
+  "newest": true,
+  "quote": "\u2026 3902.72 (3902.75); and to enact new section 3902.72 of the Revised Code to prohibit drug manufacturers from taking certain actions regarding reimbursements made to 340B covered entities. BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF OHIO: Section 1. That sections 3902.50 and 3902.70 be amended; section 3902.72 (3902.75) be \u2026",
+  "result": "named",
+  "sha256": "38408f39ab43baa97c800eb3ef40b4dc3bee23e84be5f30bdd419384c4314859",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 21,
+    "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb198/00_IN/html/",
+    "words": 1821
+   }
+  ],
+  "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb198/00_IN/html/",
+  "version": "As Introduced"
+ },
+ "oh-136-sb386": {
+  "date": "",
+  "mentions": 8,
+  "newest": true,
+  "quote": "\u2026 any other component of pharmacist care that is included in the practice of pharmacy. Sec. 3902.70. As used in this section and section 3902.71 of the Revised Code: (A) \"340B covered entity\" means an entity described in section 340B(a)(4) of the \"Public Health Service Act,\" 42 U.S.C. 256b(a)(4) and includes any pharmacy under contract with \u2026",
+  "result": "named",
+  "sha256": "1aca8d53aeacde58c8512545b4e72c4ad1e257076205002ed01d52d141b484b1",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 8,
+    "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb386/00_IN/html/",
+    "words": 35729
+   }
+  ],
+  "url": "https://search-prod.lis.state.oh.us/api/v2/general_assembly_136/legislation/sb386/00_IN/html/",
+  "version": "As Introduced"
+ },
+ "ok-2025-hb2048": {
+  "date": "",
+  "mentions": 71,
+  "newest": true,
+  "quote": "An Act ENROLLED HOUSE BILL NO. 2048 By: Stinson, Deck, Moore, Archer and Hefner of the House and Howard of the Senate An Act relating to prescriptions; creating the 340B Nondiscrimination Act; defining terms; prohibiting certain discriminatory actions related to reimbursement of certain entities; making certain provisions inapplicable \u2026",
+  "result": "named",
+  "sha256": "3c2db3865cb5d7b86c75595d7ece6d6ff8f4bdc0b545c0d70a1beed594f67f02",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 71,
+    "url": "https://www.oklegislature.gov/cf_pdf/2025-26 ENR/hB/HB2048 ENR.PDF",
+    "words": 5228
+   }
+  ],
+  "url": "https://www.oklegislature.gov/cf_pdf/2025-26 ENR/hB/HB2048 ENR.PDF",
+  "version": "Enrolled (final version)"
+ },
+ "ok-2025-sb1030": {
+  "date": "",
+  "mentions": 70,
+  "newest": true,
+  "quote": "STATE OF OKLAHOMA 1st Session of the 60th Legislature (2025) SENATE BILL 1030 By: Howard AS INTRODUCED An Act relating to prescription drug pricing; creating the 340B Drug Pricing Nondiscrimination Act; providing short title; defining terms; prohibiting certain reimbursement rates; prohibiting certain terms or conditions on a 340B \u2026",
+  "result": "named",
+  "sha256": "1244de3903188a3a15c4e7585485c2e8dd40689fb861954585d68adb84f3932f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 70,
+    "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1030 INT.PDF",
+    "words": 5256
+   }
+  ],
+  "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1030 INT.PDF",
+  "version": "Introduced"
+ },
+ "ok-2025-sb1063": {
+  "date": "",
+  "mentions": 42,
+  "newest": true,
+  "quote": "\u2026 in the Oklahoma Statutes as Section 5400 of Title 36, unless there is created a duplication in numbering, reads as follows: As used in this act: Req. No. 759 Page 1 1. \u201c340B drug\u201d means a drug that has been subject to any offer for reduced prices by a manufacturer pursuant to 42 U.S.C., Section 256b, and is purchased by a covered entity as \u2026",
+  "result": "named",
+  "sha256": "1dbcc04003ffe1685a9909ae6f19b6693dbd4f269c5876487e0f94b1608c035f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 42,
+    "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1063 INT.PDF",
+    "words": 1644
+   }
+  ],
+  "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1063 INT.PDF",
+  "version": "Introduced"
+ },
+ "ok-2026-hb2048": {
+  "date": "",
+  "mentions": 71,
+  "newest": true,
+  "quote": "An Act ENROLLED HOUSE BILL NO. 2048 By: Stinson, Deck, Moore, Archer and Hefner of the House and Howard of the Senate An Act relating to prescriptions; creating the 340B Nondiscrimination Act; defining terms; prohibiting certain discriminatory actions related to reimbursement of certain entities; making certain provisions inapplicable \u2026",
+  "result": "named",
+  "sha256": "3c2db3865cb5d7b86c75595d7ece6d6ff8f4bdc0b545c0d70a1beed594f67f02",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 71,
+    "url": "https://www.oklegislature.gov/cf_pdf/2025-26 ENR/hB/HB2048 ENR.PDF",
+    "words": 5228
+   }
+  ],
+  "url": "https://www.oklegislature.gov/cf_pdf/2025-26 ENR/hB/HB2048 ENR.PDF",
+  "version": "Enrolled (final version)"
+ },
+ "ok-2026-sb1030": {
+  "date": "",
+  "mentions": 70,
+  "newest": true,
+  "quote": "STATE OF OKLAHOMA 1st Session of the 60th Legislature (2025) SENATE BILL 1030 By: Howard AS INTRODUCED An Act relating to prescription drug pricing; creating the 340B Drug Pricing Nondiscrimination Act; providing short title; defining terms; prohibiting certain reimbursement rates; prohibiting certain terms or conditions on a 340B \u2026",
+  "result": "named",
+  "sha256": "1244de3903188a3a15c4e7585485c2e8dd40689fb861954585d68adb84f3932f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 70,
+    "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1030 INT.PDF",
+    "words": 5256
+   }
+  ],
+  "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1030 INT.PDF",
+  "version": "Introduced"
+ },
+ "ok-2026-sb1063": {
+  "date": "",
+  "mentions": 42,
+  "newest": true,
+  "quote": "\u2026 in the Oklahoma Statutes as Section 5400 of Title 36, unless there is created a duplication in numbering, reads as follows: As used in this act: Req. No. 759 Page 1 1. \u201c340B drug\u201d means a drug that has been subject to any offer for reduced prices by a manufacturer pursuant to 42 U.S.C., Section 256b, and is purchased by a covered entity as \u2026",
+  "result": "named",
+  "sha256": "1dbcc04003ffe1685a9909ae6f19b6693dbd4f269c5876487e0f94b1608c035f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 42,
+    "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1063 INT.PDF",
+    "words": 1644
+   }
+  ],
+  "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB1063 INT.PDF",
+  "version": "Introduced"
+ },
+ "ok-2026-sb252": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 by the Authority; and Req. No. 723 Page 12 2. Ensure broad access to pharmacies including, but not limited to, pharmacies contracted with covered entities under Section 340B of the Public Health Service Act. Such access shall, at a minimum, meet the requirements of the Patient\u2019s Right to Pharmacy Choice Act, Section 6958 et seq. of Title 36 \u2026",
+  "result": "named",
+  "sha256": "24e6b084699c18b0f92cf841d0617360bc24c9fd08ef9adbd03eb0db9eaf1126",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB252 INT.PDF",
+    "words": 3706
+   }
+  ],
+  "url": "https://www.oklegislature.gov/cf_pdf/2025-26 INT/SB/SB252 INT.PDF",
+  "version": "Introduced"
+ },
+ "or-2025r1-hb2057": {
+  "date": "",
+  "mentions": 19,
+  "newest": true,
+  "quote": "\u2026 statement includes a measure digest written in compliance with applicable readability standards. Digest: Tells insurers and PBMs not to require that drugs be labeled as 340B drugs in a claim for repayment. (Flesch Readability Score: 62.8). Prohibits insurers offering policies or certificates of health insurance and pharmacy benefit managers \u2026",
+  "result": "named",
+  "sha256": "ac8c3545dec90d9990ec2dab554b4dfe094271e1c4478d9c6adec0e025473863",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 19,
+    "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2057/Introduced",
+    "words": 2616
+   }
+  ],
+  "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2057/Introduced",
+  "version": "Introduced"
+ },
+ "or-2025r1-hb2385": {
+  "date": "",
+  "mentions": 12,
+  "newest": true,
+  "quote": "\u2026 GAMBA, GOMBERG, JAVADI, PHAM H, Senator MANNING JR (Presession filed.) CHAPTER ................................................. AN ACT Relating to restrictions on 340B covered entities; and prescribing an effective date. Be It Enacted by the People of the State of Oregon: SECTION 1. (1) As used in this section: (a) \u201cCovered entity\u201d \u2026",
+  "result": "named",
+  "sha256": "4111719f7c9dadee19db15c5a48b187359cbc5677d5ba643ab663dc135472214",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 12,
+    "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2385/Enrolled",
+    "words": 502
+   }
+  ],
+  "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB2385/Enrolled",
+  "version": "Enrolled"
+ },
+ "or-2025r1-hb3212": {
+  "date": "",
+  "mentions": 10,
+  "newest": true,
+  "quote": "\u2026 in paragraph (e) of this subsection. (g) Shall ensure that dispensing fees are not included in the calculation of maximum allowable cost. (h) May not reimburse a 340B pharmacy differently than any other network pharmacy based on its status as a 340B pharmacy. (i) Shall comply with the provisions of ORS 743A.062. (j) May not \u2026",
+  "result": "named",
+  "sha256": "1d5691a40bf250a2d69f98ce92f2077c417191b3e345db8bb549976250fb911a",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 10,
+    "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3212/Introduced",
+    "words": 2328
+   }
+  ],
+  "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3212/Introduced",
+  "version": "Introduced"
+ },
+ "or-2025r1-hb3226": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 means a pharmacy capable of meeting the requirements applicable to specialty drugs. (15) \u201cThird party administrator\u201d means a person licensed under ORS 744.702. (16) \u201c340B pharmacy\u201d means a pharmacy that is authorized to purchase drugs at a discount under 42 U.S.C. 256b. SECTION 2. ORS 744.702 is amended to read: 744.702. (1) Subject to \u2026",
+  "result": "named",
+  "sha256": "5de8bc131c7a633db16538f4e3c7cac305ac3f7cbdce9d9e3782f16f6c2de811",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3226/Enrolled",
+    "words": 1064
+   }
+  ],
+  "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3226/Enrolled",
+  "version": "Enrolled"
+ },
+ "or-2025r1-sb533": {
+  "date": "",
+  "mentions": 16,
+  "newest": true,
+  "quote": "\u2026 for violations. (Flesch Readability Score: 60.8). Creates a civil penalty for drug manufacturers that interfere directly or indirectly with certain entities acquiring 340B drugs, delivering 340B drugs to certain health care providers or dispensing 340B drugs. Creates a civil penalty for drug manufactures that require certain entities to \u2026",
+  "result": "named",
+  "sha256": "2294927aaa241ba6674fa6b559b136281235ea1a3f30d1599de73c7acfe15cf1",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 16,
+    "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB533/Introduced",
+    "words": 533
+   }
+  ],
+  "url": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB533/Introduced",
+  "version": "Introduced"
+ },
+ "pa-20252026-hb2797": {
+  "date": "",
+  "mentions": 23,
+  "newest": true,
+  "quote": "\u2026 HOUSE BILL No. 2797 Session of 2026 INTRODUCED BY ORTITAY AND KHAN, SEPTEMBER 24, 2026 REFERRED TO COMMITTEE ON HUMAN SERVICES, SEPTEMBER 29, 2026 AN ACT Providing for 340B drug reimbursement, for reimbursement claims methodology, for safety net reimbursement protection, for safety net prescription drug distribution and access protections \u2026",
+  "result": "named",
+  "sha256": "ca870a2069529cf47fbc2c4c0aaeb75df125ea5c3a272033ede454fb15386187",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 23,
+    "url": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2797/PN3953",
+    "words": 2610
+   }
+  ],
+  "url": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/HB2797/PN3953",
+  "version": "Printer's No. PN3953"
+ },
+ "pa-20252026-sb1486": {
+  "date": "",
+  "mentions": 14,
+  "newest": true,
+  "quote": "\u2026 penalties. The General Assembly of the Commonwealth of Pennsylvania hereby enacts as follows: Section 1. Short title. This act shall be known and may be cited as the 340B Contract Pharmacy Protection Act. Section 2. Definitions. The following words and phrases when used in this act shall have the meanings given to them in this section \u2026",
+  "result": "named",
+  "sha256": "359db843e43bb5c66e3a1f9d7433d35c7910f476256334110c1843b4f411e439",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 14,
+    "url": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB1486/PN2028",
+    "words": 1486
+   }
+  ],
+  "url": "https://www.palegis.us/legislation/bills/text/HTM/2025/0/SB1486/PN2028",
+  "version": "Printer's No. PN2028"
+ },
+ "ri-2025-hb5116": {
+  "date": "",
+  "mentions": 20,
+  "newest": true,
+  "quote": "\u2026 is hereby amended by adding thereto the following chapter: CHAPTER 19.3 PHARMACEUTICAL COST TRANSPARENCY 5-19.3-1. Definitions. As used in this chapter: (1) \"340B\" means the federal drug pricing program established pursuant to 42 U.S.C.\u00a7 256b. (2) \"340B prescription drug\" means a prescription drug that has been subject to any \u2026",
+  "result": "named",
+  "sha256": "a971492e8ebe209cdd162103fc78f1a3b09ea34e103de1ed0db0d4df04ffc86e",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 20,
+    "url": "http://webserver.rilegislature.gov/BillText/BillText25/HouseText25/H5116.pdf",
+    "words": 1950
+   }
+  ],
+  "url": "http://webserver.rilegislature.gov/BillText/BillText25/HouseText25/H5116.pdf",
+  "version": "5116"
+ },
+ "ri-2025-hb5634": {
+  "date": "",
+  "mentions": 79,
+  "newest": true,
+  "quote": "\u2026 cited as the \"Defending Affordable Prescription Drug Costs Act\". 5-19.3-2. Definitions. As used in this chapter, the following terms have the following meanings: (1) \"340B drug\" means a drug that has been subject to any offer for reduced prices by a manufacturer pursuant to 42 U.S.C. \u00a7 256b and is purchased by a covered entity as defined \u2026",
+  "result": "named",
+  "sha256": "a726b4fb77763da86bce6eecc8a8657216c4797a20730aa5354834cad1c6501b",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 79,
+    "url": "http://webserver.rilegislature.gov/BillText/BillText25/HouseText25/H5634Aaa.pdf",
+    "words": 1808
+   }
+  ],
+  "url": "http://webserver.rilegislature.gov/BillText/BillText25/HouseText25/H5634Aaa.pdf",
+  "version": "5634\u00a0 SUB A\u00a0as amended"
+ },
+ "ri-2025-sb114": {
+  "date": "",
+  "mentions": 79,
+  "newest": true,
+  "quote": "\u2026 cited as the \"Defending Affordable Prescription Drug Costs Act\". 5-19.3-2. Definitions. As used in this chapter, the following terms have the following meanings: (1) \"340B drug\" means a drug that has been subject to any offer for reduced prices by a manufacturer pursuant to 42 U.S.C. \u00a7 256b and is purchased by a covered entity as defined \u2026",
+  "result": "named",
+  "sha256": "d9cbe4c1cafd61f08fcbeed85564d50d63cbe06d36e630ae6bcb0d3d8f8f0de5",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 79,
+    "url": "http://webserver.rilegislature.gov/BillText/BillText25/SenateText25/S0114Aaa.pdf",
+    "words": 1810
+   }
+  ],
+  "url": "http://webserver.rilegislature.gov/BillText/BillText25/SenateText25/S0114Aaa.pdf",
+  "version": "114\u00a0 SUB A\u00a0as amended"
+ },
+ "sc-20252026-s639": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 serves on multiple committees at McLeod Regional Medical Center, including the Pharmacy and Therapeutics Committee, the Cancer and Infusion Medication Committee, the 340B Team, and the Pharmacy Standardization Affinity Group. Prior to accepting his current position, he was Pharmacy Business Manager for McLeod Health; and W hereas, Artie \u2026",
+  "result": "named",
+  "sha256": "d1b1285e8ccbdb827ba716dac6244118555fb1ffa3102e608ca30dd49df84c6d",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.scstatehouse.gov/sess126_2025-2026/prever/639_20250506.htm",
+    "words": 439
+   }
+  ],
+  "url": "https://www.scstatehouse.gov/sess126_2025-2026/prever/639_20250506.htm",
+  "version": "05/06/2025"
+ },
+ "sd-2025-sb154": {
+  "date": "",
+  "mentions": 0,
+  "newest": false,
+  "quote": "",
+  "result": "not named",
+  "sha256": "377b3e2f1486661f6b2c7e5b84facc5d3c31e630824aa882e7b839f7b56b70c2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://sdlegislature.gov/Session/Bill/25981/284050",
+    "words": 42
+   },
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://sdlegislature.gov/Session/Bill/25981/282425",
+    "words": 42
+   },
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://sdlegislature.gov/Session/Bill/25981/279152",
+    "words": 42
+   },
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://mylrc.sdlegislature.gov/api/Documents/282241.pdf",
+    "words": 4116
+   }
+  ],
+  "url": "https://mylrc.sdlegislature.gov/api/Documents/282241.pdf",
+  "version": "154A"
+ },
+ "tn-114-hb1242": {
+  "date": "",
+  "mentions": 43,
+  "newest": true,
+  "quote": "SENATE BILL 1414 By Briggs HOUSE BILL 1242 By Helton-Haynes AN ACT to amend Tennessee Code Annotated, Title 47, Chapter 18 and Title 56, relative to 340B entities. BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF TENNESSEE: SECTION 1. Tennessee Code Annotated, Section 56-7-3119, is amended by deleting subsection (d) \u2026",
+  "result": "named",
+  "sha256": "4e16a267d3985eeb74e600bd0d0015906e41466f67b2b3fbd48e1717862d5cf2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 43,
+    "url": "https://capitol.tn.gov/Bills/114/Bill/HB1242.pdf",
+    "words": 1053
+   }
+  ],
+  "url": "https://capitol.tn.gov/Bills/114/Bill/HB1242.pdf",
+  "version": "Current Version"
+ },
+ "tn-114-hb1648": {
+  "date": "",
+  "mentions": 1,
+  "newest": false,
+  "quote": "\u2026 the state or a political subdivision of the state pursuant to \u00a7 317 or \u00a7 318 of the Public Health Service Act (42 U.S.C. \u00a7\u00a7 247b and 247c), is eligible to qualify as a 340B entity, as defined in \u00a7 56-7- 3119, only if the entity is also a recipient of one (1) or more state or federal grant awards that are subject to audit, reporting, and \u2026",
+  "result": "named",
+  "sha256": "d80eaaa9ee8b8c6f057bf4cf9d17765c1d40b184254be1b2d39cbb9fb7670f81",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://capitol.tn.gov/Bills/114/Bill/HB1648.pdf",
+    "words": 106
+   },
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://capitol.tn.gov/Bills/114/Amend/SA0748.pdf",
+    "words": 180
+   }
+  ],
+  "url": "https://capitol.tn.gov/Bills/114/Amend/SA0748.pdf",
+  "version": "Amendment SA0748"
+ },
+ "tn-114-sb1414": {
+  "date": "",
+  "mentions": 43,
+  "newest": true,
+  "quote": "HOUSE BILL 1242 By Helton-Haynes SENATE BILL 1414 By Briggs AN ACT to amend Tennessee Code Annotated, Title 47, Chapter 18 and Title 56, relative to 340B entities. BE IT ENACTED BY THE GENERAL ASSEMBLY OF THE STATE OF TENNESSEE: SECTION 1. Tennessee Code Annotated, Section 56-7-3119, is amended by deleting subsection (d) \u2026",
+  "result": "named",
+  "sha256": "6790ec984d1b1b9ed90502eff3006fec1d0b0f2d21dc98a40c8067d8ce6ea5bd",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 43,
+    "url": "https://capitol.tn.gov/Bills/114/Bill/SB1414.pdf",
+    "words": 1053
+   }
+  ],
+  "url": "https://capitol.tn.gov/Bills/114/Bill/SB1414.pdf",
+  "version": "Current Version"
+ },
+ "tn-114-sb1654": {
+  "date": "",
+  "mentions": 1,
+  "newest": false,
+  "quote": "\u2026 the state or a political subdivision of the state pursuant to \u00a7 317 or \u00a7 318 of the Public Health Service Act (42 U.S.C. \u00a7\u00a7 247b and 247c), is eligible to qualify as a 340B entity, as defined in \u00a7 56-7- 3119, only if the entity is also a recipient of one (1) or more state or federal grant awards that are subject to audit, reporting, and \u2026",
+  "result": "named",
+  "sha256": "a7f7b51283c823627c8e8e055a34f1266beffa4198a0b6dfe8b12a0b11d0a2e8",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 0,
+    "url": "https://capitol.tn.gov/Bills/114/Bill/SB1654.pdf",
+    "words": 106
+   },
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://capitol.tn.gov/Bills/114/Amend/HA0830.pdf",
+    "words": 177
+   }
+  ],
+  "url": "https://capitol.tn.gov/Bills/114/Amend/HA0830.pdf",
+  "version": "Amendment HA0830"
+ },
+ "tx-89r-hb3265": {
+  "date": "",
+  "mentions": 18,
+  "newest": true,
+  "quote": "\u2026 1. Subchapter N, Chapter 431, Health and Safety Code, is amended by adding Section 431.416 to read as follows: Sec. 431.416. DISCRIMINATION WITH RESPECT TO FEDERAL 340B DRUG DISCOUNT PROGRAM PROHIBITED. (a) In this section: (1) \"340B drug\" and \"covered entity\" have the meanings assigned by Section 1369.701, Insurance Code. (2) \u2026",
+  "result": "named",
+  "sha256": "e6377ca16f7ca8f0f31f615a0ac4105a8a0e5d3adf7778d229722893f34ef66c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 18,
+    "url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB03265H.HTM",
+    "words": 1695
+   }
+  ],
+  "url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB03265H.HTM",
+  "version": "House Committee Report"
+ },
+ "tx-89r-hb4422": {
+  "date": "",
+  "mentions": 2,
+  "newest": true,
+  "quote": "\u2026 SECTION 1. Chapter 1369, Insurance Code, is amended by adding Subchapter O to read as follows: SUBCHAPTER O. PROHIBITION ON DISCRIMINATION WITH RESPECT TO FEDERAL 340B DRUG DISCOUNT PROGRAM Sec. 1369.701. DEFINITIONS. In this subchapter: (1) \"Covered entity\" has the meaning assigned by 42 U.S.C. Section 256b(a)(4). (2) \"Non-covered \u2026",
+  "result": "named",
+  "sha256": "c4af0c9358f2ec81d49d8ad2637ee1bb8c7301497cac0d8f6d2b698047bb59c2",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 2,
+    "url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB04422I.HTM",
+    "words": 869
+   }
+  ],
+  "url": "http://capitol.texas.gov/tlodocs/89R/billtext/html/HB04422I.HTM",
+  "version": "Introduced"
+ },
+ "tx-90r-hb703": {
+  "date": "",
+  "mentions": 24,
+  "newest": true,
+  "quote": "90(R) HB 703 - Introduced version - Bill Text 90R1225 JG-D By: Oliverson H.B. No. 703 A BILL TO BE ENTITLED AN ACT relating to the 340B program and reporting requirements for the program; authorizing an administrative penalty. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF TEXAS: SECTION 1. Subtitle \u2026",
+  "result": "named",
+  "sha256": "1622800d5c55b86141b923b5e10ff1f0e1b1e2d7d8d530fca988f0c93ac4676f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 24,
+    "url": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB00703I.HTM",
+    "words": 788
+   }
+  ],
+  "url": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB00703I.HTM",
+  "version": "Introduced"
+ },
+ "ut-2025-hb257": {
+  "date": "",
+  "mentions": 11,
+  "newest": true,
+  "quote": "\u2026 benefit plan renewed or entered into on or after July 1, 2026. Section 3, Section 31A-46-102 is amended to read: 31A-46-102 . Definitions. As used in this chapter: (1) \"340B drug\" means a drug purchased through the 340B drug discount program by a 340B entity. (2) \"340B drug discount program\" means the 340B drug discount program described in \u2026",
+  "result": "named",
+  "sha256": "3bd4a22da61272e7dc75381ed56abbfc2e93bfb69c9bae84bd29859fa89264a9",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 11,
+    "url": "https://le.utah.gov/Session/2025/bills/enrolled/HB0257.xml",
+    "words": 2248
+   }
+  ],
+  "url": "https://le.utah.gov/Session/2025/bills/enrolled/HB0257.xml",
+  "version": "Enrolled"
+ },
+ "ut-2025-hb519": {
+  "date": "",
+  "mentions": 26,
+  "newest": true,
+  "quote": "\u2026 Amendments 2025 GENERAL SESSION STATE OF UTAH Chief Sponsor: Steve Eliason Senate Sponsor: Evan J. Vickers LONG TITLE General Description: This bill addresses the 340B drug discount program. Highlighted Provisions: This bill: defines a term; prohibits a pharmaceutical manufacturer from restricting, prohibiting, or otherwise \u2026",
+  "result": "named",
+  "sha256": "1033a6c09a2f215c7e384088ea62e6f6baa781ccb181616ef26bc020d1309063",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 26,
+    "url": "https://le.utah.gov/Session/2025/bills/introduced/HB0519.xml",
+    "words": 463
+   }
+  ],
+  "url": "https://le.utah.gov/Session/2025/bills/introduced/HB0519.xml",
+  "version": "Introduced"
+ },
+ "ut-2025-sb69": {
+  "date": "",
+  "mentions": 24,
+  "newest": true,
+  "quote": "\u2026 Amendments 2025 GENERAL SESSION STATE OF UTAH Chief Sponsor: Evan J. Vickers House Sponsor: Steve Eliason LONG TITLE General Description: This bill addresses the 340B drug discount program. Highlighted Provisions: This bill: defines a term; prohibits certain conduct by a pharmaceutical manufacturer with respect to the 340B drug \u2026",
+  "result": "named",
+  "sha256": "d8938156518b358822cf653a03e8b77eb43da3590599424ec3ee4b31096ae117",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 24,
+    "url": "https://le.utah.gov/Session/2025/bills/enrolled/SB0069.xml",
+    "words": 451
+   }
+  ],
+  "url": "https://le.utah.gov/Session/2025/bills/enrolled/SB0069.xml",
+  "version": "Enrolled"
+ },
+ "ut-2026-hb356": {
+  "date": "",
+  "mentions": 35,
+  "newest": true,
+  "quote": "\u2026 GENERAL SESSION STATE OF UTAH Chief Sponsor: Logan J. Monson Senate Sponsor: Evan J. Vickers LONG TITLE General Description: This bill amends provisions related to the 340B drug discount program. Highlighted Provisions: This bill: defines a 340B covered entity and a 340B eligible drug; clarifies prohibited actions under the 340B drug \u2026",
+  "result": "named",
+  "sha256": "fb1511813f7ec69fd731a9f0dd16c2690e1c83ce1a7c6a29c057ec7081666ce0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 35,
+    "url": "https://le.utah.gov/Session/2026/bills/enrolled/HB0356.xml",
+    "words": 639
+   }
+  ],
+  "url": "https://le.utah.gov/Session/2026/bills/enrolled/HB0356.xml",
+  "version": "Enrolled"
+ },
+ "ut-2026-hb527": {
+  "date": "",
+  "mentions": 11,
+  "newest": true,
+  "quote": "\u2026 1953 Be it enacted by the Legislature of the state of Utah: Section 1. Section 31A-46-102 is amended to read: 31A-46-102 . Definitions. As used in this chapter: (1) \"340B drug\" means a drug purchased through the 340B drug discount program by a 340B entity. (2) \"340B drug discount program\" means the 340B drug discount program described in \u2026",
+  "result": "named",
+  "sha256": "4e5357a8ebbaa5a8108f10bc6ba11bcffa31a32f4fa825460246d8f69c2f7d18",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 11,
+    "url": "https://le.utah.gov/Session/2026/bills/enrolled/HB0527.xml",
+    "words": 1843
+   }
+  ],
+  "url": "https://le.utah.gov/Session/2026/bills/enrolled/HB0527.xml",
+  "version": "Enrolled"
+ },
+ "ut-2026-sb300": {
+  "date": "",
+  "mentions": 22,
+  "newest": true,
+  "quote": "\u2026 into the fund described in Section 26C-1-103 . Section 42. Section 31A-46-311 is amended to read: 31A-46-311 Effective 01/01/28 . Prohibited actions with respect to the 340B drug discount program. (1) As used in this section, \"manufacturer\" means a pharmaceutical manufacturer, including an agent or affiliate of a pharmaceutical \u2026",
+  "result": "named",
+  "sha256": "addcceb6704df3e9ff298c53bcc44f3da8b6df34da7c5290a2e6c04cdc57893d",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 22,
+    "url": "https://le.utah.gov/Session/2026/bills/introduced/SB0300S01.xml",
+    "words": 29798
+   }
+  ],
+  "url": "https://le.utah.gov/Session/2026/bills/introduced/SB0300S01.xml",
+  "version": "Substitute #1"
+ },
+ "vt-20252026-h202": {
+  "date": "",
+  "mentions": 23,
+  "newest": true,
+  "quote": "\u2026 Representative Cordes of Bristol Referred to Committee on Date: Subject: Health; health insurance; prescription drugs; pharmacy benefit managers; pharmacies; hospitals; 340B drug pricing program Statement of purpose of bill as introduced: This bill proposes to prohibit a pharmacy benefit manager from requiring a person covered by a health \u2026",
+  "result": "named",
+  "sha256": "d4e1dc49b2d9dbea458289d4c4e67e2d8d92cf37bc3a106f92a546edea1eea63",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 23,
+    "url": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0202/H-0202%20As%20Introduced.pdf",
+    "words": 1291
+   }
+  ],
+  "url": "http://legislature.vermont.gov/Documents/2026/Docs/BILLS/H-0202/H-0202%20As%20Introduced.pdf",
+  "version": "As IntroducedOpens in a new window"
+ },
+ "vt-20252026-h266": {
+  "date": "",
+  "mentions": 49,
+  "newest": true,
+  "quote": "No. 55 Page 1 of 8 2025 No. 55. An act relating to the 340B prescription drug pricing program. (H.266) It is hereby enacted by the General Assembly of the State of Vermont: Sec. 1. 18 V.S.A. chapter 91, subchapter 6 is added to \u2026",
+  "result": "named",
+  "sha256": "d2622f2ce32fe694159b2f76e896b098295bf5e648627cdc1abe29eedf12fc46",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 49,
+    "url": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT055/ACT055%20As%20Enacted.pdf",
+    "words": 1789
+   }
+  ],
+  "url": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT055/ACT055%20As%20Enacted.pdf",
+  "version": "As EnactedOpens in a new window"
+ },
+ "vt-20252026-h611": {
+  "date": "",
+  "mentions": 10,
+  "newest": true,
+  "quote": "\u2026 Access, to one or more health insurers, or both during the specified period of time; *** Sec. 2. 18 V.S.A. \u00a7 4682 is amended to read: \u00a7 4682. DISCRIMINATION AGAINST 340B ENTITIES PROHIBITED *** (b) A manufacturer or its agent shall not directly or indirectly require a 340B covered entity to submit any claims, utilization, encounter, \u2026",
+  "result": "named",
+  "sha256": "9397f4918eec290bd0f9c0d694aad26af1bde7626817419557a010f44a72d155",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 10,
+    "url": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT120/ACT120%20As%20Enacted.pdf",
+    "words": 2942
+   }
+  ],
+  "url": "http://legislature.vermont.gov/Documents/2026/Docs/ACTS/ACT120/ACT120%20As%20Enacted.pdf",
+  "version": "As EnactedOpens in a new window"
+ },
+ "wa-20252026-hb1197": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 cost and benefit of this service delivery method. The authority must establish an annual reporting requirement for all covered entities participating in the 340B drug pricing program that receive medicaid funds under this section; and the authority shall provide at an aggregate level, broken down by covered entities defined by \u2026",
+  "result": "named",
+  "sha256": "ef3f7296fc20f8e6bb36d77c83ee07f2695a6167c8e860959da2aaa9b29f42b8",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/House%20Bills/1197.htm",
+    "words": 257516
+   }
+  ],
+  "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/House%20Bills/1197.htm",
+  "version": "Bill"
+ },
+ "wa-20252026-hb1198": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 cost and benefit of this service delivery method. The authority must establish an annual reporting requirement for all covered entities participating in the 340B drug pricing program that receive medicaid funds under this section; and the authority shall provide at an aggregate level, broken down by covered entities defined by \u2026",
+  "result": "named",
+  "sha256": "62eba6ddd5ef04c4626585ef63319c6cececc36cc6a828c1abc4e994edaa97d0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/House%20Bills/1198-S.htm",
+    "words": 448439
+   }
+  ],
+  "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/House%20Bills/1198-S.htm",
+  "version": "Substitute Bill"
+ },
+ "wa-20252026-hb2145": {
+  "date": "",
+  "mentions": 38,
+  "newest": true,
+  "quote": "\u2026 protecting patient access to discounted medications and health care services through Washington's health care safety net by preventing manufacturer limitations on the 340B drug pricing program; adding a new chapter to Title 69 RCW; creating a new section; and prescribing penalties. BE IT ENACTED BY THE LEGISLATURE OF THE STATE OF \u2026",
+  "result": "named",
+  "sha256": "26ab871f9035b9433f8392bcd8ee508388b3eca094c63499cc9a72de86481876",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 38,
+    "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/House%20Bills/2145-S2.htm",
+    "words": 1657
+   }
+  ],
+  "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/House%20Bills/2145-S2.htm",
+  "version": "Second Substitute Bill"
+ },
+ "wa-20252026-sb5166": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 cost and benefit of this service delivery method. The authority must establish an annual reporting requirement for all covered entities participating in the 340B drug pricing program that receive medicaid funds under this section; and the authority shall provide at an aggregate level, broken down by covered entities defined by \u2026",
+  "result": "named",
+  "sha256": "9224e93d525077c873d3d5096c19606e5b3e34396c7ea4247021ba48c925a00f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Bills/5166.htm",
+    "words": 257516
+   }
+  ],
+  "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Bills/5166.htm",
+  "version": "Bill"
+ },
+ "wa-20252026-sb5167": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 cost and benefit of this service delivery method. The authority must establish an annual reporting requirement for all covered entities participating in the 340B drug pricing program that receive medicaid funds under this section; and the authority shall provide at an aggregate level, broken down by covered entities defined by \u2026",
+  "result": "named",
+  "sha256": "9b2c24d85285096f9fe2f405cb5ee0ee38d563881ed195ae98a2012c1a4e30c8",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Passed%20Legislature/5167-S.PL.htm",
+    "words": 466760
+   }
+  ],
+  "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Passed%20Legislature/5167-S.PL.htm",
+  "version": "Substitute Passed Legislature"
+ },
+ "wa-20252026-sb5810": {
+  "date": "",
+  "mentions": 3,
+  "newest": true,
+  "quote": "\u2026 cost and benefit of this service delivery method. The authority must establish an annual reporting requirement for all covered entities participating in the 340B drug pricing program that receive medicaid funds under this section; and the authority shall provide at an aggregate level, broken down by covered entities defined by \u2026",
+  "result": "named",
+  "sha256": "5411a530f41a5e508e2bf93aeed8b7a580de878489e1638ec54f96e570a6dc1c",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 3,
+    "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Bills/5810.htm",
+    "words": 393002
+   }
+  ],
+  "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Bills/5810.htm",
+  "version": "Bill"
+ },
+ "wa-20252026-sb5981": {
+  "date": "",
+  "mentions": 71,
+  "newest": true,
+  "quote": "\u2026 Bateman, Alvarado, Chapman, Dhingra, Frame, Hasegawa, Liias, Pedersen, Salda\u00f1a, and Valdez) READ FIRST TIME 02/09/26. AN ACT Relating to protecting the integrity of the 340B drug pricing program; amending RCW 43.71C.010 , 43.71C.050 , 43.71C.090 , and 43.71C.100 ; adding new sections to chapter 43.71C RCW; adding a new chapter to Title 69 \u2026",
+  "result": "named",
+  "sha256": "8084d79e11548fcfc19e36a4ca6d943cb94eaec0d7bb06be2d8adf4622d5096f",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 71,
+    "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Passed%20Legislature/5981-S2.PL.htm",
+    "words": 4338
+   }
+  ],
+  "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Passed%20Legislature/5981-S2.PL.htm",
+  "version": "Second Substitute Passed Legislature"
+ },
+ "wa-20252026-sb5998": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 (75) $608,000 of the general fund \u2014 state appropriation for fiscal year 2027 is provided solely for implementation of Engrossed Second Substitute Senate Bill No. 5981 (340b drug pricing program). If the bill is not enacted by June 30, 2026, the amount provided in this subsection shall lapse. (76) $51,000 of the general fund \u2014 state \u2026",
+  "result": "named",
+  "sha256": "e845556a61a789a5f81d9a6564a3f3f452048b5d2f27e44c425dc5c3c3e10d99",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Passed%20Legislature/5998-S.PL.htm",
+    "words": 205746
+   }
+  ],
+  "url": "http://lawfilesext.leg.wa.gov/Biennium/2025-26/Htm/Bills/Senate%20Passed%20Legislature/5998-S.PL.htm",
+  "version": "Substitute Passed Legislature"
+ },
+ "wi-2025-ab173": {
+  "date": "",
+  "mentions": 33,
+  "newest": true,
+  "quote": "\u2026 service fees. 4. The amounts received from network pharmacies and pharmacists and the amount retained by the pharmacy benefit manager. Discriminatory reimbursement of 340B entities The bill prohibits a pharmacy benefit manager from taking certain actions with respect to 340B covered entities, pharmacies and pharmacists contracted with \u2026",
+  "result": "named",
+  "sha256": "c30ccc9815328cc1ce8ad1bfc6df83ac2c98df5fa4fcc61a8ef6e7e1e44c1ee0",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 33,
+    "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB173",
+    "words": 4042
+   }
+  ],
+  "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB173",
+  "version": "Bill Text"
+ },
+ "wi-2025-ab62": {
+  "date": "",
+  "mentions": 4,
+  "newest": true,
+  "quote": "\u2026 claims or bona fide service fees. 4. The amounts received from network pharmacies and the amount retained by the pharmacy benefit manager. Reimbursements for certain 340B program entities The bill prohibits any person from reimbursing certain entities that participate in the federal drug pricing program, known as the 340B program, for a \u2026",
+  "result": "named",
+  "sha256": "42a3da289957fa05c1065f4a3e6f585510c872f929a168d52c737b5ef1f0cc35",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 4,
+    "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB62",
+    "words": 3004
+   }
+  ],
+  "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/AB62",
+  "version": "Bill Text"
+ },
+ "wi-2025-sb203": {
+  "date": "",
+  "mentions": 33,
+  "newest": true,
+  "quote": "\u2026 service fees. 4. The amounts received from network pharmacies and pharmacists and the amount retained by the pharmacy benefit manager. Discriminatory reimbursement of 340B entities The bill prohibits a pharmacy benefit manager from taking certain actions with respect to 340B covered entities, pharmacies and pharmacists contracted with \u2026",
+  "result": "named",
+  "sha256": "23b39d4b7a63a92fcc18b26eccfc344b6d5202eafd9dd6c749da2a09932df410",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 33,
+    "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB203",
+    "words": 4040
+   }
+  ],
+  "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB203",
+  "version": "Bill Text"
+ },
+ "wi-2025-sb50": {
+  "date": "",
+  "mentions": 4,
+  "newest": true,
+  "quote": "\u2026 claims or bona fide service fees. 4. The amounts received from network pharmacies and the amount retained by the pharmacy benefit manager. Reimbursements for certain 340B program entities The bill prohibits any person from reimbursing certain entities that participate in the federal drug pricing program, known as the 340B program, for a \u2026",
+  "result": "named",
+  "sha256": "a27054e0a2f6bcf36fb9e8723263e7997a4c85fcfae201e3f86a5499f226af11",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 4,
+    "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB50",
+    "words": 2996
+   }
+  ],
+  "url": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB50",
+  "version": "Bill Text"
+ },
+ "wv-2025-hb2831": {
+  "date": "",
+  "mentions": 1,
+  "newest": true,
+  "quote": "\u2026 of the Senate; and (C) One alternate member appointed by the Speaker of the House of Delegates. (3) At least one member of the board shall have expertise in: (A) The 340B Program under the federal Public Health Service Act; (B) The state's All-Payer Claims Database; (C) How the program and contract interact; and (D) How decisions made by \u2026",
+  "result": "named",
+  "sha256": "0fa6c3945b73b26070c5544cafc54f1beeb8e6a8823fab0e9eba23f462808077",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 1,
+    "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb2831%20intr.htm&yr=2025&sesstype=RS&i=2831",
+    "words": 5751
+   }
+  ],
+  "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb2831%20intr.htm&yr=2025&sesstype=RS&i=2831",
+  "version": "Introduced Version"
+ },
+ "wv-2025-hb3068": {
+  "date": "",
+  "mentions": 4,
+  "newest": true,
+  "quote": "\u2026 benefits management. Be it enacted by the Legislature of West Virginia: article 51. pharmacy audit integrity act. \u00a733-51-3. Definitions. For purposes of this article: \"340B entity\" means an entity participating in the federal 340B drug discount program, as described in 42 U.S.C. \u00a7 256b, including its pharmacy or pharmacies, or any pharmacy \u2026",
+  "result": "named",
+  "sha256": "1c45a2a0eb8e914ea9fb1125feb0670090df41893df272137f3aec59f17b4028",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 4,
+    "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb3068%20intr.htm&yr=2025&sesstype=RS&i=3068",
+    "words": 1479
+   }
+  ],
+  "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=hb3068%20intr.htm&yr=2025&sesstype=RS&i=3068",
+  "version": "Introduced Version"
+ },
+ "wv-2025-sb675": {
+  "date": "",
+  "mentions": 18,
+  "newest": true,
+  "quote": "\u2026 A BILL to amend the Code of West Virginia, 1931, as amended, by adding a new section, designated \u00a730-5-37, relating to requiring a participant in a federal 340B Drug Pricing Program to report certain data to the Board of Pharmacy. Be it enacted by the Legislature of West Virginia: ARTICLE 5. PHARMACISTS, PHARMACY TECHNICIANS, \u2026",
+  "result": "named",
+  "sha256": "c56280d376e0e38a1b13f7e099c3ec9fd9074658aaadf5f2893df1d86ebe2f62",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 18,
+    "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb675%20intr.htm&yr=2025&sesstype=RS&i=675",
+    "words": 752
+   }
+  ],
+  "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb675%20intr.htm&yr=2025&sesstype=RS&i=675",
+  "version": "Introduced Version"
+ },
+ "wv-2025-sb852": {
+  "date": "",
+  "mentions": 22,
+  "newest": true,
+  "quote": "\u2026 individual that exceeds the total submitted charges by the pharmacy or pharmacist to the pharmacy benefit manager. (c) A pharmacy benefit manager that reimburses a 340B entity for drugs that are subject to an agreement under 42 U.S.C. \u00a7 256b shall not reimburse the 340B entity for pharmacy-dispensed drugs at a rate lower than that paid \u2026",
+  "result": "named",
+  "sha256": "fc0dc113d91fe95d5fd875be195e74abc7490150f51ebc9e8c3497927eed90f6",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 22,
+    "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb852%20intr.htm&yr=2025&sesstype=RS&i=852",
+    "words": 1937
+   }
+  ],
+  "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb852%20intr.htm&yr=2025&sesstype=RS&i=852",
+  "version": "Introduced Version"
+ },
+ "wv-2026-sb907": {
+  "date": "",
+  "mentions": 22,
+  "newest": true,
+  "quote": "\u2026 individual that exceeds the total submitted charges by the pharmacy or pharmacist to the pharmacy benefit manager. (c) A pharmacy benefit manager that reimburses a 340B entity for drugs that are subject to an agreement under 42 U.S.C. \u00a7 256b shall not reimburse the 340B entity for pharmacy-dispensed drugs at a rate lower than that paid \u2026",
+  "result": "named",
+  "sha256": "9928000af7bc5f2f2defb35dcd062abbf32bdff78b386c16ddb270070476495d",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 22,
+    "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb907%20intr.htm&yr=2026&sesstype=RS&i=907",
+    "words": 3943
+   }
+  ],
+  "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb907%20intr.htm&yr=2026&sesstype=RS&i=907",
+  "version": "Introduced Version"
+ },
+ "wy-2026-hb179": {
+  "date": "",
+  "mentions": 34,
+  "newest": true,
+  "quote": "\u2026 and services, to provide civil penalties and to prohibit debt collection by hospitals in violation of this act. 35-2-1502. Definitions. (a) As used in this act: (i) \"340B covered facility\" means a facility described in 42 U.S.C. \u00a7 256b(a)(4)(L) through 42 U.S.C. \u00a7 256b(a)(4)(O) that: 2 HB0179 2026 STATE OF WYOMING 26LSO-0305 (A) Is \u2026",
+  "result": "named",
+  "sha256": "46963be4cb29eafaa82812c41c4b691ec788dc9f837a790735b1b8a28cd2c093",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 34,
+    "url": "https://wyoleg.gov/2026/Introduced/HB0179.pdf",
+    "words": 4293
+   }
+  ],
+  "url": "https://wyoleg.gov/2026/Introduced/HB0179.pdf",
+  "version": "Introduced"
+ }
+}

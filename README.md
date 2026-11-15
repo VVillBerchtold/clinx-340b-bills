@@ -157,6 +157,54 @@ link on every row goes to the legislature's own page.
     python3 -I tools/fetch_events.py raw/events 30
     python3 -I tools/events.py raw/openstates raw/events raw/govinfo data
 
+## The daily refresh
+
+`tools/refresh.sh` runs every step above in order: Congress, the states, the one table, the
+calendar. It then compares the new tables with the ones from before and says what changed.
+
+    sh tools/refresh.sh
+
+It is built to be run every day without leaning on anyone's site:
+
+- **It asks only for what is new.** GovInfo's files are fetched only when GovInfo has a newer
+  copy. A legislature's site is asked for a bill's text only when the bill is new or the
+  legislature has posted a newer version. On a quiet day no legislature's site is asked at all.
+- **A site that refused the text check is not asked again** because a link changed.
+- **A hearing stays on the calendar after its day.** Open States is asked for the last thirty
+  days of hearings; an older one is carried over from the table, unless it was called off or
+  its bill is no longer listed.
+- **A refresh that looks broken stops.** `tools/changes.py` ends with an error when the new
+  tables hold more than 5% fewer bills or dates than before, or when a place that had bills has
+  none. A legislature does not lose its bills overnight; a fetch that failed does.
+
+What a run leaves behind:
+
+- `raw/report.md`: the day's changes in words. New bills, bills that moved to another stage,
+  bills with a newer text, new dates, dates that went away.
+- `needs-reading.csv`: the bills a person still has to read, each with the reason. A bill nobody
+  has read; a bill whose text is newer than the one that was read; a bill that became law after
+  it was read, so its sentence is in the wrong tense. The program never writes a bill's plain
+  sentence. Until a person has read a new bill it is listed with its title, stage and links, and
+  no sentence.
+- `state-texts-index.json`: which bill texts have been read, where each was read and the passage
+  that names the program. It is kept here so that a machine starting from nothing does not ask
+  every legislature for every bill again.
+
+`read/federal.csv` and `read/state.csv` carry two columns for this, `text_read` and `stage_read`:
+the text and the stage a bill had on the day a person read it.
+
+**The hosted job.** `.github/workflows/refresh.yml` runs the refresh on GitHub every morning. It
+has three parts, each with only the permission it needs. The first fetches and checks, and can
+read this repository but not change it. The second commits the new tables, and runs only when the
+repository variable `RECORD_ENABLED` is set to `true`; until then a run changes nothing, and its
+report and tables can be read on the run's own page. The third opens an issue when a run fails.
+The Open States key is a repository secret named `OPENSTATES_KEY`. It is handed to the step that
+asks Open States, and to a small first step that only looks whether it is set, and is never
+printed. A run without the key says so and stops, fetching nothing and reporting no failure.
+
+The first whole run on one machine, on 15 November 2026, took eleven minutes and found nothing
+changed since that morning.
+
 ## How a bill's text is read
 
 A legislature's page is made for people, not for programs, so a few plain rules turn it into words:
@@ -190,8 +238,7 @@ A legislature's page is made for people, not for programs, so a few plain rules 
 
 ## What is not built yet
 
-- **The daily refresh.**
-- **Hearings in Congress**, and a hearing list refreshed each day once sessions start.
+- **Hearings in Congress.**
 
 ## Licence
 

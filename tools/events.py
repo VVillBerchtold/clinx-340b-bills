@@ -153,12 +153,14 @@ def main() -> None:
             })
 
     # 2. Hearings whose agenda names a listed bill.
+    called_off: set[str] = set()  # the first eight letters of each fetched hearing that was cancelled or withdrawn
     by_number: dict[tuple[str, str], list[str]] = {}
     for name, bill in listed.items():
         by_number.setdefault((bill["jurisdiction"], "".join(bill["bill"].split()).upper()), []).append(name)
     for page in sorted(events_dir.glob("*-page*.json")) if events_dir.exists() else []:
         for event in json.loads(page.read_text(encoding="utf-8")).get("results", []):
             if event.get("deleted") or event.get("status") == "cancelled":
+                called_off.add(event["id"].split("/")[-1][:8])
                 continue
             place = state_of(event["jurisdiction"]["id"])
             start = event.get("start_date") or ""
@@ -182,6 +184,16 @@ def main() -> None:
                         "link": web_address(sources[0]["url"]) if sources else listed[name]["bill_url"],
                         "source": "the legislature's list of hearings",
                     })
+
+    # 2b. A hearing that has already happened stays on the calendar after it leaves the list that is
+    # fetched (the list only reaches back a few weeks). A coming hearing that is no longer on the
+    # legislature's list is dropped: it was moved or called off.
+    fetched = {row["event_id"] for row in rows}
+    if out.exists():
+        with out.open(encoding="utf-8", newline="") as handle:
+            for row in csv.DictReader(handle):
+                if row["kind"] == "hearing" and row["day"] < today and row["event_id"] not in fetched and row["bill_id"] in listed and row["event_id"].rsplit("-", 1)[-1] not in called_off:
+                    rows.append({column: row[column] for column in COLUMNS if column != "retrieved"})
 
     # 3. The days sessions start and end.
     sessions_seen: set[str] = set()

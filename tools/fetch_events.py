@@ -12,6 +12,7 @@ listed bill.
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 import sys
 import time
@@ -19,6 +20,11 @@ from datetime import date, timedelta
 from pathlib import Path
 
 KEY_FILE = Path.home() / ".config" / "clinx" / "openstates.key"
+
+
+def read_key() -> str:
+    """The Open States key: from the environment where a hosted job passes it, else from the private file."""
+    return os.environ.get("OPENSTATES_KEY", "").strip() or KEY_FILE.read_text(encoding="utf-8").strip()
 PAUSE = 7.0
 MOST_PAGES = 15  # per state; a state with more hearings than this in the window is cut short and said so
 
@@ -29,7 +35,7 @@ def main() -> None:
     table = json.loads((Path(__file__).parent.parent / "data" / "340b-bills.json").read_text(encoding="utf-8"))
     states = sorted({bill["jurisdiction"].lower() for bill in table["bills"]} - {"us"})
     after = (date.today() - timedelta(days=days)).isoformat()
-    key = KEY_FILE.read_text(encoding="utf-8").strip()
+    key = read_key()
     for old in out.glob("*-page*.json"):
         old.unlink()
     total = 0

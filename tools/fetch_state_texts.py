@@ -6,7 +6,7 @@ version of the text from the legislature's site (a web page where there is one, 
 it into plain words, counts how often it names the program and keeps the first passage that does.
 If the newest version does not name it, up to three earlier versions are tried. What it fetched,
 and what it found, is written to raw/state-texts/index.json; a bill already checked is not fetched
-again.
+again until the legislature posts a newer version of it.
 
 It is polite: one request at a time, a pause between requests to the same site, and if a site
 refuses (for example with a 403), the tool stops asking that site and says so. It never tries
@@ -212,6 +212,18 @@ def links_of(bill: dict) -> list[tuple[str, str, str]]:
     return out[:5]
 
 
+def moved(entry: dict, newest: str) -> bool:
+    """Has the legislature posted a newer version than the one last asked for?
+
+    Only for a bill whose text was read: a site that refused is not asked again because a link changed.
+    The link last asked for is kept even when it could not be fetched, so it is asked for once, not daily.
+    """
+    if entry["result"] not in ("named", "not named") or not newest:
+        return False
+    tried = entry.get("tried") or [{}]
+    return entry.get("asked_newest", tried[0].get("url")) != newest
+
+
 def main() -> None:
     found_dir, out = Path(sys.argv[1]), Path(sys.argv[2])
     again = "--again" in sys.argv[3:]  # fetch every bill again, for example after a change to how a page is read
@@ -244,11 +256,13 @@ def main() -> None:
     for name in sorted(bills):
         saved = out / f"{name}.txt"
         garbled = saved.exists() and "\ufffd" in saved.read_text(encoding="utf-8")  # read in the wrong alphabet: fetch again
-        if name in index and index[name]["result"] in ("named", "not named", "site refused") and not garbled and not again:
+        links = links_of(bills[name])
+        newest = links[0][2] if links else ""
+        if name in index and index[name]["result"] in ("named", "not named", "site refused") and not garbled and not again and not moved(index[name], newest):
             continue
         tried = []
         entry: dict = {"result": "no text to read", "tried": tried}
-        for note, day, url in links_of(bills[name]):
+        for note, day, url in links:
             host = urllib.parse.urlparse(url).netloc
             if host in refused:
                 entry = {"result": "site refused", "tried": tried, "why": refused[host]}
@@ -298,7 +312,10 @@ def main() -> None:
                 break
         if name in index and index[name]["result"] in ("named", "not named") and entry["result"] not in ("named", "not named"):
             print(f"{name}: {entry['result']} this time; the earlier reading is kept", flush=True)
+            index[name]["asked_newest"] = newest  # so the same link is not asked for again every day
+            index_file.write_text(json.dumps(index, indent=1, sort_keys=True), encoding="utf-8")
             continue
+        entry["asked_newest"] = newest
         index[name] = entry
         index_file.write_text(json.dumps(index, indent=1, sort_keys=True), encoding="utf-8")
         print(f"{name}: {entry['result']}", flush=True)
