@@ -1,8 +1,9 @@
-# 340B bills and calendar
+# 340B bills, federal notices and calendar
 
 Every bill in Congress and in the state legislatures that names the federal 340B drug pricing
-program, and a calendar of what has happened to each one. The tables are free to download and
-build on. They are shown, state by state, at [clinx.org/bills](https://clinx.org/bills/) and
+program, every federal rule and notice that names it, and a calendar of what has happened to each
+one and what is still ahead. The tables are free to download and build on. They are shown at
+[clinx.org/bills](https://clinx.org/bills/), [clinx.org/notices](https://clinx.org/notices/) and
 [clinx.org/calendar](https://clinx.org/calendar/).
 
 ## What it is
@@ -11,13 +12,20 @@ One table of bills (`data/bills.csv`, and the same rows in `data/340b-bills.json
 bill is called, who introduced it, how far it has got, its latest step, a plain sentence on what
 it does about 340B, and a link to the legislature's own page.
 
-One table of dates (`data/events.csv`, and `data/340b-events.json`): the dated steps of every
-listed bill, hearings that name one, and the days each session starts and ends.
+One table of federal notices (`data/notices.csv`, and `data/340b-notices.json`): the rules,
+proposed rules and notices that federal agencies have published in the Federal Register since
+1 January 2025 and that name 340B, each with its dates, a plain sentence on what it does about
+340B, and a link to the document.
 
-Both are built from official sources: the Government Publishing Office's files for Congress, each
-state legislature's record as gathered by Open States, and the bill texts on the legislatures' own
-sites. For now the tables are refreshed by hand; the day each was last brought up to date is in
-its `retrieved` column.
+One table of dates (`data/events.csv`, and `data/340b-events.json`): the dated steps of every
+listed bill, hearings that name one, the days each session starts and ends, and the days a
+federal notice was published, closes for comments and takes effect.
+
+All are built from official sources: the Government Publishing Office's files for Congress, each
+state legislature's record as gathered by Open States, the bill texts on the legislatures' own
+sites, and the Federal Register's own data service. A hosted job refreshes the tables every
+morning (see "The daily refresh"); the day each row was last brought up to date is in its
+`retrieved` column.
 
 It sits beside the laws table, and the two join up: when a state bill becomes law, it is read by
 hand, added to the laws table, and the bill's row links to the law.
@@ -134,6 +142,56 @@ in the expected form.
 
     python3 -I tools/build.py
 
+## Federal notices
+
+Laws are only part of the picture. Much of what changes for a 340B clinic or hospital in a given
+year comes from federal agencies: a pilot program, a payment rate, a reporting duty, a form. All
+of it is published in the Federal Register.
+
+`tools/fetch_notices.py` asks the Federal Register's own data service (federalregister.gov/api,
+run by the Office of the Federal Register and the Government Publishing Office; it needs no key)
+for every document published since 1 January 2025 whose text holds "340B" or "256b", and saves
+each document's text once. `tools/notices.py` then writes `data/notices.csv`, and the same rows in
+`data/340b-notices.json`, one row per document.
+
+The columns: `notice_id` (fr- and the Federal Register's document number), `document_number`,
+`citation` (volume and page, such as 91 FR 48883), `type` (Rule, Proposed Rule, Notice or
+Presidential Document), `action` (the agency's own label, such as "Final rule."), `agencies`,
+`title`, `role`, `summary`, `names_program_in`, `text_mentions`, `quote`, `published`,
+`comments_close`, `effective`, `dates` (the document's official words about its dates), `docket`,
+`pages`, `notice_url`, `pdf_url` and `retrieved`. The JSON file also carries, for each document,
+`dates_read`: the other days a person read in it.
+
+**"340B" is not always the drug program.** It is also an aircraft (the Saab 340B) and part of
+other numbers. A document is listed only when its text also holds one of the phrases that go with
+the drug program, such as "340B Program" or "340B covered entity"; the list is `PROGRAM` in
+`tools/notices.py`. `not-notices.csv` names, by hand, any other document that is not about the
+program. Everything left out is written to `notices-not-listed.csv` with the reason.
+
+**Read by hand.** `read/notices.csv` holds, for each document a person has read, its `role` and
+one plain sentence. The roles are the ones bills use: `main` (about 340B), `part` (a larger
+document with a policy, a decision or a question on 340B, such as a Medicare payment rule that
+sets what Medicare pays for 340B drugs) and `mention` (it names 340B in passing, such as in a
+summary of public comments). A long rule can name 340B hundreds of times because it answers
+comments; the sentence says what the rule decides. The program never writes the sentence. Until a
+person has read a new document it is listed with its official facts and no sentence, and it is
+on the list in `needs-reading.csv`.
+
+**Other dates.** The Federal Register gives three days for a document: published, comments close,
+takes effect. A document often sets more: a deadline for a first report, the day a model starts.
+`read/notice-dates.csv` holds those, read by a person, each with the document's own words
+(`words`). `tools/notices.py` checks that those words are in the document's text.
+
+**The record of what was read from each text.** `notices-index.json` keeps, for each document,
+how often its text names the program and the passage from the first place it does. A published
+document does not change, so a machine that starts without the texts does not fetch them again.
+
+    python3 -I tools/fetch_notices.py raw/notices 2025-01-01
+    python3 -I tools/notices.py raw/notices data
+
+On 15 November 2026 the search returned 41 documents. 38 are listed: 12 about 340B, 15 with a
+part on it and 11 that only mention it. All 38 have been read. Three are not the drug program.
+
 ## The calendar
 
 `tools/events.py` writes `data/events.csv`, and the same rows in `data/340b-events.json`, one
@@ -148,9 +206,16 @@ row per dated event:
   legislatures out of session, none does yet.
 - **Session days.** The day each legislature's session starts and ends, from Open States' list
   of sessions, and the day this Congress ends.
+- **Federal notices.** For each document in the notices table that is about 340B or has a part
+  on it: the day it was published, the day comments close and the day it takes effect, as the
+  Federal Register gives them, and the other days a person read in the document. These rows
+  have `FED` (federal agencies) as their `jurisdiction`, where Congress has `US`, and they name
+  their document in `notice_id`. A document that only mentions 340B puts no date on the
+  calendar.
 
-The columns are `event_id`, `day`, `time`, `jurisdiction`, `kind`, `bill_id`, `bill`, `what`,
-`body`, `where`, `link`, `source` and `retrieved`. The JSON file also says in plain words what
+The columns are `event_id`, `day`, `time`, `jurisdiction`, `kind`, `bill_id`, `bill`,
+`notice_id`, `what`, `body`, `where`, `link`, `source` and `retrieved`. A row names a bill, or a
+notice, or (for a session day) neither. The JSON file also says in plain words what
 each kind means. Nothing is guessed: a step with no date is left out. A date can move, so the
 link on every row goes to the legislature's own page.
 
@@ -159,8 +224,8 @@ link on every row goes to the legislature's own page.
 
 ## The daily refresh
 
-`tools/refresh.sh` runs every step above in order: Congress, the states, the one table, the
-calendar. It then compares the new tables with the ones from before and says what changed.
+`tools/refresh.sh` runs every step above in order: Congress, the states, the one table, federal
+notices, the calendar. It then compares the new tables with the ones from before and says what changed.
 
     sh tools/refresh.sh
 
@@ -169,19 +234,23 @@ It is built to be run every day without leaning on anyone's site:
 - **It asks only for what is new.** GovInfo's files are fetched only when GovInfo has a newer
   copy. A legislature's site is asked for a bill's text only when the bill is new or the
   legislature has posted a newer version. On a quiet day no legislature's site is asked at all.
+  The Federal Register is asked for its list once a day, and for a document's text only the
+  first time the document appears.
 - **A site that refused the text check is not asked again** because a link changed.
 - **A hearing stays on the calendar after its day.** Open States is asked for the last thirty
   days of hearings; an older one is carried over from the table, unless it was called off or
   its bill is no longer listed.
 - **A refresh that looks broken stops.** `tools/changes.py` ends with an error when the new
-  tables hold more than 5% fewer bills or dates than before, or when a place that had bills has
+  tables hold more than 5% fewer bills, notices or dates than before, or when a place that had bills has
   none. A legislature does not lose its bills overnight; a fetch that failed does.
 
 What a run leaves behind:
 
 - `raw/report.md`: the day's changes in words. New bills, bills that moved to another stage,
-  bills with a newer text, new dates, dates that went away.
-- `needs-reading.csv`: the bills a person still has to read, each with the reason. A bill nobody
+  bills with a newer text, new federal notices, new dates, dates that went away.
+- `needs-reading.csv`: the bills and federal notices a person still has to read, each with the
+  reason. (A notice is listed there under its own name, fr- and its number, with FED as its
+  place and its link in the last column.) A bill nobody
   has read; a bill whose text is newer than the one that was read; a bill that became law after
   it was read, so its sentence is in the wrong tense. The program never writes a bill's plain
   sentence. Until a person has read a new bill it is listed with its title, stage and links, and

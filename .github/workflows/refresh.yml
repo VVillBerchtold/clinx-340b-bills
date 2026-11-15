@@ -1,5 +1,6 @@
-# Daily refresh. Fetches what Congress and the state legislatures say today,
-# rebuilds the bills table and the calendar table, and says what changed.
+# Daily refresh. Fetches what Congress, the state legislatures and the Federal
+# Register say today, rebuilds the bills, notices and calendar tables, and says
+# what changed.
 #
 # A first small job (key) looks whether the Open States key is set. If it is
 # not, the run says so and stops there, with no failure reported.
@@ -105,6 +106,8 @@ jobs:
             state-bills.csv
             state-bills-not-listed.csv
             state-texts-index.json
+            notices-not-listed.csv
+            notices-index.json
             needs-reading.csv
             raw/report.md
             raw/report-line.txt
@@ -127,11 +130,11 @@ jobs:
       - name: Commit the new tables
         run: |
           cp _new/data/* data/
-          cp _new/federal-bills.csv _new/state-bills.csv _new/state-bills-not-listed.csv _new/state-texts-index.json _new/needs-reading.csv .
+          cp _new/federal-bills.csv _new/state-bills.csv _new/state-bills-not-listed.csv _new/state-texts-index.json _new/notices-not-listed.csv _new/notices-index.json _new/needs-reading.csv .
           line="$(cat _new/raw/report-line.txt)"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data federal-bills.csv state-bills.csv state-bills-not-listed.csv state-texts-index.json needs-reading.csv
+          git add data federal-bills.csv state-bills.csv state-bills-not-listed.csv state-texts-index.json notices-not-listed.csv notices-index.json needs-reading.csv
           git diff --cached --quiet || git commit -m "Refresh of $(date -u +%F): $line"
           git push
 

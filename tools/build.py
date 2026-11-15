@@ -24,6 +24,8 @@ from federal import COLUMNS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 READ_COLUMNS = ["role", "kinds", "summary"]
+# The files a person keeps about bills. (read/ also holds the files about federal notices, which notices.py reads.)
+READ_FILES = ["federal.csv", "state.csv"]
 DAY = re.compile(r"\d{4}-\d{2}-\d{2}")
 # What a bill is to the program: about it, changes it in one part, or only names it in passing.
 ROLES = {
@@ -59,7 +61,7 @@ def rows_of(path: Path) -> list[dict[str, str]]:
 def main() -> None:
     bills = rows_of(ROOT / "federal-bills.csv") + rows_of(ROOT / "state-bills.csv")
     read: dict[str, dict[str, str]] = {}
-    for path in sorted((ROOT / "read").glob("*.csv")):
+    for path in (ROOT / "read" / name for name in READ_FILES):
         for row in rows_of(path):
             if row["bill_id"] in read:
                 raise SystemExit(f"{row['bill_id']} is read twice")

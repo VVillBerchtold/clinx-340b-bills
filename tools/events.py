@@ -1,8 +1,8 @@
-"""Build the calendar: the dated steps of every listed bill, hearings, and the days sessions start and end.
+"""Build the calendar: the dated steps of every listed bill, hearings, session days, and federal notices' dates.
 
     python3 -I tools/events.py raw/openstates raw/events raw/govinfo data
 
-Three things go into one table (`data/events.csv`, and the same rows in `data/340b-events.json`),
+Four things go into one table (`data/events.csv`, and the same rows in `data/340b-events.json`),
 one row per event:
 
 1. Steps. Every dated step the official record holds for a listed bill that is one of: introduced,
@@ -13,6 +13,11 @@ one row per event:
    where the agenda names a bill that is in the table.
 3. Sessions. The day each legislature's session starts and ends, from Open States' list of
    sessions, for sessions that start or end on or after 1 January 2025.
+4. Federal notices. For each rule, proposed rule or notice in the notices table that is about
+   340B or has a part on it: the day it was published, the day comments close and the day it takes
+   effect, as the Federal Register gives them, and any other day a person read in the document
+   itself (`read/notice-dates.csv`). These rows carry the place code FED, for federal agencies,
+   and name their document in `notice_id`. A document that only mentions 340B puts no date here.
 
 Nothing is guessed: a step with no date, or a hearing with no bill of ours on its agenda, is left out.
 """
@@ -29,7 +34,9 @@ sys.path.insert(0, str(Path(__file__).parent))
 from federal import CONGRESS, CONGRESS_ENDS, STEPS as CONGRESS_CODES, plain, read_statuses  # noqa: E402
 from fetch_state_texts import bill_id, web_address  # noqa: E402
 
-COLUMNS = ["event_id", "day", "time", "jurisdiction", "kind", "bill_id", "bill", "what", "body", "where", "link", "source", "retrieved"]
+COLUMNS = ["event_id", "day", "time", "jurisdiction", "kind", "bill_id", "bill", "notice_id", "what", "body", "where", "link", "source", "retrieved"]
+# The place code of rows that come from federal agencies' notices (Congress is US).
+AGENCIES = "FED"
 
 # Open States' label for a step -> the calendar's kind. A step with none of these labels is left out.
 STEP_KINDS = {
@@ -79,6 +86,10 @@ KINDS = {
     "hearing": "A committee meeting or hearing with the bill on its agenda.",
     "session starts": "The first day of a legislature's session.",
     "session ends": "The last day of a legislature's session.",
+    "notice published": "A federal agency published a rule, a proposed rule or a notice in the Federal Register.",
+    "comments close": "The last day a federal agency takes public comments on the document.",
+    "takes effect": "The day the Federal Register gives as the document's effective date.",
+    "date set by a notice": "Another day the document itself sets, such as a deadline or a start day. A person read it in the document; its own words are in the notices table.",
 }
 
 
@@ -193,7 +204,7 @@ def main() -> None:
         with out.open(encoding="utf-8", newline="") as handle:
             for row in csv.DictReader(handle):
                 if row["kind"] == "hearing" and row["day"] < today and row["event_id"] not in fetched and row["bill_id"] in listed and row["event_id"].rsplit("-", 1)[-1] not in called_off:
-                    rows.append({column: row[column] for column in COLUMNS if column != "retrieved"})
+                    rows.append({column: row.get(column, "") for column in COLUMNS if column != "retrieved"})
 
     # 3. The days sessions start and end.
     sessions_seen: set[str] = set()
@@ -227,6 +238,21 @@ def main() -> None:
         "link": "https://www.congress.gov/",
         "source": "the Constitution's Twentieth Amendment",
     })
+
+    # 4. Federal notices: the days the Federal Register gives, and the days a person read in the document.
+    notices_file = out_dir / "340b-notices.json"
+    for notice in json.loads(notices_file.read_text(encoding="utf-8"))["notices"] if notices_file.exists() else []:
+        # About 340B or with a part on it; one nobody has read yet counts when its title names the program.
+        if notice["role"] not in ("main", "part") and not (notice["role"] == "" and "title" in notice["names_program_in"]):
+            continue
+        name = notice["notice_id"]
+        # The agency that wrote it comes last in the Federal Register's list, after its department.
+        about = {"jurisdiction": AGENCIES, "notice_id": name, "body": notice["agencies"][-1] if notice["agencies"] else "", "link": notice["notice_url"]}
+        for kind, day in (("notice published", notice["published"]), ("comments close", notice["comments_close"]), ("takes effect", notice["effective"])):
+            if len(day) == 10 and day >= FIRST_DAY:
+                rows.append(about | {"event_id": f"{name}-{kind.split()[-1]}", "day": day, "kind": kind, "what": notice["title"], "source": "the Federal Register"})
+        for row in notice["dates_read"]:
+            rows.append(about | {"event_id": f"{name}-date-{row['day']}", "day": row["day"], "kind": "date set by a notice", "what": row["what"], "source": "the document's own words, read by a person"})
 
     ids = [row["event_id"] for row in rows]
     doubled = sorted({i for i in ids if ids.count(i) > 1})
