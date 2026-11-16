@@ -20453,7 +20453,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-va-2026-11-01-work-group",
+   "event_id": "va-report-due-2026-11-01-work-group",
    "day": "2026-11-01",
    "time": "",
    "jurisdiction": "VA",
@@ -20533,7 +20533,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-mn-2026-11-15-commissioner",
+   "event_id": "mn-report-due-2026-11-15-commissioner",
    "day": "2026-11-15",
    "time": "",
    "jurisdiction": "MN",
@@ -20613,7 +20613,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-va-2026-12-01-dmas-medicaid-340b",
+   "event_id": "va-report-due-2026-12-01-dmas-medicaid-340b",
    "day": "2026-12-01",
    "time": "",
    "jurisdiction": "VA",
@@ -21013,7 +21013,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-vt-2027-01-31-hospitals",
+   "event_id": "vt-report-due-2027-01-31-hospitals",
    "day": "2027-01-31",
    "time": "",
    "jurisdiction": "VT",
@@ -21157,7 +21157,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-mn-2027-04-01-covered-entities",
+   "event_id": "mn-report-due-2027-04-01-covered-entities",
    "day": "2027-04-01",
    "time": "",
    "jurisdiction": "MN",
@@ -21173,7 +21173,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-ri-2027-04-01-covered-entities",
+   "event_id": "ri-report-due-2027-04-01-covered-entities",
    "day": "2027-04-01",
    "time": "",
    "jurisdiction": "RI",
@@ -21285,7 +21285,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-hi-2027-07-01-covered-entities",
+   "event_id": "hi-report-due-2027-07-01-covered-entities",
    "day": "2027-07-01",
    "time": "",
    "jurisdiction": "HI",
@@ -21301,7 +21301,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-oh-2027-07-01-covered-entities",
+   "event_id": "oh-report-due-2027-07-01-covered-entities",
    "day": "2027-07-01",
    "time": "",
    "jurisdiction": "OH",
@@ -21317,7 +21317,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-il-2027-08-01-covered-entities",
+   "event_id": "il-report-due-2027-08-01-covered-entities",
    "day": "2027-08-01",
    "time": "",
    "jurisdiction": "IL",
@@ -21349,7 +21349,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-hi-2027-10-01-hospital-association",
+   "event_id": "hi-report-due-2027-10-01-hospital-association",
    "day": "2027-10-01",
    "time": "",
    "jurisdiction": "HI",
@@ -21365,7 +21365,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-mn-2027-11-15-commissioner",
+   "event_id": "mn-report-due-2027-11-15-commissioner",
    "day": "2027-11-15",
    "time": "",
    "jurisdiction": "MN",
@@ -21397,7 +21397,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-il-2028-01-01-hfs-medicaid-study",
+   "event_id": "il-report-due-2028-01-01-hfs-medicaid-study",
    "day": "2028-01-01",
    "time": "",
    "jurisdiction": "IL",
@@ -21477,7 +21477,7 @@
    "retrieved": "2026-11-15"
   },
   {
-   "event_id": "report-due-il-2028-07-01-insurance-study",
+   "event_id": "il-report-due-2028-07-01-insurance-study",
    "day": "2028-07-01",
    "time": "",
    "jurisdiction": "IL",

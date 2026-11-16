@@ -126,6 +126,8 @@ def report_rows(path: Path = REPORT_DATES) -> list[dict[str, str]]:
                 raise SystemExit(f"{label}: {column} is not a date written year-month-day")
         if not row["link"].startswith("https://"):
             raise SystemExit(f"{label}: link is not a web address")
+        if not re.fullmatch(r"[a-z]{2}-report-due-[a-z0-9-]+", row["event_id"]) or row["event_id"][:2].upper() != row["jurisdiction"]:
+            raise SystemExit(f"{label}: event_id must start with the place in small letters, then report-due, as in mn-report-due-2027-04-01-covered-entities")
         if row["event_id"] in names:
             raise SystemExit(f"{label}: {row['event_id']} is used twice")
         names.add(row["event_id"])
