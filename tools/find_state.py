@@ -43,7 +43,7 @@ PAUSE = 7.0  # seconds between calls; the free key's limits are not published
 
 def ask(key: str, params: list[tuple[str, str]], api: str = "") -> dict:
     """Return one page of answers. Stops the run on any refusal rather than pressing on."""
-    request = urllib.request.Request(f"{api or API}?{urllib.parse.urlencode(params)}", headers={"X-API-KEY": key, "User-Agent": "clinx-340b-bills"})
+    request = urllib.request.Request(f"{api or API}?{urllib.parse.urlencode(params)}", headers={"X-API-KEY": key, "User-Agent": "ClinX Open Data Reader (+https://clinx.org/methods/)"})
     try:
         with urllib.request.urlopen(request, timeout=60) as answer:
             return json.load(answer)

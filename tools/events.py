@@ -21,7 +21,7 @@ one row per event:
 
 5. Report days. The days a law or a budget sets for a state agency's or a covered entity's report,
    hand-kept in `read/report-dates.csv` (event_id, day, jurisdiction, what, body, official_words,
-   link, read_on). A person read each in the official source; its words are in the row. The file is
+   link, read_on). Each day is quoted from the official source; its words are in the row. The file is
    added on every run. A row with a missing field, a day not written year-month-day, or a name
    already used by another event stops the build with a plain message.
 
@@ -96,7 +96,7 @@ KINDS = {
     "notice published": "A federal agency published a rule, a proposed rule or a notice in the Federal Register.",
     "comments close": "The last day a federal agency takes public comments on the document.",
     "takes effect": "The day the Federal Register gives as the document's effective date.",
-    "report due": "The day a law or a budget sets for a state agency's or a covered entity's report. A person read it in the official source; its words are in the row.",
+    "report due": "The day a law or a budget sets for a state agency's or a covered entity's report. The day is quoted from the official source; its words are in the row.",
     "date set by a notice": "Another day the document itself sets, such as a deadline or a start day. A person read it in the document; its own words are in the notices table.",
 }
 
@@ -132,7 +132,7 @@ def report_rows(path: Path = REPORT_DATES) -> list[dict[str, str]]:
         rows.append({
             "event_id": row["event_id"], "day": row["day"], "jurisdiction": row["jurisdiction"], "kind": "report due",
             "what": row["what"], "body": row["body"], "link": row["link"],
-            "source": f"the official source, read by a person on {row['read_on']}: \"{row['official_words']}\"",
+            "source": f"the official source, read on {row['read_on']}: \"{row['official_words']}\"",
         })
     return rows
 

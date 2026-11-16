@@ -44,7 +44,7 @@ def main() -> None:
         while page <= min(pages, MOST_PAGES):
             saved = out / f"{state}-page{page}.json"
             got = subprocess.run(
-                ["curl", "-sS", "--max-time", "60", "-G", "https://v3.openstates.org/events", "-H", "@-",
+                ["curl", "-sS", "--max-time", "60", "-A", "ClinX Open Data Reader (+https://clinx.org/methods/)", "-G", "https://v3.openstates.org/events", "-H", "@-",
                  "--data-urlencode", f"jurisdiction={state}", "--data-urlencode", f"after={after}",
                  "--data-urlencode", "include=agenda", "--data-urlencode", "include=sources",
                  "--data-urlencode", "per_page=20", "--data-urlencode", f"page={page}",

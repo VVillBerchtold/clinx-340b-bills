@@ -5,14 +5,16 @@
 set -eu
 CONGRESS=119
 OUT="raw/govinfo"
+# The name this tool gives when it asks for a file.
+AGENT="ClinX Open Data Reader (+https://clinx.org/methods/)"
 mkdir -p "$OUT"
 # One file: fetched to a side name and moved into place only when it arrived whole. A file already
 # held is asked for only if the official copy is newer, so a quiet day downloads almost nothing.
 fetch() {
   if [ -f "$OUT/$1" ]; then
-    curl -sS --fail -R -z "$OUT/$1" -o "$OUT/$1.part" "$2"
+    curl -sS --fail -R -A "$AGENT" -z "$OUT/$1" -o "$OUT/$1.part" "$2"
   else
-    curl -sS --fail -R -o "$OUT/$1.part" "$2"
+    curl -sS --fail -R -A "$AGENT" -o "$OUT/$1.part" "$2"
   fi
   if [ -s "$OUT/$1.part" ]; then mv "$OUT/$1.part" "$OUT/$1"; echo "fetched $1"; else rm -f "$OUT/$1.part"; echo "unchanged $1"; fi
 }

@@ -89,8 +89,8 @@ both chambers, Sent to the President (or Governor), Vetoed, Did not pass, Became
 
 `Did not pass` means the bill is over: it died, and it did not become law. The official record of
 steps has no word for this, so it is set by hand. `read/outcomes.csv` holds one row for each such
-bill: `bill_id`, `outcome`, `day`, `official_words`, `source_url` and `read_on`. A person reads the
-legislature's own page and copies its words into the row. The build sets the bill's `stage` to the
+bill: `bill_id`, `outcome`, `day`, `official_words`, `source_url` and `read_on`. The outcome is read on the
+legislature's own page, and the page's words go into the row. The build sets the bill's `stage` to the
 outcome and its `stage_date` to that day, and leaves the rest of the row, including the latest
 step, as the official record has it. The build stops, with a plain message, if a row names a bill
 that is not in the table, names a bill that became law, or leaves a field empty. The same file is
@@ -245,6 +245,10 @@ link on every row goes to the legislature's own page.
 notices, the calendar. It then compares the new tables with the ones from before and says what changed.
 
     sh tools/refresh.sh
+
+Every tool that fetches a file gives the same name, `ClinX Open Data Reader`, with the address of
+the page that explains how ClinX reads public files (https://clinx.org/methods/). No tool here
+calls itself a browser.
 
 It is built to be run every day without leaning on anyone's site:
 

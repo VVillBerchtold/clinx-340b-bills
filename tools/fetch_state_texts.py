@@ -34,7 +34,8 @@ TAGS = re.compile(r"<(script|style)\b.*?</\1>|<[^>]+>", re.S | re.I)
 SPACE = re.compile(r"\s+")
 WEB = {"text/html", "text/xml"}
 PAUSE = 2.5
-AGENT = "clinx-340b-bills (public data project)"
+# The name every fetch tool here gives: who is asking, and where to read about it.
+AGENT = "ClinX Open Data Reader (+https://clinx.org/methods/)"
 
 
 def web_address(url: str) -> str:

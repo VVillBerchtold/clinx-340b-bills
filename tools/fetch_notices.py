@@ -24,7 +24,8 @@ import time
 from pathlib import Path
 
 API = "https://www.federalregister.gov/api/v1/documents.json"
-AGENT = "clinx-340b-bills (public data project)"
+# The name every fetch tool here gives: who is asking, and where to read about it.
+AGENT = "ClinX Open Data Reader (+https://clinx.org/methods/)"
 PAUSE = 2.0
 PHRASES = ['"340B"', '"256b"']
 # What is asked for about each document. Every value shown in the table comes from these.
