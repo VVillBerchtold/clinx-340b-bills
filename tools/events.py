@@ -19,6 +19,12 @@ one row per event:
    itself (`read/notice-dates.csv`). These rows carry the place code FED, for federal agencies,
    and name their document in `notice_id`. A document that only mentions 340B puts no date here.
 
+5. Report days. The days a law or a budget sets for a state agency's or a covered entity's report,
+   hand-kept in `read/report-dates.csv` (event_id, day, jurisdiction, what, body, official_words,
+   link, read_on). A person read each in the official source; its words are in the row. The file is
+   added on every run. A row with a missing field, a day not written year-month-day, or a name
+   already used by another event stops the build with a plain message.
+
 Nothing is guessed: a step with no date, or a hearing with no bill of ours on its agenda, is left out.
 """
 
@@ -26,6 +32,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -89,8 +96,45 @@ KINDS = {
     "notice published": "A federal agency published a rule, a proposed rule or a notice in the Federal Register.",
     "comments close": "The last day a federal agency takes public comments on the document.",
     "takes effect": "The day the Federal Register gives as the document's effective date.",
+    "report due": "The day a law or a budget sets for a state agency's or a covered entity's report. A person read it in the official source; its words are in the row.",
     "date set by a notice": "Another day the document itself sets, such as a deadline or a start day. A person read it in the document; its own words are in the notices table.",
 }
+
+
+REPORT_DATES = Path(__file__).parent.parent / "read" / "report-dates.csv"
+REPORT_COLUMNS = ["event_id", "day", "jurisdiction", "what", "body", "official_words", "link", "read_on"]
+
+
+def report_rows(path: Path = REPORT_DATES) -> list[dict[str, str]]:
+    """Read the hand-kept report days as calendar rows; stop with a plain message on any bad row."""
+    if not path.exists():
+        return []
+    with path.open(encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        if reader.fieldnames != REPORT_COLUMNS:
+            raise SystemExit(f"{path.name}: the columns must be {', '.join(REPORT_COLUMNS)}")
+        found = list(reader)
+    rows: list[dict[str, str]] = []
+    names: set[str] = set()
+    for number, row in enumerate(found, start=2):
+        label = f"{path.name} line {number}"
+        for column in REPORT_COLUMNS:
+            if not (row.get(column) or "").strip():
+                raise SystemExit(f"{label}: no {column}")
+        for column in ("day", "read_on"):
+            if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", row[column]):
+                raise SystemExit(f"{label}: {column} is not a date written year-month-day")
+        if not row["link"].startswith("https://"):
+            raise SystemExit(f"{label}: link is not a web address")
+        if row["event_id"] in names:
+            raise SystemExit(f"{label}: {row['event_id']} is used twice")
+        names.add(row["event_id"])
+        rows.append({
+            "event_id": row["event_id"], "day": row["day"], "jurisdiction": row["jurisdiction"], "kind": "report due",
+            "what": row["what"], "body": row["body"], "link": row["link"],
+            "source": f"the official source, read by a person on {row['read_on']}: \"{row['official_words']}\"",
+        })
+    return rows
 
 
 def state_of(jurisdiction_id: str) -> str:
@@ -253,6 +297,9 @@ def main() -> None:
                 rows.append(about | {"event_id": f"{name}-{kind.split()[-1]}", "day": day, "kind": kind, "what": notice["title"], "source": "the Federal Register"})
         for row in notice["dates_read"]:
             rows.append(about | {"event_id": f"{name}-date-{row['day']}", "day": row["day"], "kind": "date set by a notice", "what": row["what"], "source": "the document's own words, read by a person"})
+
+    # 5. Report days a person read in a law or a budget.
+    rows += report_rows()
 
     ids = [row["event_id"] for row in rows]
     doubled = sorted({i for i in ids if ids.count(i) > 1})

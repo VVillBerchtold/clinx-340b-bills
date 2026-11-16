@@ -85,7 +85,17 @@ hand, added to the laws table, and the bill's row links to the law.
 | `retrieved` | The day the files were fetched |
 
 Stages, in order: Introduced, Reported by committee, Passed the House / Passed the Senate, Passed
-both chambers, Sent to the President (or Governor), Vetoed, Became law.
+both chambers, Sent to the President (or Governor), Vetoed, Did not pass, Became law.
+
+`Did not pass` means the bill is over: it died, and it did not become law. The official record of
+steps has no word for this, so it is set by hand. `read/outcomes.csv` holds one row for each such
+bill: `bill_id`, `outcome`, `day`, `official_words`, `source_url` and `read_on`. A person reads the
+legislature's own page and copies its words into the row. The build sets the bill's `stage` to the
+outcome and its `stage_date` to that day, and leaves the rest of the row, including the latest
+step, as the official record has it. The build stops, with a plain message, if a row names a bill
+that is not in the table, names a bill that became law, or leaves a field empty. The same file is
+applied again on every refresh. The first row is Colorado SB 25-124, which the legislature's page
+shows as lost: the two chambers passed different versions and the Senate adhered to its own.
 
 ## What works today
 
@@ -206,6 +216,13 @@ row per dated event:
   legislatures out of session, none does yet.
 - **Session days.** The day each legislature's session starts and ends, from Open States' list
   of sessions, and the day this Congress ends.
+- **Report days.** The day a law or a budget sets for a state agency's or a covered entity's
+  report, kind `report due`. They are kept by hand in `read/report-dates.csv` (`event_id`,
+  `day`, `jurisdiction`, `what`, `body`, `official_words`, `link`, `read_on`): a person reads the
+  day in the official source and copies its words into the row. The words are repeated in the
+  calendar's `source` column. A yearly date is entered only when the saved law text itself states
+  the day. `tools/events.py` adds the file on every run and stops on a missing field or a name
+  used twice.
 - **Federal notices.** For each document in the notices table that is about 340B or has a part
   on it: the day it was published, the day comments close and the day it takes effect, as the
   Federal Register gives them, and the other days a person read in the document. These rows
