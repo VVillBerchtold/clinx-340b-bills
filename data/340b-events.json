@@ -11,12 +11,12 @@
   "vetoed": "The governor, or the President, vetoed the bill or part of it.",
   "became law": "The bill became law.",
   "hearing": "A committee meeting or hearing with the bill on its agenda.",
+  "report due": "The day a law or a budget sets for a state agency's or a covered entity's report. The day is quoted from the official source; its words are in the row.",
   "session starts": "The first day of a legislature's session.",
   "session ends": "The last day of a legislature's session.",
   "notice published": "A federal agency published a rule, a proposed rule or a notice in the Federal Register.",
   "comments close": "The last day a federal agency takes public comments on the document.",
   "takes effect": "The day the Federal Register gives as the document's effective date.",
-  "report due": "The day a law or a budget sets for a state agency's or a covered entity's report. The day is quoted from the official source; its words are in the row.",
   "date set by a notice": "Another day the document itself sets, such as a deadline or a start day. A person read it in the document; its own words are in the notices table."
  },
  "events": [
