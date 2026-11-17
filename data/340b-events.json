@@ -20053,6 +20053,38 @@
    "retrieved": "2026-11-17"
   },
   {
+   "event_id": "md-starts-2026s1",
+   "day": "2026-08-03",
+   "time": "",
+   "jurisdiction": "MD",
+   "kind": "session starts",
+   "bill_id": "",
+   "bill": "",
+   "notice_id": "",
+   "what": "2026, 1st Special Session",
+   "body": "",
+   "where": "",
+   "link": "http://mgaleg.maryland.gov/",
+   "source": "Open States' list of sessions",
+   "retrieved": "2026-11-17"
+  },
+  {
+   "event_id": "md-ends-2026s1",
+   "day": "2026-08-05",
+   "time": "",
+   "jurisdiction": "MD",
+   "kind": "session ends",
+   "bill_id": "",
+   "bill": "",
+   "notice_id": "",
+   "what": "2026, 1st Special Session",
+   "body": "",
+   "where": "",
+   "link": "http://mgaleg.maryland.gov/",
+   "source": "Open States' list of sessions",
+   "retrieved": "2026-11-17"
+  },
+  {
    "event_id": "us-119-s5244-2026-08-05-introduced",
    "day": "2026-08-05",
    "time": "",
@@ -20981,6 +21013,22 @@
    "retrieved": "2026-11-17"
   },
   {
+   "event_id": "md-starts-2027",
+   "day": "2027-01-13",
+   "time": "",
+   "jurisdiction": "MD",
+   "kind": "session starts",
+   "bill_id": "",
+   "bill": "",
+   "notice_id": "",
+   "what": "2027 Regular Session",
+   "body": "",
+   "where": "",
+   "link": "http://mgaleg.maryland.gov/",
+   "source": "Open States' list of sessions",
+   "retrieved": "2026-11-17"
+  },
+  {
    "event_id": "va-starts-2027",
    "day": "2027-01-13",
    "time": "",
@@ -21186,6 +21234,22 @@
    "where": "",
    "link": "https://webserver.rilegislature.gov/PublicLaws/law25/law25288.htm",
    "source": "the official source, read on 2026-11-16: \"Annually on or before April 1, each 340B covered entity participating in the federal 340B drug pricing program established by 42 U.S.C. § 256b shall submit to the office of the governor, the speaker of the house of representatives, the president of the senate, and auditor general a report\"",
+   "retrieved": "2026-11-17"
+  },
+  {
+   "event_id": "md-ends-2027",
+   "day": "2027-04-12",
+   "time": "",
+   "jurisdiction": "MD",
+   "kind": "session ends",
+   "bill_id": "",
+   "bill": "",
+   "notice_id": "",
+   "what": "2027 Regular Session",
+   "body": "",
+   "where": "",
+   "link": "http://mgaleg.maryland.gov/",
+   "source": "Open States' list of sessions",
    "retrieved": "2026-11-17"
   },
   {
