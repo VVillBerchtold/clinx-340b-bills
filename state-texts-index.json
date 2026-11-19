@@ -340,6 +340,7 @@
   "version": "S 886 Filed"
  },
  "ga-202526-hb139": {
+  "asked_newest": "https://www.legis.ga.gov/api/legislation/document/20252026/230367",
   "date": "",
   "mentions": 2,
   "newest": true,
@@ -350,14 +351,15 @@
    {
     "answer": 200,
     "mentions": 2,
-    "url": "http://www.legis.ga.gov/Legislation/20252026/230367.pdf",
-    "words": 509
+    "url": "https://www.legis.ga.gov/api/legislation/document/20252026/230367",
+    "words": 511
    }
   ],
-  "url": "http://www.legis.ga.gov/Legislation/20252026/230367.pdf",
+  "url": "https://www.legis.ga.gov/api/legislation/document/20252026/230367",
   "version": "LC 46 1023/a"
  },
  "ga-202526-hb897": {
+  "asked_newest": "https://www.legis.ga.gov/api/legislation/document/20252026/238733",
   "date": "",
   "mentions": 3,
   "newest": true,
@@ -368,14 +370,15 @@
    {
     "answer": 200,
     "mentions": 3,
-    "url": "http://www.legis.ga.gov/Legislation/20252026/238733.pdf",
-    "words": 1971
+    "url": "https://www.legis.ga.gov/api/legislation/document/20252026/238733",
+    "words": 1979
    }
   ],
-  "url": "http://www.legis.ga.gov/Legislation/20252026/238733.pdf",
+  "url": "https://www.legis.ga.gov/api/legislation/document/20252026/238733",
   "version": "LC 57 9000/a"
  },
  "ga-202526-hb898": {
+  "asked_newest": "https://www.legis.ga.gov/api/legislation/document/20252026/238735",
   "date": "",
   "mentions": 3,
   "newest": true,
@@ -386,11 +389,11 @@
    {
     "answer": 200,
     "mentions": 3,
-    "url": "http://www.legis.ga.gov/Legislation/20252026/238735.pdf",
-    "words": 2591
+    "url": "https://www.legis.ga.gov/api/legislation/document/20252026/238735",
+    "words": 2601
    }
   ],
-  "url": "http://www.legis.ga.gov/Legislation/20252026/238735.pdf",
+  "url": "https://www.legis.ga.gov/api/legislation/document/20252026/238735",
   "version": "LC 57 9001/a"
  },
  "hi-2025-hb561": {
@@ -2790,6 +2793,11 @@
   ],
   "url": "http://www.nmlegis.gov/Sessions/25%20Regular/final/HB0078.PDF",
   "version": "Final Version"
+ },
+ "nv-83-bdr52511": {
+  "asked_newest": "",
+  "result": "no text to read",
+  "tried": []
  },
  "nv-83-sb149": {
   "date": "",

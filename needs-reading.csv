@@ -1,6 +1,10 @@
 bill_id,jurisdiction,bill,why,stage,text_version,text_url
 ca-20252026-ab1460,CA,AB 1460,not read yet,Passed the Assembly,,https://leginfo.legislature.ca.gov/faces/billPdf.xhtml?bill_id=202520260AB1460&version=20250AB146097AMD
+ga-202526-hb139,GA,HB 139,a newer text has been posted since it was read,Introduced,LC 46 1023/a,https://www.legis.ga.gov/api/legislation/document/20252026/230367
+ga-202526-hb897,GA,HB 897,a newer text has been posted since it was read,Introduced,LC 57 9000/a,https://www.legis.ga.gov/api/legislation/document/20252026/238733
+ga-202526-hb898,GA,HB 898,a newer text has been posted since it was read,Introduced,LC 57 9001/a,https://www.legis.ga.gov/api/legislation/document/20252026/238735
 ma-194th-hd1139,MA,HD 1139,not read yet,,,https://malegislature.gov/Bills/194/HD1139.pdf
 mt-2027-lc472,MT,LC 472,not read yet,Introduced,,
 nh-2025-sb253,NH,SB 253,not read yet,Introduced,,
+nv-83-bdr52511,NV,BDR 52-511,not read yet,Introduced,,
 sd-2025-sb154,SD,SB 154,not read yet,Became law,154A,https://mylrc.sdlegislature.gov/api/Documents/282241.pdf
