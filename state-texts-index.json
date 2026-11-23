@@ -3801,6 +3801,25 @@
   "url": "http://capitol.texas.gov/tlodocs/90R/billtext/html/HB00703I.HTM",
   "version": "Introduced"
  },
+ "tx-90r-sb476": {
+  "asked_newest": "http://capitol.texas.gov/tlodocs/90R/billtext/html/SB00476I.HTM",
+  "date": "",
+  "mentions": 18,
+  "newest": true,
+  "quote": "\u2026 1. Subchapter N, Chapter 431, Health and Safety Code, is amended by adding Section 431.416 to read as follows: Sec. 431.416. DISCRIMINATION WITH RESPECT TO FEDERAL 340B DRUG DISCOUNT PROGRAM PROHIBITED. (a) In this section: (1) \"340B drug\" and \"covered entity\" have the meanings assigned by Section 1369.701, Insurance Code. (2) \u2026",
+  "result": "named",
+  "sha256": "c82ef5ead1597185c70cf0830d15be7bc40bf2efbc3d5d6135b7d508a47e743b",
+  "tried": [
+   {
+    "answer": 200,
+    "mentions": 18,
+    "url": "http://capitol.texas.gov/tlodocs/90R/billtext/html/SB00476I.HTM",
+    "words": 1587
+   }
+  ],
+  "url": "http://capitol.texas.gov/tlodocs/90R/billtext/html/SB00476I.HTM",
+  "version": "Introduced"
+ },
  "ut-2025-hb257": {
   "date": "",
   "mentions": 11,

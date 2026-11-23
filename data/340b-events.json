@@ -20725,6 +20725,38 @@
    "retrieved": "2026-11-23"
   },
   {
+   "event_id": "tx-90r-sb476-step-0",
+   "day": "2026-11-23",
+   "time": "",
+   "jurisdiction": "TX",
+   "kind": "introduced",
+   "bill_id": "tx-90r-sb476",
+   "bill": "SB 476",
+   "notice_id": "",
+   "what": "Received by the Secretary of the Senate",
+   "body": "Senate",
+   "where": "",
+   "link": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB476",
+   "source": "the bill's record of steps",
+   "retrieved": "2026-11-23"
+  },
+  {
+   "event_id": "tx-90r-sb476-step-1",
+   "day": "2026-11-23",
+   "time": "",
+   "jurisdiction": "TX",
+   "kind": "introduced",
+   "bill_id": "tx-90r-sb476",
+   "bill": "SB 476",
+   "notice_id": "",
+   "what": "Filed",
+   "body": "Senate",
+   "where": "",
+   "link": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=90R&Bill=SB476",
+   "source": "the bill's record of steps",
+   "retrieved": "2026-11-23"
+  },
+  {
    "event_id": "ca-ends-20252026",
    "day": "2026-11-30",
    "time": "",
