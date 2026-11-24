@@ -21125,6 +21125,22 @@
    "retrieved": "2026-11-24"
   },
   {
+   "event_id": "sc-starts-20272028",
+   "day": "2027-01-12",
+   "time": "",
+   "jurisdiction": "SC",
+   "kind": "session starts",
+   "bill_id": "",
+   "bill": "",
+   "notice_id": "",
+   "what": "2027-2028 Regular Session",
+   "body": "",
+   "where": "",
+   "link": "http://www.scstatehouse.gov/",
+   "source": "Open States' list of sessions",
+   "retrieved": "2026-11-24"
+  },
+  {
    "event_id": "sd-starts-2027",
    "day": "2027-01-12",
    "time": "",
@@ -21505,6 +21521,22 @@
    "body": "",
    "where": "",
    "link": "http://leg.mt.gov/",
+   "source": "Open States' list of sessions",
+   "retrieved": "2026-11-24"
+  },
+  {
+   "event_id": "sc-ends-20272028",
+   "day": "2027-05-13",
+   "time": "",
+   "jurisdiction": "SC",
+   "kind": "session ends",
+   "bill_id": "",
+   "bill": "",
+   "notice_id": "",
+   "what": "2027-2028 Regular Session",
+   "body": "",
+   "where": "",
+   "link": "http://www.scstatehouse.gov/",
    "source": "Open States' list of sessions",
    "retrieved": "2026-11-24"
   },
