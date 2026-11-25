@@ -15,7 +15,7 @@ one row per event:
    sessions, for sessions that start or end on or after 1 January 2025.
 4. Federal notices. For each rule, proposed rule or notice in the notices table that is about
    340B or has a part on it: the day it was published, the day comments close and the day it takes
-   effect, as the Federal Register gives them, and any other day a person read in the document
+   effect, as the Federal Register gives them, and any other day Claude read in the document
    itself (`read/notice-dates.csv`). These rows carry the place code FED, for federal agencies,
    and name their document in `notice_id`. A document that only mentions 340B puts no date here.
 
@@ -97,7 +97,7 @@ KINDS = {
     "notice published": "A federal agency published a rule, a proposed rule or a notice in the Federal Register.",
     "comments close": "The last day a federal agency takes public comments on the document.",
     "takes effect": "The day the Federal Register gives as the document's effective date.",
-    "date set by a notice": "Another day the document itself sets, such as a deadline or a start day. A person read it in the document; its own words are in the notices table.",
+    "date set by a notice": "Another day the document itself sets, such as a deadline or a start day. Claude read it in the document, and its own words are in the notices table.",
 }
 
 
@@ -285,7 +285,7 @@ def main() -> None:
         "source": "the Constitution's Twentieth Amendment",
     })
 
-    # 4. Federal notices: the days the Federal Register gives, and the days a person read in the document.
+    # 4. Federal notices: the days the Federal Register gives, and the days Claude read in the document.
     notices_file = out_dir / "340b-notices.json"
     for notice in json.loads(notices_file.read_text(encoding="utf-8"))["notices"] if notices_file.exists() else []:
         # About 340B or with a part on it; one nobody has read yet counts when its title names the program.
@@ -298,9 +298,9 @@ def main() -> None:
             if len(day) == 10 and day >= FIRST_DAY:
                 rows.append(about | {"event_id": f"{name}-{kind.split()[-1]}", "day": day, "kind": kind, "what": notice["title"], "source": "the Federal Register"})
         for row in notice["dates_read"]:
-            rows.append(about | {"event_id": f"{name}-date-{row['day']}", "day": row["day"], "kind": "date set by a notice", "what": row["what"], "source": "the document's own words, read by a person"})
+            rows.append(about | {"event_id": f"{name}-date-{row['day']}", "day": row["day"], "kind": "date set by a notice", "what": row["what"], "source": "the document's own words, read by Claude"})
 
-    # 5. Report days a person read in a law or a budget.
+    # 5. Report days Claude read in a law or a budget.
     rows += report_rows()
 
     ids = [row["event_id"] for row in rows]

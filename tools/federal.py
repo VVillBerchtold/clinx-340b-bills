@@ -28,7 +28,7 @@ CONGRESS = 119
 CONGRESS_ENDS = "2027-01-03"
 
 # The program by name ("340B") or by its section of federal law ("42 U.S.C. 256b"). Narrower than the
-# laws table's test, which a person checks: "section 340(b)" of another act, or "section 5340(b)",
+# laws table's test, which Claude checks by reading: "section 340(b)" of another act, or "section 5340(b)",
 # is not the program, so a bare "340(b)" does not count here.
 NAMES_PROGRAM = re.compile(r"(?<![0-9A-Za-z])340\s?B(?![0-9A-Za-z])|U\.\s?S\.\s?C\.\s?256b(?![0-9A-Za-z])")
 TAGS = re.compile(r"<[^>]+>")

@@ -1,7 +1,7 @@
-"""Put the federal and state bills into one table, with what a person has read about each.
+"""Put the federal and state bills into one table, with what Claude has read about each.
 
 In plain words: tools/federal.py and tools/state.py each write the automatic part of the table
-(what the official record says). The files in read/ hold the part a person adds after reading a
+(what the official record says). The files in read/ hold the part Claude adds after reading a
 bill: whether the bill is about 340B or only mentions it, its kinds, and one plain sentence on
 what it would do. This tool joins them, checks the result, and writes the two files people
 download: data/bills.csv and data/340b-bills.json.
@@ -28,7 +28,7 @@ from federal import COLUMNS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 READ_COLUMNS = ["role", "kinds", "summary"]
-# The files a person keeps about bills. (read/ also holds the files about federal notices, which notices.py reads.)
+# The files Claude keeps about bills. (read/ also holds the files about federal notices, which notices.py reads.)
 READ_FILES = ["federal.csv", "state.csv"]
 DAY = re.compile(r"\d{4}-\d{2}-\d{2}")
 # What a bill is to the program: about it, changes it in one part, or only names it in passing.
@@ -53,7 +53,7 @@ STAGES = [
     "Did not pass",
     "Became law",
 ]
-# The stages a person can set by hand in read/outcomes.csv: the end of a bill that died.
+# The stages Claude can set in read/outcomes.csv after reading the record: the end of a bill that died.
 OUTCOMES = ["Did not pass"]
 OUTCOME_COLUMNS = ["bill_id", "outcome", "day", "official_words", "source_url", "read_on"]
 

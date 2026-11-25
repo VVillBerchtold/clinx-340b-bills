@@ -5,7 +5,7 @@
 In plain words: before a refresh starts, the published tables are copied to `raw/before/`.
 After it, this tool compares the new tables with those copies and writes a short report: bills
 that are new, bills that moved to another stage, bills with a newer text, new federal notices, and
-new dates on the calendar. It also writes `needs-reading.csv`, the list of what a person still has
+new dates on the calendar. It also writes `needs-reading.csv`, the list of what Claude still has
 to read: a bill nobody has read, a bill whose text is newer than the one that was read, a bill
 that became law after it was read (so its sentence is in the wrong tense), and a federal notice
 nobody has read. A notice is listed there under its own name (fr-...), with FED as its place.
@@ -36,7 +36,7 @@ def rows_of(path: Path) -> list[dict[str, str]]:
 
 
 def needs_reading(bills: list[dict[str, str]], notices: list[dict[str, str]]) -> list[dict[str, str]]:
-    """The bills and federal notices a person still has to read, each with the reason."""
+    """The bills and federal notices Claude still has to read, each with the reason."""
     read: dict[str, dict[str, str]] = {}
     for path in (ROOT / "read" / name for name in READ_FILES):
         read.update({row["bill_id"]: row for row in rows_of(path)})

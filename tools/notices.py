@@ -8,9 +8,9 @@ document: the official facts as the Federal Register gives them (title, agency, 
 published, the day comments close, the day it takes effect, the official words about dates), where
 the document names the program, and a short passage from the first place it does.
 
-Three files a person keeps by hand are joined in:
+Three files Claude keeps after reading are joined in:
 
-- `read/notices.csv`: for each document a person has read, whether it is about 340B, has a part on
+- `read/notices.csv`: for each document Claude has read, whether it is about 340B, has a part on
   it or only mentions it, and one plain sentence on what it does about 340B.
 - `read/notice-dates.csv`: other days a document itself sets (a deadline, a start day), each with
   the document's own words for it.

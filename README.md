@@ -27,8 +27,8 @@ sites, and the Federal Register's own data service. A hosted job refreshes the t
 morning (see "The daily refresh"); the day each row was last brought up to date is in its
 `retrieved` column.
 
-It sits beside the laws table, and the two join up: when a state bill becomes law, it is read by
-hand, added to the laws table, and the bill's row links to the law.
+It sits beside the laws table, and the two join up: when a state bill becomes law, Claude reads
+it, it is added to the laws table, and the bill's row links to the law.
 
 ## The rules
 
@@ -45,8 +45,8 @@ hand, added to the laws table, and the bill's row links to the law.
    once are both listed, and a reader can tell them apart.
 5. **Kinds are assigned by reading**, with the same seven kinds as the laws table. A new bill
    appears the day it is found, with its official title and status; its kinds and one plain
-   sentence about what it would do are added once it has been read. What a person adds is kept
-   apart from what the record holds, in `read/`.
+   sentence about what it would do are added once it has been read. Claude, Anthropic's AI model,
+   does the reading, and what it adds is kept apart from what the record holds, in `read/`.
 6. **A site that refuses is left alone.** The tools ask each legislature's site slowly, one page
    at a time. If a site answers that it does not allow this, the tools stop asking it and do not
    look for a way round. Its bills are then listed only where the title or summary names the
@@ -88,7 +88,7 @@ Stages, in order: Introduced, Reported by committee, Passed the House / Passed t
 both chambers, Sent to the President (or Governor), Vetoed, Did not pass, Became law.
 
 `Did not pass` means the bill is over: it died, and it did not become law. The official record of
-steps has no word for this, so it is set by hand. `read/outcomes.csv` holds one row for each such
+steps has no word for this, so Claude sets it after reading. `read/outcomes.csv` holds one row for each such
 bill: `bill_id`, `outcome`, `day`, `official_words`, `source_url` and `read_on`. The outcome is read on the
 legislature's own page, and the page's words go into the row. The build sets the bill's `stage` to the
 outcome and its `stage_date` to that day, and leaves the rest of the row, including the latest
@@ -140,11 +140,12 @@ bill, such as a committee report filed under a bill number, with the reason. The
     python3 -I tools/fetch_state_texts.py raw/openstates raw/state-texts
     python3 -I tools/state.py raw/openstates raw/state-texts state-bills.csv state-bills-not-listed.csv
 
-**Read by hand.** `read/federal.csv` and `read/state.csv` hold, for each bill that has been
+**Read with Claude.** `read/federal.csv` and `read/state.csv` hold, for each bill that has been
 read, its role (`main`, `part` or `mention`), its kinds and one plain sentence on what it does
-about 340B. Each state bill was read from the passages that name 340B in the version the table
-names, and a second reader checked every row against the same passages. A law is written in the
-present tense and a bill as what it would do. A row drawn from an amendment says so.
+about 340B. Each row was written with Claude. Each state bill was read from the passages that
+name 340B in the version the table names, and a second Claude reader checked every row against
+the same passages. A law is written in the present tense and a bill as what it would do. A row
+drawn from an amendment says so.
 
 **One table.** `tools/build.py` joins Congress, the states and what has been read into
 `data/bills.csv` and `data/340b-bills.json`, and stops if a date, a link or a session's end is not
@@ -170,26 +171,26 @@ Presidential Document), `action` (the agency's own label, such as "Final rule.")
 `title`, `role`, `summary`, `names_program_in`, `text_mentions`, `quote`, `published`,
 `comments_close`, `effective`, `dates` (the document's official words about its dates), `docket`,
 `pages`, `notice_url`, `pdf_url` and `retrieved`. The JSON file also carries, for each document,
-`dates_read`: the other days a person read in it.
+`dates_read`: the other days Claude read in it.
 
 **"340B" is not always the drug program.** It is also an aircraft (the Saab 340B) and part of
 other numbers. A document is listed only when its text also holds one of the phrases that go with
 the drug program, such as "340B Program" or "340B covered entity"; the list is `PROGRAM` in
-`tools/notices.py`. `not-notices.csv` names, by hand, any other document that is not about the
+`tools/notices.py`. `not-notices.csv` names, after reading, any other document that is not about the
 program. Everything left out is written to `notices-not-listed.csv` with the reason.
 
-**Read by hand.** `read/notices.csv` holds, for each document a person has read, its `role` and
+**Read with Claude.** `read/notices.csv` holds, for each document Claude has read, its `role` and
 one plain sentence. The roles are the ones bills use: `main` (about 340B), `part` (a larger
 document with a policy, a decision or a question on 340B, such as a Medicare payment rule that
 sets what Medicare pays for 340B drugs) and `mention` (it names 340B in passing, such as in a
 summary of public comments). A long rule can name 340B hundreds of times because it answers
-comments; the sentence says what the rule decides. The program never writes the sentence. Until a
-person has read a new document it is listed with its official facts and no sentence, and it is
+comments; the sentence says what the rule decides. The program never writes the sentence. Until
+Claude has read a new document it is listed with its official facts and no sentence, and it is
 on the list in `needs-reading.csv`.
 
 **Other dates.** The Federal Register gives three days for a document: published, comments close,
 takes effect. A document often sets more: a deadline for a first report, the day a model starts.
-`read/notice-dates.csv` holds those, read by a person, each with the document's own words
+`read/notice-dates.csv` holds those, read by Claude, each with the document's own words
 (`words`). `tools/notices.py` checks that those words are in the document's text.
 
 **The record of what was read from each text.** `notices-index.json` keeps, for each document,
@@ -217,15 +218,15 @@ row per dated event:
 - **Session days.** The day each legislature's session starts and ends, from Open States' list
   of sessions, and the day this Congress ends.
 - **Report days.** The day a law or a budget sets for a state agency's or a covered entity's
-  report, kind `report due`. They are kept by hand in `read/report-dates.csv` (`event_id`,
-  `day`, `jurisdiction`, `what`, `body`, `official_words`, `link`, `read_on`): a person reads the
+  report, kind `report due`. They are kept in `read/report-dates.csv` (`event_id`,
+  `day`, `jurisdiction`, `what`, `body`, `official_words`, `link`, `read_on`): Claude reads the
   day in the official source and copies its words into the row. The words are repeated in the
   calendar's `source` column. A yearly date is entered only when the saved law text itself states
   the day. `tools/events.py` adds the file on every run and stops on a missing field or a name
   used twice.
 - **Federal notices.** For each document in the notices table that is about 340B or has a part
   on it: the day it was published, the day comments close and the day it takes effect, as the
-  Federal Register gives them, and the other days a person read in the document. These rows
+  Federal Register gives them, and the other days Claude read in the document. These rows
   have `FED` (federal agencies) as their `jurisdiction`, where Congress has `US`, and they name
   their document in `notice_id`. A document that only mentions 340B puts no date on the
   calendar.
@@ -269,19 +270,19 @@ What a run leaves behind:
 
 - `raw/report.md`: the day's changes in words. New bills, bills that moved to another stage,
   bills with a newer text, new federal notices, new dates, dates that went away.
-- `needs-reading.csv`: the bills and federal notices a person still has to read, each with the
+- `needs-reading.csv`: the bills and federal notices Claude still has to read, each with the
   reason. (A notice is listed there under its own name, fr- and its number, with FED as its
   place and its link in the last column.) A bill nobody
   has read; a bill whose text is newer than the one that was read; a bill that became law after
   it was read, so its sentence is in the wrong tense. The program never writes a bill's plain
-  sentence. Until a person has read a new bill it is listed with its title, stage and links, and
+  sentence. Until Claude has read a new bill it is listed with its title, stage and links, and
   no sentence.
 - `state-texts-index.json`: which bill texts have been read, where each was read and the passage
   that names the program. It is kept here so that a machine starting from nothing does not ask
   every legislature for every bill again.
 
 `read/federal.csv` and `read/state.csv` carry two columns for this, `text_read` and `stage_read`:
-the text and the stage a bill had on the day a person read it.
+the text and the stage a bill had on the day Claude read it.
 
 **The hosted job.** `.github/workflows/refresh.yml` runs the refresh on GitHub every morning. It
 has three parts, each with only the permission it needs. The first fetches and checks, and can
