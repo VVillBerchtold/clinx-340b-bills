@@ -108,7 +108,7 @@ def main() -> None:
         if bill["jurisdiction"]["id"].endswith("state:ma/government") and not bill["identifier"].startswith(("HD", "SD")):
             numbered.setdefault((bill["session"], bill["title"]), []).append(bill["identifier"])
     rows, not_listed = [], []
-    # Things the finder returns that a person has read and found are not bills (not-bills.csv), with the reason.
+    # Things the finder returns that Claude has read and found are not bills (not-bills.csv), with the reason.
     with (Path(__file__).parent.parent / "not-bills.csv").open(encoding="utf-8", newline="") as handle:
         not_bills = {row["bill_id"]: row["reason"] for row in csv.DictReader(handle)}
     for name in sorted(bills):
